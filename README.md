@@ -1,6 +1,6 @@
 # TEAM 009 // STRIDER RELAY PERSONNEL ARCHIVE
 
-A free, static, mobile-friendly D&D campaign website. All names, cycles, artwork, and transmissions included in this first build are **non-canon sample data**.
+A free, static, mobile-friendly D&D campaign website. The published roster contains the canonical Team 009 historical archive: 57 cycles (0787–0843), 117 unique Striders, and Cycle 0844 with three UNASSIGNED player positions. These are the approved Cycle 0742–0798 records shifted forward by 45. Inter-Strider relay notices are atmospheric interface text.
 
 ## Open it
 
@@ -30,7 +30,7 @@ Open `data/roster.js` in a text editor. Each cycle must contain exactly **three*
 - `formerNames`: optional array of former names
 - `finalExpedition`: optional title; hidden for `ACTIVE` records
 
-For a current-cycle character who has not been assigned yet, use `name: 'UNASSIGNED'` and `status: 'PENDING'` with no ID. The current sample cycle 0842 has three such slots.
+For a current-cycle character who has not been assigned yet, use `name: 'UNASSIGNED'` and `status: 'PENDING'` with no ID. The current recruitment cycle 0844 has three such slots.
 
 Newly added cycles sort automatically newest to oldest. A cycle with fewer than three complete records is not published. Keep the published roster complete. The current cycle is an exception: its three UNASSIGNED slots are allowed.
 
@@ -47,8 +47,8 @@ Open `data/transmissions.js`. Add new conversation objects at the **top** of the
 - Searching clears expanded files and service-history return history. Opening a portrait while search results are displayed keeps the search active.
 - Clicking a service-history link restores the full gallery and creates a step-by-step temporary return trail.
 - All changes are visible after the player refreshes or reconnects, not live mid-session.
-- The included SVG portraits are simple **original sample illustrations**. Replace them with your own licensed or original character artwork when ready.
-- This is an initial functional build. Review its appearance and behavior before populating the full ~100-cycle archive.
+- Historical portrait IMAGE FILES were not bundled with the conversation archive. The website deliberately displays the Pale Lodge insignia rather than reusing another character's portrait. Exact known approved illustration descriptions are preserved in `window.TEAM009_DATA.portraitPrompts`, keyed by permanent ID, for later recreation or matching to original files.
+- All historical records are populated for 0787–0843. The site preserves the three unassigned 0844 slots. Check individual character images before publishing them because text portrait prompts are not the same as original image files.
 
 
 ### Custom missing-portrait artwork
@@ -76,3 +76,13 @@ Entering the archive triggers a brief relay materialization effect. A faint scan
 ## Search-engine-unlisted edition
 
 The `index.html` includes `<meta name="robots" content="noindex, nofollow">` to request that compliant search engines exclude the page from search results. Do not block crawlers using robots.txt because they must be able to read the meta tag. This is not authentication or privacy protection: anyone with the link, or who discovers the public GitHub repository, can read published files. Keep spoilers and secrets out of the public files.
+
+## Published 2026-11-07 canonical archive
+
+- **Historical range:** Cycles 0787–0843 (old Cycles 0742–0798 plus 45).
+- **Current campaign:** Cycle 0844, three player positions UNASSIGNED.
+- **Complete historical roster:** 57 cycles × three Striders = 171 expedition slots, 117 unique personnel IDs, 98 deaths, 17 permanent transfers, one retired veteran (Haldren Stonebrook), and one final-cycle survivor (Nerissa Tideveil).
+- **Mortality:** 98/171 = 57.3% of deployment slots.
+- **Preserved:** first/last cycles, every service-cycle ID and outcome, expeditions, locations, annex designations, recorded permanent transfers, IDs, original portrait description text where available.
+- **Artwork limitation:** source first-portrait image assets are not included in the exported archive; until matching assets are added, the Pale Lodge emblem is used for all historical Striders. Do not substitute another Strider's portrait.
+- **Relay:** Demo references were replaced with fictional administrative notices that link to published cycles.
