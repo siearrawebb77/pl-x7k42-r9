@@ -89,13 +89,10 @@ The `index.html` includes `<meta name="robots" content="noindex, nofollow">` to 
 
 ## Upload original Strider portraits
 
-The verified complete image package is `team-nine-all-117-portraits.zip`, built from the user-supplied `Photos.zip` plus three separately submitted images. It contains **117 name-matched portraits** as `assets/portraits/009-XXXX.webp`, plus a manifest. All permanent personnel IDs (009-0001 through 009-0117) have a unique image. The extra 13 drawings are excluded. Captain Isolde Marr (009-0099) is explicitly canonically male, by user decision, and the supplied picture is his official portrait. He remains a Human D&D 5e Strider permanently transferred in Cycle 0834 to Pale Lodge Dimensional Cartography Division.
+A complete set of 117 verified WebP images is ready, split into eight approximately 1 MB ZIP packages because the single 8 MB download failed in the user's client. The archive is derived from their original `Photos.zip` and the three additional approved portraits.
 
-To import:
+To publish all portraits, upload all eight files named `team-nine-portraits-part-01-of-08.zip` through `team-nine-portraits-part-08-of-08.zip` to the repository ROOT, via `https://github.com/siearrawebb77/pl-x7k42-r9/upload/main`, then commit them to the `main` branch. Do not extract the ZIPs or alter their filenames.
 
-1. Open `https://github.com/siearrawebb77/pl-x7k42-r9/upload/main` (the repository root upload page).
-2. Upload the exact `team-nine-all-117-portraits.zip` package provided by ChatGPT. Do **not** unzip it first.
-3. Commit the upload to `main`.
-4. The `Import Team 009 Portraits` GitHub Action checks each image ID, extracts the WebP files, adds matching `portrait` paths across all historical appearances in `data/roster.js`, and removes the temporary ZIP. The existing Pages deployment then publishes them.
+The GitHub workflow `Import Team 009 Portraits` automatically waits until all eight ZIP files exist on `main`. It then validates all 117 permanent personnel IDs, copies portraits to `assets/portraits/009-XXXX.webp`, links each member's `portrait` property in `data/roster.js` for every appearance, and removes the temporary ZIP parts. GitHub Pages will then deploy the updated website. No other personnel fields are changed.
 
-The importer never changes character names, statuses, service histories, current-cycle unassigned positions, or cycle numbering. All 117 characters have portrait assignments. The original uncompressed files remain in the user's own ZIP. If GitHub Actions cannot push due to repository workflow permissions, review the Action log and grant the appropriate repository workflow write permission rather than re-uploading repeatedly.
+If the import workflow fails, inspect its Actions run before re-uploading. The eight parts together contain each of the 117 portraits exactly once.
