@@ -4,7 +4,7 @@ on:
   push:
     branches: [main]
     paths:
-      - team-nine-all-117-portraits.zip
+      - 'team-nine-portraits-part-*.zip'
 
 permissions:
   contents: write
@@ -14,73 +14,87 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Validate and install portraits by permanent Strider ID
+      - name: Check and import all eight portrait packages
+        id: import
         shell: bash
         run: |
           python3 - <<'PY'
-          import json, re, zipfile
+          import json, os, re, zipfile
           from pathlib import Path
-          package = Path('team-nine-all-117-portraits.zip')
+
+          parts = [Path(f'team-nine-portraits-part-{i:02d}-of-08.zip') for i in range(1, 9)]
+          missing = [p.name for p in parts if not p.is_file()]
+          if missing:
+              print('Waiting for remaining portrait packages:', ', '.join(missing))
+              with open(os.environ['GITHUB_OUTPUT'], 'a') as output:
+                  output.write('ready=false\n')
+              raise SystemExit(0)
+
           roster_path = Path('data/roster.js')
           index_path = Path('index.html')
-          if not package.exists():
-              raise SystemExit('Expected portrait ZIP at repository root')
-          text = roster_path.read_text(encoding='utf-8')
+          roster_source = roster_path.read_text(encoding='utf-8')
           marker = 'window.TEAM009_DATA = '
-          start = text.find(marker)
+          start = roster_source.find(marker)
           if start < 0:
               raise SystemExit('Personnel archive data not found')
-          prefix = text[:start + len(marker)]
-          data = json.loads(text[start + len(marker):].strip().removesuffix(';'))
-          valid_ids = {p['id'] for c in data['cycles'] for p in c['members'] if p.get('id')}
-          installed = set()
-          with zipfile.ZipFile(package) as z:
-              files = [info for info in z.infolist() if not info.is_dir()]
-              for info in files:
-                  name = info.filename
-                  if name == 'PORTRAIT-MANIFEST.json':
-                      continue
-                  if not re.fullmatch(r'assets/portraits/009-\d{4}\.webp', name):
-                      raise SystemExit('Unexpected image path in ZIP: ' + name)
-                  strider_id = Path(name).stem
-                  if strider_id not in valid_ids:
-                      raise SystemExit('Portrait has no official Strider: ' + strider_id)
-                  if strider_id in installed:
-                      raise SystemExit('Duplicate portrait: ' + strider_id)
-                  if info.file_size > 5000000:
-                      raise SystemExit('Image too large: ' + name)
-                  raw = z.read(info)
-                  if len(raw) < 16 or raw[:4] != b'RIFF' or raw[8:12] != b'WEBP':
-                      raise SystemExit('Invalid WEBP image: ' + name)
-                  target = Path(name)
-                  target.parent.mkdir(parents=True, exist_ok=True)
-                  target.write_bytes(raw)
-                  installed.add(strider_id)
-          if len(installed) != 117:
-              raise SystemExit('Expected 117 verified official portraits, got %d' % len(installed))
-          updated = 0
-          for cycle in data['cycles']:
-              for member in cycle['members']:
-                  if member.get('id') in installed:
-                      member['portrait'] = 'assets/portraits/' + member['id'] + '.webp'
-                      updated += 1
-          roster_path.write_text(prefix + json.dumps(data, ensure_ascii=False, indent=2) + ';\n', encoding='utf-8')
-          html = index_path.read_text(encoding='utf-8')
-          for name in ('data/roster.js', 'app.js'):
-              html, count = re.subn(r'(?<=src=")' + re.escape(name) + r'(?:\?v=[^"]+)?',
-                                    name + '?v=portraits117-v1', html)
+          prefix = roster_source[:start + len(marker)]
+          roster = json.loads(roster_source[start + len(marker):].strip().removesuffix(';'))
+          valid_ids = {p['id'] for c in roster['cycles'] for p in c['members'] if p.get('id')}
+          if len(valid_ids) != 117:
+              raise SystemExit(f'Expected 117 official Striders, found {len(valid_ids)}')
+
+          images = {}
+          for part in parts:
+              with zipfile.ZipFile(part) as z:
+                  for entry in z.infolist():
+                      name = entry.filename
+                      if entry.is_dir() or not re.fullmatch(r'assets/portraits/009-\d{4}\.webp', name):
+                          raise SystemExit(f'Unexpected archive entry: {name}')
+                      sid = Path(name).stem
+                      if sid not in valid_ids or sid in images:
+                          raise SystemExit(f'Unknown or duplicate Strider ID: {sid}')
+                      if entry.file_size > 5_000_000:
+                          raise SystemExit(f'Oversized image: {sid}')
+                      raw = z.read(entry)
+                      if raw[:4] != b'RIFF' or raw[8:12] != b'WEBP':
+                          raise SystemExit(f'Invalid WebP image for {sid}')
+                      images[sid] = (name, raw)
+
+          if set(images) != valid_ids:
+              raise SystemExit(f'Expected portraits for all 117 Striders; found {len(images)}')
+
+          for name, raw in images.values():
+              target = Path(name)
+              target.parent.mkdir(parents=True, exist_ok=True)
+              target.write_bytes(raw)
+
+          occurrences = 0
+          for c in roster['cycles']:
+              for p in c['members']:
+                  if p.get('id') in images:
+                      p['portrait'] = images[p['id']][0]
+                      occurrences += 1
+          roster_path.write_text(prefix + json.dumps(roster, ensure_ascii=False, indent=2) + ';\n', encoding='utf-8')
+
+          page = index_path.read_text(encoding='utf-8')
+          for source in ('data/roster.js', 'app.js'):
+              pattern = r'(?<=src=")' + re.escape(source) + r'(?:\?v=[^"]+)?'
+              page, count = re.subn(pattern, source + '?v=portraits117-split-v1', page)
               if count != 1:
-                  raise SystemExit('Expected one ' + name + ' script tag, got ' + str(count))
-          index_path.write_text(html, encoding='utf-8')
-          print('Imported %d unique portraits across %d historical appearances' % (len(installed), updated))
-          print('All 117 official portrait IDs are now assigned')
+                  raise SystemExit(f'Expected one script reference for {source}; found {count}')
+          index_path.write_text(page, encoding='utf-8')
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as output:
+              output.write('ready=true\n')
+          print(f'Imported {len(images)} unique portraits across {occurrences} personnel appearances')
           PY
-      - name: Commit imported portraits and discard temporary ZIP
+
+      - name: Publish portrait files and remove temporary ZIP parts
+        if: steps.import.outputs.ready == 'true'
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add assets/portraits/ data/roster.js index.html
-          git rm -f --ignore-unmatch team-nine-all-117-portraits.zip
-          git commit -m "Import 117 original Team 009 Strider portraits"
+          git rm -f --ignore-unmatch team-nine-portraits-part-??-of-08.zip
+          git commit -m "Import all 117 original Team 009 portraits"
           git push
