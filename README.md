@@ -84,18 +84,18 @@ The `index.html` includes `<meta name="robots" content="noindex, nofollow">` to 
 - **Complete historical roster:** 57 cycles × three Striders = 171 expedition slots, 117 unique personnel IDs, 98 deaths, 18 permanent transfers, one retired veteran (Haldren Stonebrook), and no active historical survivor. Nerissa Tideveil (009-0116) survived the expedition and transferred permanently after Cycle 0843.
 - **Mortality:** 98/171 = 57.3% of deployment slots.
 - **Preserved:** first/last cycles, every service-cycle ID and outcome, expeditions, locations, annex designations, recorded permanent transfers, IDs, original portrait description text where available.
-- **Artwork limitation:** source first-portrait image assets are not included in the exported archive; until matching assets are added, the Pale Lodge emblem is used for all historical Striders. Do not substitute another Strider's portrait.
+- **Artwork limitation:** source first-portrait image assets were not in the first website export, but an independently verified 117-file portrait upload package is available. Until the package is imported, the Pale Lodge emblem is used for historical Striders. Do not substitute another Strider's portrait.
 - **Relay:** Demo references were replaced with fictional administrative notices that link to published cycles.
 
 ## Upload original Strider portraits
 
-The first verified image package is `team-nine-portraits-upload.zip`, built from the user-supplied `Photos.zip`. It contains **114 verified, name-matched original portraits** as `assets/portraits/009-XXXX.webp`, plus a manifest. It excludes 13 unused character drawings. Three historical portraits still need files: Selik Orr-Venn (009-0010), Neris Vahl (009-0026), Captain Isolde Marr (009-0099).
+The verified complete image package is `team-nine-all-117-portraits.zip`, built from the user-supplied `Photos.zip` plus three separately submitted images. It contains **117 name-matched portraits** as `assets/portraits/009-XXXX.webp`, plus a manifest. All permanent personnel IDs (009-0001 through 009-0117) have a unique image. The extra 13 drawings are excluded. The separately supplied picture labeled Captain Isolde Marr appears masculine-presenting; its filename is accepted as the user's stated assignment until they decide otherwise.
 
 To import:
 
 1. Open `https://github.com/siearrawebb77/pl-x7k42-r9/upload/main` (the repository root upload page).
-2. Upload the exact `team-nine-portraits-upload.zip` package provided by ChatGPT. Do **not** unzip it first.
+2. Upload the exact `team-nine-all-117-portraits.zip` package provided by ChatGPT. Do **not** unzip it first.
 3. Commit the upload to `main`.
 4. The `Import Team 009 Portraits` GitHub Action checks each image ID, extracts the WebP files, adds matching `portrait` paths across all historical appearances in `data/roster.js`, and removes the temporary ZIP. The existing Pages deployment then publishes them.
 
-The importer never changes character names, statuses, service histories, current-cycle unassigned positions, or cycle numbering. The three missing characters continue to use the Pale Lodge placeholder. The original uncompressed files remain in the user's own ZIP. If GitHub Actions cannot push due to repository workflow permissions, review the Action log and grant the appropriate repository workflow write permission rather than re-uploading repeatedly.
+The importer never changes character names, statuses, service histories, current-cycle unassigned positions, or cycle numbering. All 117 characters have portrait assignments. The original uncompressed files remain in the user's own ZIP. If GitHub Actions cannot push due to repository workflow permissions, review the Action log and grant the appropriate repository workflow write permission rather than re-uploading repeatedly.
