@@ -2,8 +2,9 @@
    Cycle renumbering: historical Cycle 0742–0798 => 0787–0843 (+45).
    Cycle 0844 is the current recruitment cycle with 3 UNASSIGNED slots.
    57 completed historical cycles, 117 unique Striders, 171 deployment slots.
-   Historical outcomes: 98 deceased, 17 permanent transfers, 1 retirement,
-   1 surviving current-era predecessor (Nerissa Tideveil, 009-0116).
+   Historical outcomes: 98 deceased, 18 permanent transfers, 1 retirement,
+   0 unassigned surviving historical Striders: Nerissa Tideveil (009-0116)
+   transferred after completing Cycle 0843.
    No character portraits were provided as website asset files, so portraits
    intentionally fall back to the original Pale Lodge emblem. Do NOT use
    another character's image. Exact available approved portrait descriptions
@@ -65,12 +66,15 @@ window.TEAM009_DATA = {
           "name": "Nerissa Tideveil",
           "species": "Water Genasi",
           "universe": "D&D 5e",
-          "status": "SURVIVED",
+          "status": "TRANSFERRED",
           "firstCycle": 843,
           "lastCycle": 843,
           "serviceCycles": [
             843
-          ]
+          ],
+          "finalExpedition": "The Lighthouse Beneath the Desert",
+          "transferDivision": "Pale Lodge Dimensional Hydrography & Submerged Realities Division",
+          "transferNote": "Survived the Vael-Sarith expedition, then permanently reassigned after Cycle 0843; ineligible to return to Team 009."
         },
         {
           "id": "009-0117",
