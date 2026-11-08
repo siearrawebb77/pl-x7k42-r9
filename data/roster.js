@@ -59,7 +59,8 @@ window.TEAM009_DATA = {
             841,
             840
           ],
-          "finalExpedition": "The Lighthouse Beneath the Desert"
+          "finalExpedition": "The Lighthouse Beneath the Desert",
+          "portrait": "assets/portraits/009-0110.webp"
         },
         {
           "id": "009-0116",
@@ -74,7 +75,8 @@ window.TEAM009_DATA = {
           ],
           "finalExpedition": "The Lighthouse Beneath the Desert",
           "transferDivision": "Pale Lodge Dimensional Hydrography & Submerged Realities Division",
-          "transferNote": "Survived the Vael-Sarith expedition, then permanently reassigned after Cycle 0843; ineligible to return to Team 009."
+          "transferNote": "Survived the Vael-Sarith expedition, then permanently reassigned after Cycle 0843; ineligible to return to Team 009.",
+          "portrait": "assets/portraits/009-0116.webp"
         },
         {
           "id": "009-0117",
@@ -87,7 +89,8 @@ window.TEAM009_DATA = {
           "serviceCycles": [
             843
           ],
-          "finalExpedition": "The Lighthouse Beneath the Desert"
+          "finalExpedition": "The Lighthouse Beneath the Desert",
+          "portrait": "assets/portraits/009-0117.webp"
         }
       ]
     },
@@ -112,7 +115,8 @@ window.TEAM009_DATA = {
             841,
             840
           ],
-          "finalExpedition": "The Lighthouse Beneath the Desert"
+          "finalExpedition": "The Lighthouse Beneath the Desert",
+          "portrait": "assets/portraits/009-0110.webp"
         },
         {
           "id": "009-0114",
@@ -125,7 +129,8 @@ window.TEAM009_DATA = {
           "serviceCycles": [
             842
           ],
-          "finalExpedition": "The Post Office at the End of the World"
+          "finalExpedition": "The Post Office at the End of the World",
+          "portrait": "assets/portraits/009-0114.webp"
         },
         {
           "id": "009-0115",
@@ -139,7 +144,8 @@ window.TEAM009_DATA = {
             842
           ],
           "finalExpedition": "The Post Office at the End of the World",
-          "transferDivision": "Pale Lodge Interdimensional Communications & Courier Systems Division"
+          "transferDivision": "Pale Lodge Interdimensional Communications & Courier Systems Division",
+          "portrait": "assets/portraits/009-0115.webp"
         }
       ]
     },
@@ -164,7 +170,8 @@ window.TEAM009_DATA = {
             841,
             840
           ],
-          "finalExpedition": "The Lighthouse Beneath the Desert"
+          "finalExpedition": "The Lighthouse Beneath the Desert",
+          "portrait": "assets/portraits/009-0110.webp"
         },
         {
           "id": "009-0112",
@@ -177,7 +184,8 @@ window.TEAM009_DATA = {
           "serviceCycles": [
             841
           ],
-          "finalExpedition": "The Wedding at the End of Winter"
+          "finalExpedition": "The Wedding at the End of Winter",
+          "portrait": "assets/portraits/009-0112.webp"
         },
         {
           "id": "009-0113",
@@ -190,7 +198,8 @@ window.TEAM009_DATA = {
           "serviceCycles": [
             841
           ],
-          "finalExpedition": "The Wedding at the End of Winter"
+          "finalExpedition": "The Wedding at the End of Winter",
+          "portrait": "assets/portraits/009-0113.webp"
         }
       ]
     },
@@ -215,7 +224,8 @@ window.TEAM009_DATA = {
             838,
             837
           ],
-          "finalExpedition": "The Cemetery of Unfinished Wars"
+          "finalExpedition": "The Cemetery of Unfinished Wars",
+          "portrait": "assets/portraits/009-0106.webp"
         },
         {
           "id": "009-0110",
@@ -231,7 +241,8 @@ window.TEAM009_DATA = {
             841,
             840
           ],
-          "finalExpedition": "The Lighthouse Beneath the Desert"
+          "finalExpedition": "The Lighthouse Beneath the Desert",
+          "portrait": "assets/portraits/009-0110.webp"
         },
         {
           "id": "009-0111",
@@ -244,7 +255,8 @@ window.TEAM009_DATA = {
           "serviceCycles": [
             840
           ],
-          "finalExpedition": "The Cemetery of Unfinished Wars"
+          "finalExpedition": "The Cemetery of Unfinished Wars",
+          "portrait": "assets/portraits/009-0111.webp"
         }
       ]
     },
@@ -269,7 +281,8 @@ window.TEAM009_DATA = {
             838,
             837
           ],
-          "finalExpedition": "The Cemetery of Unfinished Wars"
+          "finalExpedition": "The Cemetery of Unfinished Wars",
+          "portrait": "assets/portraits/009-0106.webp"
         },
         {
           "id": "009-0108",
@@ -282,7 +295,8 @@ window.TEAM009_DATA = {
           "serviceCycles": [
             839
           ],
-          "finalExpedition": "The Moon That Knocked Three Times"
+          "finalExpedition": "The Moon That Knocked Three Times",
+          "portrait": "assets/portraits/009-0108.webp"
         },
         {
           "id": "009-0109",
@@ -295,7 +309,8 @@ window.TEAM009_DATA = {
           "serviceCycles": [
             839
           ],
-          "finalExpedition": "The Moon That Knocked Three Times"
+          "finalExpedition": "The Moon That Knocked Three Times",
+          "portrait": "assets/portraits/009-0109.webp"
         }
       ]
     },
@@ -320,7 +335,8 @@ window.TEAM009_DATA = {
             836
           ],
           "finalExpedition": "The Parliament of Empty Thrones",
-          "transferDivision": "Pale Lodge Diplomatic Anomalies & Interdimensional Governance Division"
+          "transferDivision": "Pale Lodge Diplomatic Anomalies & Interdimensional Governance Division",
+          "portrait": "assets/portraits/009-0102.webp"
         },
         {
           "id": "009-0106",
@@ -336,7 +352,8 @@ window.TEAM009_DATA = {
             838,
             837
           ],
-          "finalExpedition": "The Cemetery of Unfinished Wars"
+          "finalExpedition": "The Cemetery of Unfinished Wars",
+          "portrait": "assets/portraits/009-0106.webp"
         },
         {
           "id": "009-0107",
@@ -349,7 +366,8 @@ window.TEAM009_DATA = {
           "serviceCycles": [
             838
           ],
-          "finalExpedition": "The Parliament of Empty Thrones"
+          "finalExpedition": "The Parliament of Empty Thrones",
+          "portrait": "assets/portraits/009-0107.webp"
         }
       ]
     },
@@ -374,7 +392,8 @@ window.TEAM009_DATA = {
             836
           ],
           "finalExpedition": "The Parliament of Empty Thrones",
-          "transferDivision": "Pale Lodge Diplomatic Anomalies & Interdimensional Governance Division"
+          "transferDivision": "Pale Lodge Diplomatic Anomalies & Interdimensional Governance Division",
+          "portrait": "assets/portraits/009-0102.webp"
         },
         {
           "id": "009-0105",
@@ -387,7 +406,8 @@ window.TEAM009_DATA = {
           "serviceCycles": [
             837
           ],
-          "finalExpedition": "The City Beneath the Last Sunrise"
+          "finalExpedition": "The City Beneath the Last Sunrise",
+          "portrait": "assets/portraits/009-0105.webp"
         },
         {
           "id": "009-0106",
@@ -403,7 +423,8 @@ window.TEAM009_DATA = {
             838,
             837
           ],
-          "finalExpedition": "The Cemetery of Unfinished Wars"
+          "finalExpedition": "The Cemetery of Unfinished Wars",
+          "portrait": "assets/portraits/009-0106.webp"
         }
       ]
     },
@@ -428,7 +449,8 @@ window.TEAM009_DATA = {
             836
           ],
           "finalExpedition": "The Parliament of Empty Thrones",
-          "transferDivision": "Pale Lodge Diplomatic Anomalies & Interdimensional Governance Division"
+          "transferDivision": "Pale Lodge Diplomatic Anomalies & Interdimensional Governance Division",
+          "portrait": "assets/portraits/009-0102.webp"
         },
         {
           "id": "009-0103",
@@ -441,7 +463,8 @@ window.TEAM009_DATA = {
           "serviceCycles": [
             836
           ],
-          "finalExpedition": "The House That Kept Its Guests"
+          "finalExpedition": "The House That Kept Its Guests",
+          "portrait": "assets/portraits/009-0103.webp"
         },
         {
           "id": "009-0104",
@@ -454,7 +477,8 @@ window.TEAM009_DATA = {
           "serviceCycles": [
             836
           ],
-          "finalExpedition": "The House That Kept Its Guests"
+          "finalExpedition": "The House That Kept Its Guests",
+          "portrait": "assets/portraits/009-0104.webp"
         }
       ]
     },
@@ -478,7 +502,8 @@ window.TEAM009_DATA = {
             834,
             833
           ],
-          "finalExpedition": "The Museum of Tomorrow's Extinctions"
+          "finalExpedition": "The Museum of Tomorrow's Extinctions",
+          "portrait": "assets/portraits/009-0096.webp"
         },
         {
           "id": "009-0100",
@@ -491,7 +516,8 @@ window.TEAM009_DATA = {
           "serviceCycles": [
             835
           ],
-          "finalExpedition": "The Museum of Tomorrow's Extinctions"
+          "finalExpedition": "The Museum of Tomorrow's Extinctions",
+          "portrait": "assets/portraits/009-0100.webp"
         },
         {
           "id": "009-0101",
@@ -504,7 +530,8 @@ window.TEAM009_DATA = {
           "serviceCycles": [
             835
           ],
-          "finalExpedition": "The Museum of Tomorrow's Extinctions"
+          "finalExpedition": "The Museum of Tomorrow's Extinctions",
+          "portrait": "assets/portraits/009-0101.webp"
         }
       ]
     },
@@ -528,7 +555,8 @@ window.TEAM009_DATA = {
             834,
             833
           ],
-          "finalExpedition": "The Museum of Tomorrow's Extinctions"
+          "finalExpedition": "The Museum of Tomorrow's Extinctions",
+          "portrait": "assets/portraits/009-0096.webp"
         },
         {
           "id": "009-0098",
@@ -541,7 +569,8 @@ window.TEAM009_DATA = {
           "serviceCycles": [
             834
           ],
-          "finalExpedition": "The Lighthouse That Followed Us"
+          "finalExpedition": "The Lighthouse That Followed Us",
+          "portrait": "assets/portraits/009-0098.webp"
         },
         {
           "id": "009-0099",
@@ -556,7 +585,8 @@ window.TEAM009_DATA = {
           ],
           "finalExpedition": "The Lighthouse That Followed Us",
           "transferDivision": "Pale Lodge Dimensional Cartography Division",
-          "gender": "Male"
+          "gender": "Male",
+          "portrait": "assets/portraits/009-0099.webp"
         }
       ]
     },
@@ -579,7 +609,8 @@ window.TEAM009_DATA = {
             833,
             832
           ],
-          "finalExpedition": "The Market of Stolen Tomorrows"
+          "finalExpedition": "The Market of Stolen Tomorrows",
+          "portrait": "assets/portraits/009-0094.webp"
         },
         {
           "id": "009-0096",
@@ -594,7 +625,8 @@ window.TEAM009_DATA = {
             834,
             833
           ],
-          "finalExpedition": "The Museum of Tomorrow's Extinctions"
+          "finalExpedition": "The Museum of Tomorrow's Extinctions",
+          "portrait": "assets/portraits/009-0096.webp"
         },
         {
           "id": "009-0097",
@@ -607,7 +639,8 @@ window.TEAM009_DATA = {
           "serviceCycles": [
             833
           ],
-          "finalExpedition": "The Market of Stolen Tomorrows"
+          "finalExpedition": "The Market of Stolen Tomorrows",
+          "portrait": "assets/portraits/009-0097.webp"
         }
       ]
     },
@@ -631,7 +664,8 @@ window.TEAM009_DATA = {
             831,
             830
           ],
-          "finalExpedition": "The Bells Beneath the Ice"
+          "finalExpedition": "The Bells Beneath the Ice",
+          "portrait": "assets/portraits/009-0089.webp"
         },
         {
           "id": "009-0094",
@@ -645,7 +679,8 @@ window.TEAM009_DATA = {
             833,
             832
           ],
-          "finalExpedition": "The Market of Stolen Tomorrows"
+          "finalExpedition": "The Market of Stolen Tomorrows",
+          "portrait": "assets/portraits/009-0094.webp"
         },
         {
           "id": "009-0095",
@@ -658,7 +693,8 @@ window.TEAM009_DATA = {
           "serviceCycles": [
             832
           ],
-          "finalExpedition": "The Bells Beneath the Ice"
+          "finalExpedition": "The Bells Beneath the Ice",
+          "portrait": "assets/portraits/009-0095.webp"
         }
       ]
     },
@@ -682,7 +718,8 @@ window.TEAM009_DATA = {
             831,
             830
           ],
-          "finalExpedition": "The Bells Beneath the Ice"
+          "finalExpedition": "The Bells Beneath the Ice",
+          "portrait": "assets/portraits/009-0089.webp"
         },
         {
           "id": "009-0092",
@@ -695,7 +732,8 @@ window.TEAM009_DATA = {
           "serviceCycles": [
             831
           ],
-          "finalExpedition": "The Forest That Grew Downward"
+          "finalExpedition": "The Forest That Grew Downward",
+          "portrait": "assets/portraits/009-0092.webp"
         },
         {
           "id": "009-0093",
@@ -709,7 +747,8 @@ window.TEAM009_DATA = {
             831
           ],
           "finalExpedition": "The Forest That Grew Downward",
-          "transferDivision": "Pale Lodge Temporal Ecology & Inverted Biomes Division"
+          "transferDivision": "Pale Lodge Temporal Ecology & Inverted Biomes Division",
+          "portrait": "assets/portraits/009-0093.webp"
         }
       ]
     },
@@ -733,7 +772,8 @@ window.TEAM009_DATA = {
             831,
             830
           ],
-          "finalExpedition": "The Bells Beneath the Ice"
+          "finalExpedition": "The Bells Beneath the Ice",
+          "portrait": "assets/portraits/009-0089.webp"
         },
         {
           "id": "009-0090",
@@ -746,7 +786,8 @@ window.TEAM009_DATA = {
           "serviceCycles": [
             830
           ],
-          "finalExpedition": "The City That Wore Our Faces"
+          "finalExpedition": "The City That Wore Our Faces",
+          "portrait": "assets/portraits/009-0090.webp"
         },
         {
           "id": "009-0091",
@@ -759,7 +800,8 @@ window.TEAM009_DATA = {
           "serviceCycles": [
             830
           ],
-          "finalExpedition": "The City That Wore Our Faces"
+          "finalExpedition": "The City That Wore Our Faces",
+          "portrait": "assets/portraits/009-0091.webp"
         }
       ]
     },
@@ -783,7 +825,8 @@ window.TEAM009_DATA = {
             828,
             827
           ],
-          "finalExpedition": "The Sea That Knows Your Name"
+          "finalExpedition": "The Sea That Knows Your Name",
+          "portrait": "assets/portraits/009-0083.webp"
         },
         {
           "id": "009-0087",
@@ -797,7 +840,8 @@ window.TEAM009_DATA = {
             829
           ],
           "finalExpedition": "The Sea That Knows Your Name",
-          "transferDivision": "Pale Lodge Deepwater Anomalies & Submerged Civilizations Division"
+          "transferDivision": "Pale Lodge Deepwater Anomalies & Submerged Civilizations Division",
+          "portrait": "assets/portraits/009-0087.webp"
         },
         {
           "id": "009-0088",
@@ -810,7 +854,8 @@ window.TEAM009_DATA = {
           "serviceCycles": [
             829
           ],
-          "finalExpedition": "The Sea That Knows Your Name"
+          "finalExpedition": "The Sea That Knows Your Name",
+          "portrait": "assets/portraits/009-0088.webp"
         }
       ]
     },
@@ -834,7 +879,8 @@ window.TEAM009_DATA = {
             828,
             827
           ],
-          "finalExpedition": "The Sea That Knows Your Name"
+          "finalExpedition": "The Sea That Knows Your Name",
+          "portrait": "assets/portraits/009-0083.webp"
         },
         {
           "id": "009-0085",
@@ -847,7 +893,8 @@ window.TEAM009_DATA = {
           "serviceCycles": [
             828
           ],
-          "finalExpedition": "The Town That Buried the Moon"
+          "finalExpedition": "The Town That Buried the Moon",
+          "portrait": "assets/portraits/009-0085.webp"
         },
         {
           "id": "009-0086",
@@ -860,7 +907,8 @@ window.TEAM009_DATA = {
           "serviceCycles": [
             828
           ],
-          "finalExpedition": "The Town That Buried the Moon"
+          "finalExpedition": "The Town That Buried the Moon",
+          "portrait": "assets/portraits/009-0086.webp"
         }
       ]
     },
@@ -884,7 +932,8 @@ window.TEAM009_DATA = {
             826,
             825
           ],
-          "finalExpedition": "The Orchard of Second Chances"
+          "finalExpedition": "The Orchard of Second Chances",
+          "portrait": "assets/portraits/009-0079.webp"
         },
         {
           "id": "009-0083",
@@ -899,7 +948,8 @@ window.TEAM009_DATA = {
             828,
             827
           ],
-          "finalExpedition": "The Sea That Knows Your Name"
+          "finalExpedition": "The Sea That Knows Your Name",
+          "portrait": "assets/portraits/009-0083.webp"
         },
         {
           "id": "009-0084",
@@ -912,7 +962,8 @@ window.TEAM009_DATA = {
           "serviceCycles": [
             827
           ],
-          "finalExpedition": "The Orchard of Second Chances"
+          "finalExpedition": "The Orchard of Second Chances",
+          "portrait": "assets/portraits/009-0084.webp"
         }
       ]
     },
@@ -936,7 +987,8 @@ window.TEAM009_DATA = {
             826,
             825
           ],
-          "finalExpedition": "The Orchard of Second Chances"
+          "finalExpedition": "The Orchard of Second Chances",
+          "portrait": "assets/portraits/009-0079.webp"
         },
         {
           "id": "009-0081",
@@ -950,7 +1002,8 @@ window.TEAM009_DATA = {
             826
           ],
           "finalExpedition": "The Last Train to Nowhere",
-          "transferDivision": "Pale Lodge Transit Anomalies & Interdimensional Passage Division"
+          "transferDivision": "Pale Lodge Transit Anomalies & Interdimensional Passage Division",
+          "portrait": "assets/portraits/009-0081.webp"
         },
         {
           "id": "009-0082",
@@ -963,7 +1016,8 @@ window.TEAM009_DATA = {
           "serviceCycles": [
             826
           ],
-          "finalExpedition": "The Last Train to Nowhere"
+          "finalExpedition": "The Last Train to Nowhere",
+          "portrait": "assets/portraits/009-0082.webp"
         }
       ]
     },
@@ -987,7 +1041,8 @@ window.TEAM009_DATA = {
             824,
             823
           ],
-          "finalExpedition": "The Mine of Forgotten Childhoods"
+          "finalExpedition": "The Mine of Forgotten Childhoods",
+          "portrait": "assets/portraits/009-0075.webp"
         },
         {
           "id": "009-0079",
@@ -1002,7 +1057,8 @@ window.TEAM009_DATA = {
             826,
             825
           ],
-          "finalExpedition": "The Orchard of Second Chances"
+          "finalExpedition": "The Orchard of Second Chances",
+          "portrait": "assets/portraits/009-0079.webp"
         },
         {
           "id": "009-0080",
@@ -1015,7 +1071,8 @@ window.TEAM009_DATA = {
           "serviceCycles": [
             825
           ],
-          "finalExpedition": "The Mine of Forgotten Childhoods"
+          "finalExpedition": "The Mine of Forgotten Childhoods",
+          "portrait": "assets/portraits/009-0080.webp"
         }
       ]
     },
@@ -1039,7 +1096,8 @@ window.TEAM009_DATA = {
             824,
             823
           ],
-          "finalExpedition": "The Mine of Forgotten Childhoods"
+          "finalExpedition": "The Mine of Forgotten Childhoods",
+          "portrait": "assets/portraits/009-0075.webp"
         },
         {
           "id": "009-0077",
@@ -1052,7 +1110,8 @@ window.TEAM009_DATA = {
           "serviceCycles": [
             824
           ],
-          "finalExpedition": "The Night Beneath Our Feet"
+          "finalExpedition": "The Night Beneath Our Feet",
+          "portrait": "assets/portraits/009-0077.webp"
         },
         {
           "id": "009-0078",
@@ -1066,7 +1125,8 @@ window.TEAM009_DATA = {
             824
           ],
           "finalExpedition": "The Night Beneath Our Feet",
-          "transferDivision": "Pale Lodge Astral Phenomena & Deep-Sky Research Division"
+          "transferDivision": "Pale Lodge Astral Phenomena & Deep-Sky Research Division",
+          "portrait": "assets/portraits/009-0078.webp"
         }
       ]
     },
@@ -1091,7 +1151,8 @@ window.TEAM009_DATA = {
             821,
             820
           ],
-          "finalExpedition": "The Lodge That Wasn't Ours"
+          "finalExpedition": "The Lodge That Wasn't Ours",
+          "portrait": "assets/portraits/009-0070.webp"
         },
         {
           "id": "009-0075",
@@ -1106,7 +1167,8 @@ window.TEAM009_DATA = {
             824,
             823
           ],
-          "finalExpedition": "The Mine of Forgotten Childhoods"
+          "finalExpedition": "The Mine of Forgotten Childhoods",
+          "portrait": "assets/portraits/009-0075.webp"
         },
         {
           "id": "009-0076",
@@ -1119,7 +1181,8 @@ window.TEAM009_DATA = {
           "serviceCycles": [
             823
           ],
-          "finalExpedition": "The Lodge That Wasn't Ours"
+          "finalExpedition": "The Lodge That Wasn't Ours",
+          "portrait": "assets/portraits/009-0076.webp"
         }
       ]
     },
@@ -1144,7 +1207,8 @@ window.TEAM009_DATA = {
             821,
             820
           ],
-          "finalExpedition": "The Lodge That Wasn't Ours"
+          "finalExpedition": "The Lodge That Wasn't Ours",
+          "portrait": "assets/portraits/009-0070.webp"
         },
         {
           "id": "009-0073",
@@ -1157,7 +1221,8 @@ window.TEAM009_DATA = {
           "serviceCycles": [
             822
           ],
-          "retiredAfter": 822
+          "retiredAfter": 822,
+          "portrait": "assets/portraits/009-0073.webp"
         },
         {
           "id": "009-0074",
@@ -1170,7 +1235,8 @@ window.TEAM009_DATA = {
           "serviceCycles": [
             822
           ],
-          "finalExpedition": "The People Who Were Never There"
+          "finalExpedition": "The People Who Were Never There",
+          "portrait": "assets/portraits/009-0074.webp"
         }
       ]
     },
@@ -1195,7 +1261,8 @@ window.TEAM009_DATA = {
             821,
             820
           ],
-          "finalExpedition": "The Lodge That Wasn't Ours"
+          "finalExpedition": "The Lodge That Wasn't Ours",
+          "portrait": "assets/portraits/009-0070.webp"
         },
         {
           "id": "009-0071",
@@ -1208,7 +1275,8 @@ window.TEAM009_DATA = {
           "serviceCycles": [
             821
           ],
-          "finalExpedition": "The Photograph of Tomorrow"
+          "finalExpedition": "The Photograph of Tomorrow",
+          "portrait": "assets/portraits/009-0071.webp"
         },
         {
           "id": "009-0072",
@@ -1221,7 +1289,8 @@ window.TEAM009_DATA = {
           "serviceCycles": [
             821
           ],
-          "finalExpedition": "The Photograph of Tomorrow"
+          "finalExpedition": "The Photograph of Tomorrow",
+          "portrait": "assets/portraits/009-0072.webp"
         }
       ]
     },
@@ -1247,7 +1316,8 @@ window.TEAM009_DATA = {
             817
           ],
           "finalExpedition": "The City of Borrowed Doors",
-          "transferDivision": "Pale Lodge Threshold Systems & Dimensional Infrastructure Division"
+          "transferDivision": "Pale Lodge Threshold Systems & Dimensional Infrastructure Division",
+          "portrait": "assets/portraits/009-0065.webp"
         },
         {
           "id": "009-0069",
@@ -1260,7 +1330,8 @@ window.TEAM009_DATA = {
           "serviceCycles": [
             820
           ],
-          "finalExpedition": "The City of Borrowed Doors"
+          "finalExpedition": "The City of Borrowed Doors",
+          "portrait": "assets/portraits/009-0069.webp"
         },
         {
           "id": "009-0070",
@@ -1276,7 +1347,8 @@ window.TEAM009_DATA = {
             821,
             820
           ],
-          "finalExpedition": "The Lodge That Wasn't Ours"
+          "finalExpedition": "The Lodge That Wasn't Ours",
+          "portrait": "assets/portraits/009-0070.webp"
         }
       ]
     },
@@ -1302,7 +1374,8 @@ window.TEAM009_DATA = {
             817
           ],
           "finalExpedition": "The City of Borrowed Doors",
-          "transferDivision": "Pale Lodge Threshold Systems & Dimensional Infrastructure Division"
+          "transferDivision": "Pale Lodge Threshold Systems & Dimensional Infrastructure Division",
+          "portrait": "assets/portraits/009-0065.webp"
         },
         {
           "id": "009-0067",
@@ -1315,7 +1388,8 @@ window.TEAM009_DATA = {
           "serviceCycles": [
             819
           ],
-          "finalExpedition": "The Faces We Left Behind"
+          "finalExpedition": "The Faces We Left Behind",
+          "portrait": "assets/portraits/009-0067.webp"
         },
         {
           "id": "009-0068",
@@ -1328,7 +1402,8 @@ window.TEAM009_DATA = {
           "serviceCycles": [
             819
           ],
-          "finalExpedition": "The Faces We Left Behind"
+          "finalExpedition": "The Faces We Left Behind",
+          "portrait": "assets/portraits/009-0068.webp"
         }
       ]
     },
@@ -1356,7 +1431,8 @@ window.TEAM009_DATA = {
           "finalExpedition": "The Ship That Dreamed of Land",
           "leaveCycles": [
             816
-          ]
+          ],
+          "portrait": "assets/portraits/009-0057.webp"
         },
         {
           "id": "009-0065",
@@ -1373,7 +1449,8 @@ window.TEAM009_DATA = {
             817
           ],
           "finalExpedition": "The City of Borrowed Doors",
-          "transferDivision": "Pale Lodge Threshold Systems & Dimensional Infrastructure Division"
+          "transferDivision": "Pale Lodge Threshold Systems & Dimensional Infrastructure Division",
+          "portrait": "assets/portraits/009-0065.webp"
         },
         {
           "id": "009-0066",
@@ -1386,7 +1463,8 @@ window.TEAM009_DATA = {
           "serviceCycles": [
             818
           ],
-          "finalExpedition": "The Ship That Dreamed of Land"
+          "finalExpedition": "The Ship That Dreamed of Land",
+          "portrait": "assets/portraits/009-0066.webp"
         }
       ]
     },
@@ -1414,7 +1492,8 @@ window.TEAM009_DATA = {
           "finalExpedition": "The Ship That Dreamed of Land",
           "leaveCycles": [
             816
-          ]
+          ],
+          "portrait": "assets/portraits/009-0057.webp"
         },
         {
           "id": "009-0064",
@@ -1427,7 +1506,8 @@ window.TEAM009_DATA = {
           "serviceCycles": [
             817
           ],
-          "finalExpedition": "The Sun Beneath the Soil"
+          "finalExpedition": "The Sun Beneath the Soil",
+          "portrait": "assets/portraits/009-0064.webp"
         },
         {
           "id": "009-0065",
@@ -1444,7 +1524,8 @@ window.TEAM009_DATA = {
             817
           ],
           "finalExpedition": "The City of Borrowed Doors",
-          "transferDivision": "Pale Lodge Threshold Systems & Dimensional Infrastructure Division"
+          "transferDivision": "Pale Lodge Threshold Systems & Dimensional Infrastructure Division",
+          "portrait": "assets/portraits/009-0065.webp"
         }
       ]
     },
@@ -1466,7 +1547,8 @@ window.TEAM009_DATA = {
           "serviceCycles": [
             816
           ],
-          "finalExpedition": "The Road That Ate the Map"
+          "finalExpedition": "The Road That Ate the Map",
+          "portrait": "assets/portraits/009-0061.webp"
         },
         {
           "id": "009-0062",
@@ -1479,7 +1561,8 @@ window.TEAM009_DATA = {
           "serviceCycles": [
             816
           ],
-          "finalExpedition": "The Road That Ate the Map"
+          "finalExpedition": "The Road That Ate the Map",
+          "portrait": "assets/portraits/009-0062.webp"
         },
         {
           "id": "009-0063",
@@ -1493,7 +1576,8 @@ window.TEAM009_DATA = {
             816
           ],
           "finalExpedition": "The Road That Ate the Map",
-          "transferDivision": "Pale Lodge Dimensional Navigation Division"
+          "transferDivision": "Pale Lodge Dimensional Navigation Division",
+          "portrait": "assets/portraits/009-0063.webp"
         }
       ]
     },
@@ -1521,7 +1605,8 @@ window.TEAM009_DATA = {
           "finalExpedition": "The Ship That Dreamed of Land",
           "leaveCycles": [
             816
-          ]
+          ],
+          "portrait": "assets/portraits/009-0057.webp"
         },
         {
           "id": "009-0059",
@@ -1534,7 +1619,8 @@ window.TEAM009_DATA = {
           "serviceCycles": [
             815
           ],
-          "finalExpedition": "The Thirteenth Prayer"
+          "finalExpedition": "The Thirteenth Prayer",
+          "portrait": "assets/portraits/009-0059.webp"
         },
         {
           "id": "009-0060",
@@ -1547,7 +1633,8 @@ window.TEAM009_DATA = {
           "serviceCycles": [
             815
           ],
-          "finalExpedition": "The Thirteenth Prayer"
+          "finalExpedition": "The Thirteenth Prayer",
+          "portrait": "assets/portraits/009-0060.webp"
         }
       ]
     },
@@ -1570,7 +1657,8 @@ window.TEAM009_DATA = {
             814,
             813
           ],
-          "finalExpedition": "The Letters We Never Sent"
+          "finalExpedition": "The Letters We Never Sent",
+          "portrait": "assets/portraits/009-0056.webp"
         },
         {
           "id": "009-0057",
@@ -1589,7 +1677,8 @@ window.TEAM009_DATA = {
           "finalExpedition": "The Ship That Dreamed of Land",
           "leaveCycles": [
             816
-          ]
+          ],
+          "portrait": "assets/portraits/009-0057.webp"
         },
         {
           "id": "009-0058",
@@ -1602,7 +1691,8 @@ window.TEAM009_DATA = {
           "serviceCycles": [
             814
           ],
-          "finalExpedition": "The Letters We Never Sent"
+          "finalExpedition": "The Letters We Never Sent",
+          "portrait": "assets/portraits/009-0058.webp"
         }
       ]
     },
@@ -1628,7 +1718,8 @@ window.TEAM009_DATA = {
             810
           ],
           "finalExpedition": "The Feast of the Drowned",
-          "transferDivision": "Pale Lodge Cartographic Intelligence Division"
+          "transferDivision": "Pale Lodge Cartographic Intelligence Division",
+          "portrait": "assets/portraits/009-0049.webp"
         },
         {
           "id": "009-0055",
@@ -1641,7 +1732,8 @@ window.TEAM009_DATA = {
           "serviceCycles": [
             813
           ],
-          "finalExpedition": "The Feast of the Drowned"
+          "finalExpedition": "The Feast of the Drowned",
+          "portrait": "assets/portraits/009-0055.webp"
         },
         {
           "id": "009-0056",
@@ -1655,7 +1747,8 @@ window.TEAM009_DATA = {
             814,
             813
           ],
-          "finalExpedition": "The Letters We Never Sent"
+          "finalExpedition": "The Letters We Never Sent",
+          "portrait": "assets/portraits/009-0056.webp"
         }
       ]
     },
@@ -1681,7 +1774,8 @@ window.TEAM009_DATA = {
             810
           ],
           "finalExpedition": "The Feast of the Drowned",
-          "transferDivision": "Pale Lodge Cartographic Intelligence Division"
+          "transferDivision": "Pale Lodge Cartographic Intelligence Division",
+          "portrait": "assets/portraits/009-0049.webp"
         },
         {
           "id": "009-0053",
@@ -1694,7 +1788,8 @@ window.TEAM009_DATA = {
           "serviceCycles": [
             812
           ],
-          "finalExpedition": "The Library of Unborn Names"
+          "finalExpedition": "The Library of Unborn Names",
+          "portrait": "assets/portraits/009-0053.webp"
         },
         {
           "id": "009-0054",
@@ -1707,7 +1802,8 @@ window.TEAM009_DATA = {
           "serviceCycles": [
             812
           ],
-          "finalExpedition": "The Library of Unborn Names"
+          "finalExpedition": "The Library of Unborn Names",
+          "portrait": "assets/portraits/009-0054.webp"
         }
       ]
     },
@@ -1733,7 +1829,8 @@ window.TEAM009_DATA = {
             810
           ],
           "finalExpedition": "The Feast of the Drowned",
-          "transferDivision": "Pale Lodge Cartographic Intelligence Division"
+          "transferDivision": "Pale Lodge Cartographic Intelligence Division",
+          "portrait": "assets/portraits/009-0049.webp"
         },
         {
           "id": "009-0051",
@@ -1747,7 +1844,8 @@ window.TEAM009_DATA = {
             811,
             810
           ],
-          "finalExpedition": "The Midnight Line"
+          "finalExpedition": "The Midnight Line",
+          "portrait": "assets/portraits/009-0051.webp"
         },
         {
           "id": "009-0052",
@@ -1760,7 +1858,8 @@ window.TEAM009_DATA = {
           "serviceCycles": [
             811
           ],
-          "finalExpedition": "The Midnight Line"
+          "finalExpedition": "The Midnight Line",
+          "portrait": "assets/portraits/009-0052.webp"
         }
       ]
     },
@@ -1786,7 +1885,8 @@ window.TEAM009_DATA = {
             810
           ],
           "finalExpedition": "The Feast of the Drowned",
-          "transferDivision": "Pale Lodge Cartographic Intelligence Division"
+          "transferDivision": "Pale Lodge Cartographic Intelligence Division",
+          "portrait": "assets/portraits/009-0049.webp"
         },
         {
           "id": "009-0050",
@@ -1799,7 +1899,8 @@ window.TEAM009_DATA = {
           "serviceCycles": [
             810
           ],
-          "finalExpedition": "The Gods Who Dream Beneath Stone"
+          "finalExpedition": "The Gods Who Dream Beneath Stone",
+          "portrait": "assets/portraits/009-0050.webp"
         },
         {
           "id": "009-0051",
@@ -1813,7 +1914,8 @@ window.TEAM009_DATA = {
             811,
             810
           ],
-          "finalExpedition": "The Midnight Line"
+          "finalExpedition": "The Midnight Line",
+          "portrait": "assets/portraits/009-0051.webp"
         }
       ]
     },
@@ -1835,7 +1937,8 @@ window.TEAM009_DATA = {
           "serviceCycles": [
             809
           ],
-          "finalExpedition": "The Second Shadow of Briarwick"
+          "finalExpedition": "The Second Shadow of Briarwick",
+          "portrait": "assets/portraits/009-0046.webp"
         },
         {
           "id": "009-0047",
@@ -1848,7 +1951,8 @@ window.TEAM009_DATA = {
           "serviceCycles": [
             809
           ],
-          "finalExpedition": "The Second Shadow of Briarwick"
+          "finalExpedition": "The Second Shadow of Briarwick",
+          "portrait": "assets/portraits/009-0047.webp"
         },
         {
           "id": "009-0048",
@@ -1861,7 +1965,8 @@ window.TEAM009_DATA = {
           "serviceCycles": [
             809
           ],
-          "finalExpedition": "The Second Shadow of Briarwick"
+          "finalExpedition": "The Second Shadow of Briarwick",
+          "portrait": "assets/portraits/009-0048.webp"
         }
       ]
     },
@@ -1886,7 +1991,8 @@ window.TEAM009_DATA = {
             806
           ],
           "finalExpedition": "The Hour of the Last Bell",
-          "transferDivision": "Pale Lodge Expedition Security Division"
+          "transferDivision": "Pale Lodge Expedition Security Division",
+          "portrait": "assets/portraits/009-0041.webp"
         },
         {
           "id": "009-0044",
@@ -1899,7 +2005,8 @@ window.TEAM009_DATA = {
           "serviceCycles": [
             808
           ],
-          "finalExpedition": "The Hour of the Last Bell"
+          "finalExpedition": "The Hour of the Last Bell",
+          "portrait": "assets/portraits/009-0044.webp"
         },
         {
           "id": "009-0045",
@@ -1912,7 +2019,8 @@ window.TEAM009_DATA = {
           "serviceCycles": [
             808
           ],
-          "finalExpedition": "The Hour of the Last Bell"
+          "finalExpedition": "The Hour of the Last Bell",
+          "portrait": "assets/portraits/009-0045.webp"
         }
       ]
     },
@@ -1937,7 +2045,8 @@ window.TEAM009_DATA = {
             806
           ],
           "finalExpedition": "The Hour of the Last Bell",
-          "transferDivision": "Pale Lodge Expedition Security Division"
+          "transferDivision": "Pale Lodge Expedition Security Division",
+          "portrait": "assets/portraits/009-0041.webp"
         },
         {
           "id": "009-0042",
@@ -1950,7 +2059,8 @@ window.TEAM009_DATA = {
           "serviceCycles": [
             807
           ],
-          "finalExpedition": "The Roots of Tomorrow"
+          "finalExpedition": "The Roots of Tomorrow",
+          "portrait": "assets/portraits/009-0042.webp"
         },
         {
           "id": "009-0043",
@@ -1963,7 +2073,8 @@ window.TEAM009_DATA = {
           "serviceCycles": [
             807
           ],
-          "finalExpedition": "The Roots of Tomorrow"
+          "finalExpedition": "The Roots of Tomorrow",
+          "portrait": "assets/portraits/009-0043.webp"
         }
       ]
     },
@@ -1987,7 +2098,8 @@ window.TEAM009_DATA = {
             805,
             804
           ],
-          "finalExpedition": "The Procession of Hollow Kings"
+          "finalExpedition": "The Procession of Hollow Kings",
+          "portrait": "assets/portraits/009-0036.webp"
         },
         {
           "id": "009-0040",
@@ -2000,7 +2112,8 @@ window.TEAM009_DATA = {
           "serviceCycles": [
             806
           ],
-          "finalExpedition": "The Procession of Hollow Kings"
+          "finalExpedition": "The Procession of Hollow Kings",
+          "portrait": "assets/portraits/009-0040.webp"
         },
         {
           "id": "009-0041",
@@ -2016,7 +2129,8 @@ window.TEAM009_DATA = {
             806
           ],
           "finalExpedition": "The Hour of the Last Bell",
-          "transferDivision": "Pale Lodge Expedition Security Division"
+          "transferDivision": "Pale Lodge Expedition Security Division",
+          "portrait": "assets/portraits/009-0041.webp"
         }
       ]
     },
@@ -2040,7 +2154,8 @@ window.TEAM009_DATA = {
             805,
             804
           ],
-          "finalExpedition": "The Procession of Hollow Kings"
+          "finalExpedition": "The Procession of Hollow Kings",
+          "portrait": "assets/portraits/009-0036.webp"
         },
         {
           "id": "009-0038",
@@ -2053,7 +2168,8 @@ window.TEAM009_DATA = {
           "serviceCycles": [
             805
           ],
-          "finalExpedition": "The Ward of Unfinished Lives"
+          "finalExpedition": "The Ward of Unfinished Lives",
+          "portrait": "assets/portraits/009-0038.webp"
         },
         {
           "id": "009-0039",
@@ -2066,7 +2182,8 @@ window.TEAM009_DATA = {
           "serviceCycles": [
             805
           ],
-          "finalExpedition": "The Ward of Unfinished Lives"
+          "finalExpedition": "The Ward of Unfinished Lives",
+          "portrait": "assets/portraits/009-0039.webp"
         }
       ]
     },
@@ -2089,7 +2206,8 @@ window.TEAM009_DATA = {
             804,
             803
           ],
-          "finalExpedition": "The Lighthouse at the End of Everything"
+          "finalExpedition": "The Lighthouse at the End of Everything",
+          "portrait": "assets/portraits/009-0033.webp"
         },
         {
           "id": "009-0036",
@@ -2104,7 +2222,8 @@ window.TEAM009_DATA = {
             805,
             804
           ],
-          "finalExpedition": "The Procession of Hollow Kings"
+          "finalExpedition": "The Procession of Hollow Kings",
+          "portrait": "assets/portraits/009-0036.webp"
         },
         {
           "id": "009-0037",
@@ -2117,7 +2236,8 @@ window.TEAM009_DATA = {
           "serviceCycles": [
             804
           ],
-          "finalExpedition": "The Lighthouse at the End of Everything"
+          "finalExpedition": "The Lighthouse at the End of Everything",
+          "portrait": "assets/portraits/009-0037.webp"
         }
       ]
     },
@@ -2140,7 +2260,8 @@ window.TEAM009_DATA = {
             804,
             803
           ],
-          "finalExpedition": "The Lighthouse at the End of Everything"
+          "finalExpedition": "The Lighthouse at the End of Everything",
+          "portrait": "assets/portraits/009-0033.webp"
         },
         {
           "id": "009-0034",
@@ -2153,7 +2274,8 @@ window.TEAM009_DATA = {
           "serviceCycles": [
             803
           ],
-          "finalExpedition": "The Museum of Things That Never Were"
+          "finalExpedition": "The Museum of Things That Never Were",
+          "portrait": "assets/portraits/009-0034.webp"
         },
         {
           "id": "009-0035",
@@ -2166,7 +2288,8 @@ window.TEAM009_DATA = {
           "serviceCycles": [
             803
           ],
-          "finalExpedition": "The Museum of Things That Never Were"
+          "finalExpedition": "The Museum of Things That Never Were",
+          "portrait": "assets/portraits/009-0035.webp"
         }
       ]
     },
@@ -2190,7 +2313,8 @@ window.TEAM009_DATA = {
             801,
             800
           ],
-          "finalExpedition": "The Cathedral of Empty Voices"
+          "finalExpedition": "The Cathedral of Empty Voices",
+          "portrait": "assets/portraits/009-0027.webp"
         },
         {
           "id": "009-0031",
@@ -2203,7 +2327,8 @@ window.TEAM009_DATA = {
           "serviceCycles": [
             802
           ],
-          "finalExpedition": "The Cathedral of Empty Voices"
+          "finalExpedition": "The Cathedral of Empty Voices",
+          "portrait": "assets/portraits/009-0031.webp"
         },
         {
           "id": "009-0032",
@@ -2216,7 +2341,8 @@ window.TEAM009_DATA = {
           "serviceCycles": [
             802
           ],
-          "finalExpedition": "The Cathedral of Empty Voices"
+          "finalExpedition": "The Cathedral of Empty Voices",
+          "portrait": "assets/portraits/009-0032.webp"
         }
       ]
     },
@@ -2240,7 +2366,8 @@ window.TEAM009_DATA = {
             801,
             800
           ],
-          "finalExpedition": "The Cathedral of Empty Voices"
+          "finalExpedition": "The Cathedral of Empty Voices",
+          "portrait": "assets/portraits/009-0027.webp"
         },
         {
           "id": "009-0029",
@@ -2253,7 +2380,8 @@ window.TEAM009_DATA = {
           "serviceCycles": [
             801
           ],
-          "finalExpedition": "The Mercy of Forgotten Things"
+          "finalExpedition": "The Mercy of Forgotten Things",
+          "portrait": "assets/portraits/009-0029.webp"
         },
         {
           "id": "009-0030",
@@ -2266,7 +2394,8 @@ window.TEAM009_DATA = {
           "serviceCycles": [
             801
           ],
-          "finalExpedition": "The Mercy of Forgotten Things"
+          "finalExpedition": "The Mercy of Forgotten Things",
+          "portrait": "assets/portraits/009-0030.webp"
         }
       ]
     },
@@ -2290,7 +2419,8 @@ window.TEAM009_DATA = {
             799,
             798
           ],
-          "finalExpedition": "The Last Light of Autumn"
+          "finalExpedition": "The Last Light of Autumn",
+          "portrait": "assets/portraits/009-0025.webp"
         },
         {
           "id": "009-0027",
@@ -2305,7 +2435,8 @@ window.TEAM009_DATA = {
             801,
             800
           ],
-          "finalExpedition": "The Cathedral of Empty Voices"
+          "finalExpedition": "The Cathedral of Empty Voices",
+          "portrait": "assets/portraits/009-0027.webp"
         },
         {
           "id": "009-0028",
@@ -2318,7 +2449,8 @@ window.TEAM009_DATA = {
           "serviceCycles": [
             800
           ],
-          "finalExpedition": "The Last Light of Autumn"
+          "finalExpedition": "The Last Light of Autumn",
+          "portrait": "assets/portraits/009-0028.webp"
         }
       ]
     },
@@ -2343,7 +2475,8 @@ window.TEAM009_DATA = {
             797
           ],
           "finalExpedition": "The Children of Yesterday",
-          "transferDivision": "Pale Lodge (division not recorded)"
+          "transferDivision": "Pale Lodge (division not recorded)",
+          "portrait": "assets/portraits/009-0022.webp"
         },
         {
           "id": "009-0025",
@@ -2358,7 +2491,8 @@ window.TEAM009_DATA = {
             799,
             798
           ],
-          "finalExpedition": "The Last Light of Autumn"
+          "finalExpedition": "The Last Light of Autumn",
+          "portrait": "assets/portraits/009-0025.webp"
         },
         {
           "id": "009-0026",
@@ -2371,7 +2505,8 @@ window.TEAM009_DATA = {
           "serviceCycles": [
             799
           ],
-          "finalExpedition": "The Children of Yesterday"
+          "finalExpedition": "The Children of Yesterday",
+          "portrait": "assets/portraits/009-0026.webp"
         }
       ]
     },
@@ -2396,7 +2531,8 @@ window.TEAM009_DATA = {
             797
           ],
           "finalExpedition": "The Children of Yesterday",
-          "transferDivision": "Pale Lodge (division not recorded)"
+          "transferDivision": "Pale Lodge (division not recorded)",
+          "portrait": "assets/portraits/009-0022.webp"
         },
         {
           "id": "009-0024",
@@ -2410,7 +2546,8 @@ window.TEAM009_DATA = {
             798,
             797
           ],
-          "finalExpedition": "The House of Unwritten Names"
+          "finalExpedition": "The House of Unwritten Names",
+          "portrait": "assets/portraits/009-0024.webp"
         },
         {
           "id": "009-0025",
@@ -2425,7 +2562,8 @@ window.TEAM009_DATA = {
             799,
             798
           ],
-          "finalExpedition": "The Last Light of Autumn"
+          "finalExpedition": "The Last Light of Autumn",
+          "portrait": "assets/portraits/009-0025.webp"
         }
       ]
     },
@@ -2450,7 +2588,8 @@ window.TEAM009_DATA = {
             797
           ],
           "finalExpedition": "The Children of Yesterday",
-          "transferDivision": "Pale Lodge (division not recorded)"
+          "transferDivision": "Pale Lodge (division not recorded)",
+          "portrait": "assets/portraits/009-0022.webp"
         },
         {
           "id": "009-0023",
@@ -2463,7 +2602,8 @@ window.TEAM009_DATA = {
           "serviceCycles": [
             797
           ],
-          "finalExpedition": "The King Beneath the Ash"
+          "finalExpedition": "The King Beneath the Ash",
+          "portrait": "assets/portraits/009-0023.webp"
         },
         {
           "id": "009-0024",
@@ -2477,7 +2617,8 @@ window.TEAM009_DATA = {
             798,
             797
           ],
-          "finalExpedition": "The House of Unwritten Names"
+          "finalExpedition": "The House of Unwritten Names",
+          "portrait": "assets/portraits/009-0024.webp"
         }
       ]
     },
@@ -2502,7 +2643,8 @@ window.TEAM009_DATA = {
             794
           ],
           "finalExpedition": "The City That Forgot Its Dead",
-          "transferDivision": "Pale Lodge (division not recorded)"
+          "transferDivision": "Pale Lodge (division not recorded)",
+          "portrait": "assets/portraits/009-0015.webp"
         },
         {
           "id": "009-0020",
@@ -2515,7 +2657,8 @@ window.TEAM009_DATA = {
           "serviceCycles": [
             796
           ],
-          "finalExpedition": "The City That Forgot Its Dead"
+          "finalExpedition": "The City That Forgot Its Dead",
+          "portrait": "assets/portraits/009-0020.webp"
         },
         {
           "id": "009-0021",
@@ -2528,7 +2671,8 @@ window.TEAM009_DATA = {
           "serviceCycles": [
             796
           ],
-          "finalExpedition": "The City That Forgot Its Dead"
+          "finalExpedition": "The City That Forgot Its Dead",
+          "portrait": "assets/portraits/009-0021.webp"
         }
       ]
     },
@@ -2553,7 +2697,8 @@ window.TEAM009_DATA = {
             794
           ],
           "finalExpedition": "The City That Forgot Its Dead",
-          "transferDivision": "Pale Lodge (division not recorded)"
+          "transferDivision": "Pale Lodge (division not recorded)",
+          "portrait": "assets/portraits/009-0015.webp"
         },
         {
           "id": "009-0018",
@@ -2567,7 +2712,8 @@ window.TEAM009_DATA = {
             795
           ],
           "finalExpedition": "The Silence Between Stars",
-          "transferDivision": "Pale Lodge (division not recorded)"
+          "transferDivision": "Pale Lodge (division not recorded)",
+          "portrait": "assets/portraits/009-0018.webp"
         },
         {
           "id": "009-0019",
@@ -2580,7 +2726,8 @@ window.TEAM009_DATA = {
           "serviceCycles": [
             795
           ],
-          "finalExpedition": "The Silence Between Stars"
+          "finalExpedition": "The Silence Between Stars",
+          "portrait": "assets/portraits/009-0019.webp"
         }
       ]
     },
@@ -2605,7 +2752,8 @@ window.TEAM009_DATA = {
             794
           ],
           "finalExpedition": "The City That Forgot Its Dead",
-          "transferDivision": "Pale Lodge (division not recorded)"
+          "transferDivision": "Pale Lodge (division not recorded)",
+          "portrait": "assets/portraits/009-0015.webp"
         },
         {
           "id": "009-0016",
@@ -2618,7 +2766,8 @@ window.TEAM009_DATA = {
           "serviceCycles": [
             794
           ],
-          "finalExpedition": "The Lanterns of the Unreturned"
+          "finalExpedition": "The Lanterns of the Unreturned",
+          "portrait": "assets/portraits/009-0016.webp"
         },
         {
           "id": "009-0017",
@@ -2631,7 +2780,8 @@ window.TEAM009_DATA = {
           "serviceCycles": [
             794
           ],
-          "finalExpedition": "The Lanterns of the Unreturned"
+          "finalExpedition": "The Lanterns of the Unreturned",
+          "portrait": "assets/portraits/009-0017.webp"
         }
       ]
     },
@@ -2654,7 +2804,8 @@ window.TEAM009_DATA = {
             793,
             792
           ],
-          "finalExpedition": "The Sea Without a Shore"
+          "finalExpedition": "The Sea Without a Shore",
+          "portrait": "assets/portraits/009-0013.webp"
         },
         {
           "id": "009-0011",
@@ -2671,7 +2822,8 @@ window.TEAM009_DATA = {
           "finalExpedition": "The Sea Without a Shore",
           "leaveCycles": [
             792
-          ]
+          ],
+          "portrait": "assets/portraits/009-0011.webp"
         },
         {
           "id": "009-0014",
@@ -2684,7 +2836,8 @@ window.TEAM009_DATA = {
           "serviceCycles": [
             793
           ],
-          "finalExpedition": "The Sea Without a Shore"
+          "finalExpedition": "The Sea Without a Shore",
+          "portrait": "assets/portraits/009-0014.webp"
         }
       ]
     },
@@ -2709,7 +2862,8 @@ window.TEAM009_DATA = {
             790
           ],
           "finalExpedition": "The Garden That Remembered",
-          "transferDivision": "Pale Lodge (division not recorded)"
+          "transferDivision": "Pale Lodge (division not recorded)",
+          "portrait": "assets/portraits/009-0008.webp"
         },
         {
           "id": "009-0012",
@@ -2722,7 +2876,8 @@ window.TEAM009_DATA = {
           "serviceCycles": [
             792
           ],
-          "finalExpedition": "The Garden That Remembered"
+          "finalExpedition": "The Garden That Remembered",
+          "portrait": "assets/portraits/009-0012.webp"
         },
         {
           "id": "009-0013",
@@ -2736,7 +2891,8 @@ window.TEAM009_DATA = {
             793,
             792
           ],
-          "finalExpedition": "The Sea Without a Shore"
+          "finalExpedition": "The Sea Without a Shore",
+          "portrait": "assets/portraits/009-0013.webp"
         }
       ]
     },
@@ -2761,7 +2917,8 @@ window.TEAM009_DATA = {
             790
           ],
           "finalExpedition": "The Garden That Remembered",
-          "transferDivision": "Pale Lodge (division not recorded)"
+          "transferDivision": "Pale Lodge (division not recorded)",
+          "portrait": "assets/portraits/009-0008.webp"
         },
         {
           "id": "009-0010",
@@ -2774,7 +2931,8 @@ window.TEAM009_DATA = {
           "serviceCycles": [
             791
           ],
-          "finalExpedition": "The Bell That Rang Tomorrow"
+          "finalExpedition": "The Bell That Rang Tomorrow",
+          "portrait": "assets/portraits/009-0010.webp"
         },
         {
           "id": "009-0011",
@@ -2791,7 +2949,8 @@ window.TEAM009_DATA = {
           "finalExpedition": "The Sea Without a Shore",
           "leaveCycles": [
             792
-          ]
+          ],
+          "portrait": "assets/portraits/009-0011.webp"
         }
       ]
     },
@@ -2814,7 +2973,8 @@ window.TEAM009_DATA = {
             790,
             789
           ],
-          "finalExpedition": "The Orchard of Borrowed Suns"
+          "finalExpedition": "The Orchard of Borrowed Suns",
+          "portrait": "assets/portraits/009-0007.webp"
         },
         {
           "id": "009-0008",
@@ -2830,7 +2990,8 @@ window.TEAM009_DATA = {
             790
           ],
           "finalExpedition": "The Garden That Remembered",
-          "transferDivision": "Pale Lodge (division not recorded)"
+          "transferDivision": "Pale Lodge (division not recorded)",
+          "portrait": "assets/portraits/009-0008.webp"
         },
         {
           "id": "009-0009",
@@ -2843,7 +3004,8 @@ window.TEAM009_DATA = {
           "serviceCycles": [
             790
           ],
-          "finalExpedition": "The Orchard of Borrowed Suns"
+          "finalExpedition": "The Orchard of Borrowed Suns",
+          "portrait": "assets/portraits/009-0009.webp"
         }
       ]
     },
@@ -2868,7 +3030,8 @@ window.TEAM009_DATA = {
             787
           ],
           "finalExpedition": "The Choir Beneath the Clouds",
-          "transferDivision": "Pale Lodge (division not recorded)"
+          "transferDivision": "Pale Lodge (division not recorded)",
+          "portrait": "assets/portraits/009-0002.webp"
         },
         {
           "id": "009-0006",
@@ -2881,7 +3044,8 @@ window.TEAM009_DATA = {
           "serviceCycles": [
             789
           ],
-          "finalExpedition": "The Choir Beneath the Clouds"
+          "finalExpedition": "The Choir Beneath the Clouds",
+          "portrait": "assets/portraits/009-0006.webp"
         },
         {
           "id": "009-0007",
@@ -2895,7 +3059,8 @@ window.TEAM009_DATA = {
             790,
             789
           ],
-          "finalExpedition": "The Orchard of Borrowed Suns"
+          "finalExpedition": "The Orchard of Borrowed Suns",
+          "portrait": "assets/portraits/009-0007.webp"
         }
       ]
     },
@@ -2920,7 +3085,8 @@ window.TEAM009_DATA = {
             787
           ],
           "finalExpedition": "The Choir Beneath the Clouds",
-          "transferDivision": "Pale Lodge (division not recorded)"
+          "transferDivision": "Pale Lodge (division not recorded)",
+          "portrait": "assets/portraits/009-0002.webp"
         },
         {
           "id": "009-0004",
@@ -2933,7 +3099,8 @@ window.TEAM009_DATA = {
           "serviceCycles": [
             788
           ],
-          "finalExpedition": "The Glasswake Incident"
+          "finalExpedition": "The Glasswake Incident",
+          "portrait": "assets/portraits/009-0004.webp"
         },
         {
           "id": "009-0005",
@@ -2947,7 +3114,8 @@ window.TEAM009_DATA = {
             788
           ],
           "finalExpedition": "The Glasswake Incident",
-          "transferDivision": "Pale Lodge (division not recorded)"
+          "transferDivision": "Pale Lodge (division not recorded)",
+          "portrait": "assets/portraits/009-0005.webp"
         }
       ]
     },
@@ -2969,7 +3137,8 @@ window.TEAM009_DATA = {
           "serviceCycles": [
             787
           ],
-          "finalExpedition": "The Hollow Meridian"
+          "finalExpedition": "The Hollow Meridian",
+          "portrait": "assets/portraits/009-0001.webp"
         },
         {
           "id": "009-0002",
@@ -2985,7 +3154,8 @@ window.TEAM009_DATA = {
             787
           ],
           "finalExpedition": "The Choir Beneath the Clouds",
-          "transferDivision": "Pale Lodge (division not recorded)"
+          "transferDivision": "Pale Lodge (division not recorded)",
+          "portrait": "assets/portraits/009-0002.webp"
         },
         {
           "id": "009-0003",
@@ -2998,7 +3168,8 @@ window.TEAM009_DATA = {
           "serviceCycles": [
             787
           ],
-          "finalExpedition": "The Hollow Meridian"
+          "finalExpedition": "The Hollow Meridian",
+          "portrait": "assets/portraits/009-0003.webp"
         }
       ]
     }
