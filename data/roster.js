@@ -555,7 +555,8 @@ window.TEAM009_DATA = {
             834
           ],
           "finalExpedition": "The Lighthouse That Followed Us",
-          "transferDivision": "Pale Lodge Dimensional Cartography Division"
+          "transferDivision": "Pale Lodge Dimensional Cartography Division",
+          "gender": "Male"
         }
       ]
     },
