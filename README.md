@@ -89,7 +89,7 @@ The `index.html` includes `<meta name="robots" content="noindex, nofollow">` to 
 
 ## Upload original Strider portraits
 
-The verified complete image package is `team-nine-all-117-portraits.zip`, built from the user-supplied `Photos.zip` plus three separately submitted images. It contains **117 name-matched portraits** as `assets/portraits/009-XXXX.webp`, plus a manifest. All permanent personnel IDs (009-0001 through 009-0117) have a unique image. The extra 13 drawings are excluded. The separately supplied picture labeled Captain Isolde Marr appears masculine-presenting; its filename is accepted as the user's stated assignment until they decide otherwise.
+The verified complete image package is `team-nine-all-117-portraits.zip`, built from the user-supplied `Photos.zip` plus three separately submitted images. It contains **117 name-matched portraits** as `assets/portraits/009-XXXX.webp`, plus a manifest. All permanent personnel IDs (009-0001 through 009-0117) have a unique image. The extra 13 drawings are excluded. Captain Isolde Marr (009-0099) is explicitly canonically male, by user decision, and the supplied picture is his official portrait. He remains a Human D&D 5e Strider permanently transferred in Cycle 0834 to Pale Lodge Dimensional Cartography Division.
 
 To import:
 
