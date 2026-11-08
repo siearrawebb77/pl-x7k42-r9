@@ -1,0 +1,86 @@
+name: Import Team 009 Portraits
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - team-nine-portraits-upload.zip
+
+permissions:
+  contents: write
+
+jobs:
+  import-portraits:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate and install portraits by permanent Strider ID
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import json, re, zipfile
+          from pathlib import Path
+          package = Path('team-nine-portraits-upload.zip')
+          roster_path = Path('data/roster.js')
+          index_path = Path('index.html')
+          if not package.exists():
+              raise SystemExit('Expected portrait ZIP at repository root')
+          text = roster_path.read_text(encoding='utf-8')
+          marker = 'window.TEAM009_DATA = '
+          start = text.find(marker)
+          if start < 0:
+              raise SystemExit('Personnel archive data not found')
+          prefix = text[:start + len(marker)]
+          data = json.loads(text[start + len(marker):].strip().removesuffix(';'))
+          valid_ids = {p['id'] for c in data['cycles'] for p in c['members'] if p.get('id')}
+          installed = set()
+          with zipfile.ZipFile(package) as z:
+              files = [info for info in z.infolist() if not info.is_dir()]
+              for info in files:
+                  name = info.filename
+                  if name == 'PORTRAIT-MANIFEST.json':
+                      continue
+                  if not re.fullmatch(r'assets/portraits/009-\d{4}\.webp', name):
+                      raise SystemExit('Unexpected image path in ZIP: ' + name)
+                  strider_id = Path(name).stem
+                  if strider_id not in valid_ids:
+                      raise SystemExit('Portrait has no official Strider: ' + strider_id)
+                  if strider_id in installed:
+                      raise SystemExit('Duplicate portrait: ' + strider_id)
+                  if info.file_size > 5000000:
+                      raise SystemExit('Image too large: ' + name)
+                  raw = z.read(info)
+                  if len(raw) < 16 or raw[:4] != b'RIFF' or raw[8:12] != b'WEBP':
+                      raise SystemExit('Invalid WEBP image: ' + name)
+                  target = Path(name)
+                  target.parent.mkdir(parents=True, exist_ok=True)
+                  target.write_bytes(raw)
+                  installed.add(strider_id)
+          if len(installed) != 114:
+              raise SystemExit('Expected 114 verified official portraits, got %d' % len(installed))
+          updated = 0
+          for cycle in data['cycles']:
+              for member in cycle['members']:
+                  if member.get('id') in installed:
+                      member['portrait'] = 'assets/portraits/' + member['id'] + '.webp'
+                      updated += 1
+          roster_path.write_text(prefix + json.dumps(data, ensure_ascii=False, indent=2) + ';\n', encoding='utf-8')
+          html = index_path.read_text(encoding='utf-8')
+          for name in ('data/roster.js', 'app.js'):
+              html, count = re.subn(r'(?<=src=")' + re.escape(name) + r'(?:\?v=[^"]+)?',
+                                    name + '?v=portraits114-v1', html)
+              if count != 1:
+                  raise SystemExit('Expected one ' + name + ' script tag, got ' + str(count))
+          index_path.write_text(html, encoding='utf-8')
+          print('Imported %d unique portraits across %d historical appearances' % (len(installed), updated))
+          print('Three missing portraits remain intentionally unassigned')
+          PY
+      - name: Commit imported portraits and discard temporary ZIP
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/portraits/ data/roster.js index.html
+          git rm -f --ignore-unmatch team-nine-portraits-upload.zip
+          git commit -m "Import 114 approved Team 009 Strider portraits"
+          git push
