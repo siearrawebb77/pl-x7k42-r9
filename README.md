@@ -81,7 +81,7 @@ The `index.html` includes `<meta name="robots" content="noindex, nofollow">` to 
 
 - **Historical range:** Cycles 0787–0843 (old Cycles 0742–0798 plus 45).
 - **Current campaign:** Cycle 0844, three player positions UNASSIGNED.
-- **Complete historical roster:** 57 cycles × three Striders = 171 expedition slots, 117 unique personnel IDs, 98 deaths, 17 permanent transfers, one retired veteran (Haldren Stonebrook), and one final-cycle survivor (Nerissa Tideveil).
+- **Complete historical roster:** 57 cycles × three Striders = 171 expedition slots, 117 unique personnel IDs, 98 deaths, 18 permanent transfers, one retired veteran (Haldren Stonebrook), and no active historical survivor. Nerissa Tideveil (009-0116) survived the expedition and transferred permanently after Cycle 0843.
 - **Mortality:** 98/171 = 57.3% of deployment slots.
 - **Preserved:** first/last cycles, every service-cycle ID and outcome, expeditions, locations, annex designations, recorded permanent transfers, IDs, original portrait description text where available.
 - **Artwork limitation:** source first-portrait image assets are not included in the exported archive; until matching assets are added, the Pale Lodge emblem is used for all historical Striders. Do not substitute another Strider's portrait.
