@@ -4,7 +4,7 @@ on:
   push:
     branches: [main]
     paths:
-      - team-nine-portraits-upload.zip
+      - team-nine-all-117-portraits.zip
 
 permissions:
   contents: write
@@ -20,7 +20,7 @@ jobs:
           python3 - <<'PY'
           import json, re, zipfile
           from pathlib import Path
-          package = Path('team-nine-portraits-upload.zip')
+          package = Path('team-nine-all-117-portraits.zip')
           roster_path = Path('data/roster.js')
           index_path = Path('index.html')
           if not package.exists():
@@ -56,8 +56,8 @@ jobs:
                   target.parent.mkdir(parents=True, exist_ok=True)
                   target.write_bytes(raw)
                   installed.add(strider_id)
-          if len(installed) != 114:
-              raise SystemExit('Expected 114 verified official portraits, got %d' % len(installed))
+          if len(installed) != 117:
+              raise SystemExit('Expected 117 verified official portraits, got %d' % len(installed))
           updated = 0
           for cycle in data['cycles']:
               for member in cycle['members']:
@@ -68,12 +68,12 @@ jobs:
           html = index_path.read_text(encoding='utf-8')
           for name in ('data/roster.js', 'app.js'):
               html, count = re.subn(r'(?<=src=")' + re.escape(name) + r'(?:\?v=[^"]+)?',
-                                    name + '?v=portraits114-v1', html)
+                                    name + '?v=portraits117-v1', html)
               if count != 1:
                   raise SystemExit('Expected one ' + name + ' script tag, got ' + str(count))
           index_path.write_text(html, encoding='utf-8')
           print('Imported %d unique portraits across %d historical appearances' % (len(installed), updated))
-          print('Three missing portraits remain intentionally unassigned')
+          print('All 117 official portrait IDs are now assigned')
           PY
       - name: Commit imported portraits and discard temporary ZIP
         shell: bash
@@ -81,6 +81,6 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add assets/portraits/ data/roster.js index.html
-          git rm -f --ignore-unmatch team-nine-portraits-upload.zip
-          git commit -m "Import 114 approved Team 009 Strider portraits"
+          git rm -f --ignore-unmatch team-nine-all-117-portraits.zip
+          git commit -m "Import 117 original Team 009 Strider portraits"
           git push
