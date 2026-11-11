@@ -9,13 +9,13 @@ window.TEAM009_TRANSMISSIONS = [
     "messages": [
       {
         "user": "quietvoice",
-        "cycle": 837,
+        "cycle": 732,
         "text": "Who was The Third Uninvited?",
-        "linkCycle": 836
+        "linkCycle": 727
       },
       {
         "user": "hushnow",
-        "cycle": 837,
+        "cycle": 732,
         "text": "I was hoping you knew. I don't like that there's a third."
       }
     ]
@@ -25,13 +25,13 @@ window.TEAM009_TRANSMISSIONS = [
     "messages": [
       {
         "user": "moth_in_glass",
-        "cycle": 836,
+        "cycle": 727,
         "text": "Pellik Sixpockets owed me twelve credits.",
-        "linkCycle": 835
+        "linkCycle": 725
       },
       {
         "user": "needlepoint",
-        "cycle": 836,
+        "cycle": 727,
         "text": "I don't think you're getting those back."
       }
     ]
@@ -56,13 +56,13 @@ window.TEAM009_TRANSMISSIONS = [
     "messages": [
       {
         "user": "mended_sleeve",
-        "cycle": 838,
+        "cycle": 751,
         "text": "Brunna Emberpick looked like she'd punch death in the face.",
-        "linkCycle": 837
+        "linkCycle": 732
       },
       {
         "user": "bad_advice",
-        "cycle": 838,
+        "cycle": 751,
         "text": "She probably did. I'm guessing death punched back."
       }
     ]
@@ -82,13 +82,13 @@ window.TEAM009_TRANSMISSIONS = [
     "messages": [
       {
         "user": "copperteeth",
-        "cycle": 824,
+        "cycle": 629,
         "text": "Brugg Mossmantle hated being called a good boy.",
-        "linkCycle": 823
+        "linkCycle": 621
       },
       {
         "user": "knucklehead",
-        "cycle": 824,
+        "cycle": 629,
         "text": "I feel like that's a mistake you'd only make once."
       }
     ]
@@ -113,9 +113,9 @@ window.TEAM009_TRANSMISSIONS = [
     "messages": [
       {
         "user": "velvetglove",
-        "cycle": 842,
+        "cycle": 818,
         "text": "Elaris Wintermere always looked so composed.",
-        "linkCycle": 841
+        "linkCycle": 794
       }
     ]
   },
@@ -124,13 +124,13 @@ window.TEAM009_TRANSMISSIONS = [
     "messages": [
       {
         "user": "wet_ink",
-        "cycle": 841,
+        "cycle": 794,
         "text": "Rhaelis Sunstride was a cat person. Don't cats get nine lives?",
-        "linkCycle": 840
+        "linkCycle": 782
       },
       {
         "user": "plain_speaking",
-        "cycle": 841,
+        "cycle": 794,
         "text": "Apparently Team Nine doesn't honor those."
       }
     ]
@@ -140,13 +140,13 @@ window.TEAM009_TRANSMISSIONS = [
     "messages": [
       {
         "user": "blackcoffeecold",
-        "cycle": 842,
+        "cycle": 818,
         "text": "I heard Tavros Kel was very good at keeping secrets.",
-        "linkCycle": 841
+        "linkCycle": 794
       },
       {
         "user": "lowtide",
-        "cycle": 842,
+        "cycle": 818,
         "text": "Well, he's certainly committed to it now."
       }
     ]
@@ -166,9 +166,9 @@ window.TEAM009_TRANSMISSIONS = [
     "messages": [
       {
         "user": "page_17",
-        "cycle": 800,
+        "cycle": 393,
         "text": "Elara Voss survived multiple cycles. That's impressive.",
-        "linkCycle": 799
+        "linkCycle": 386
       }
     ]
   },
@@ -234,13 +234,13 @@ window.TEAM009_TRANSMISSIONS = [
     "messages": [
       {
         "user": "bluebutton",
-        "cycle": 793,
+        "cycle": 362,
         "text": "Eirwen Mosswake never seemed afraid of Team Nine.",
-        "linkCycle": 792
+        "linkCycle": 359
       },
       {
         "user": "missed_call",
-        "cycle": 793,
+        "cycle": 362,
         "text": "She was. She was just better at hiding it."
       }
     ]
@@ -260,9 +260,9 @@ window.TEAM009_TRANSMISSIONS = [
     "messages": [
       {
         "user": "hollowlaugh",
-        "cycle": 819,
+        "cycle": 575,
         "text": "Has anyone actually heard Mirelle Duskwisp laugh?",
-        "linkCycle": 818
+        "linkCycle": 562
       }
     ]
   },
@@ -286,13 +286,13 @@ window.TEAM009_TRANSMISSIONS = [
     "messages": [
       {
         "user": "nightjar",
-        "cycle": 839,
+        "cycle": 767,
         "text": "Theron Valecrest survived three cycles and transferred.",
-        "linkCycle": 838
+        "linkCycle": 751
       },
       {
         "user": "too_soon",
-        "cycle": 839,
+        "cycle": 767,
         "text": "Three cycles? I'd have transferred after hearing the name Team Nine."
       }
     ]

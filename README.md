@@ -1,6 +1,6 @@
 # TEAM 009 // STRIDER RELAY PERSONNEL ARCHIVE
 
-A free, static, mobile-friendly D&D campaign website. The published roster contains the canonical Team 009 historical archive: 57 cycles (0787–0843), 117 unique Striders, and Cycle 0844 with three UNASSIGNED player positions. These are the approved Cycle 0742–0798 records shifted forward by 45. Inter-Strider relay notices are atmospheric interface text.
+A free, static, mobile-friendly D&D campaign website. The published roster contains the canonical Team 009 historical archive: 57 historical expedition records (Cycles 0282–0843, spanning approximately 20 Earth years), 117 unique Striders, and Cycle 0844 with three UNASSIGNED player positions. These represent the original 57 approved roster snapshots, now renumbered with irregular chronological gaps. An Archives cycle equals 13 Earth days; each published cycle is a recorded expedition, not a mandatory complete team replacement. Inter-Strider relay notices are atmospheric interface text.
 
 ## Open it
 
@@ -48,7 +48,7 @@ Open `data/transmissions.js`. Add new conversation objects at the **top** of the
 - Clicking a service-history link restores the full gallery and creates a step-by-step temporary return trail.
 - All changes are visible after the player refreshes or reconnects, not live mid-session.
 - Historical portrait IMAGE FILES were not bundled with the conversation archive. The website deliberately displays the Pale Lodge insignia rather than reusing another character's portrait. Exact known approved illustration descriptions are preserved in `window.TEAM009_DATA.portraitPrompts`, keyed by permanent ID, for later recreation or matching to original files.
-- All historical records are populated for 0787–0843. The site preserves the three unassigned 0844 slots. Check individual character images before publishing them because text portrait prompts are not the same as original image files.
+- All 57 historical records are populated across Cycles 0282–0843. The site preserves the three unassigned 0844 slots. Check individual character images before publishing them because text portrait prompts are not the same as original image files.
 
 
 ### Custom missing-portrait artwork
@@ -79,13 +79,13 @@ The `index.html` includes `<meta name="robots" content="noindex, nofollow">` to 
 
 ## Published 2026-11-07 canonical archive
 
-- **Historical range:** Cycles 0787–0843 (old Cycles 0742–0798 plus 45).
+- **Historical range:** 57 recorded expedition rosters across Cycles 0282–0843, approximately 20 Earth years. The current recruitment remains Cycle 0844.
 - **Current campaign:** Cycle 0844, three player positions UNASSIGNED.
-- **Complete historical roster:** 57 cycles × three Striders = 171 expedition slots, 117 unique personnel IDs, 98 deaths, 18 permanent transfers, one retired veteran (Haldren Stonebrook), and no active historical survivor. Nerissa Tideveil (009-0116) survived the expedition and transferred permanently after Cycle 0843.
+- **Complete historical roster:** 57 recorded historical roster entries × three Striders = 171 expedition slots, 117 unique personnel IDs, 98 deaths, 18 permanent transfers, one retired veteran (Haldren Stonebrook), and no active historical survivor. Nerissa Tideveil (009-0116) survived the expedition and transferred permanently after Cycle 0843.
 - **Mortality:** 98/171 = 57.3% of deployment slots.
-- **Preserved:** first/last cycles, every service-cycle ID and outcome, expeditions, locations, annex designations, recorded permanent transfers, IDs, original portrait description text where available.
+- **Preserved:** all 117 personnel identities, expedition assignments and statuses, deaths, transfers, locations, annexes, portraits, and original portrait descriptions. Cycle numbers and first/last/service/leave references were consistently remapped to the new ~20-year chronology.
 - **Artwork limitation:** source first-portrait image assets were not in the first website export, but an independently verified 117-file portrait upload package is available. Until the package is imported, the Pale Lodge emblem is used for historical Striders. Do not substitute another Strider's portrait.
-- **Relay:** Demo references were replaced with fictional administrative notices that link to published cycles.
+- **Relay:** All 24 approved fictional Strider Network conversations were preserved verbatim, and message cycle stamps and linked archival cycles were updated to the new chronology.
 
 ## Upload original Strider portraits
 
@@ -96,3 +96,12 @@ To publish all portraits, upload all eight files named `team-nine-portraits-part
 The GitHub workflow `Import Team 009 Portraits` automatically waits until all eight ZIP files exist on `main`. It then validates all 117 permanent personnel IDs, copies portraits to `assets/portraits/009-XXXX.webp`, links each member's `portrait` property in `data/roster.js` for every appearance, and removes the temporary ZIP parts. GitHub Pages will then deploy the updated website. No other personnel fields are changed.
 
 If the import workflow fails, inspect its Actions run before re-uploading. The eight parts together contain each of the 117 portraits exactly once.
+
+## ~20-year historical timeline (November 2026 revision)
+
+- Archive timekeeping: **1 cycle = 13 Earth days**.
+- Team Nine was reactivated approximately **20 Earth years** before the current recruitment, Cycle 0844.
+- **Cycle 0282** is the earliest displayed expedition record; **Cycle 0843** is the final historical expedition; **Cycle 0844** remains current recruitment.
+- The 57 historical entries are selected expedition/personnel snapshots, **not** an uninterrupted 57-cycle period. Intervals range from one cycle to 37 cycles (~1.3 years), with irregular gaps and returning personnel. Some individual service records span more than two years.
+- The `originalCycle` fields retain the source numbering (0742–0798) for provenance only, not current in-world dates.
+- The legacy public archive currently displays three slots in Cycle 0844. The planned private Strider Relay will support the DM's optional fourth slot, without altering the historical three-person records.

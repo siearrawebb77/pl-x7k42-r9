@@ -1,14 +1,16 @@
 /* PALE LODGE // CANONICAL TEAM 009 ARCHIVE
-   Cycle renumbering: historical Cycle 0742–0798 => 0787–0843 (+45).
-   Cycle 0844 is the current recruitment cycle with 3 UNASSIGNED slots.
-   57 completed historical cycles, 117 unique Striders, 171 deployment slots.
-   Historical outcomes: 98 deceased, 18 permanent transfers, 1 retirement,
-   0 unassigned surviving historical Striders: Nerissa Tideveil (009-0116)
-   transferred after completing Cycle 0843.
-   No character portraits were provided as website asset files, so portraits
-   intentionally fall back to the original Pale Lodge emblem. Do NOT use
-   another character's image. Exact available approved portrait descriptions
-   are retained separately in portraitPrompts by permanent personnel ID.
+   Archive timekeeping: one cycle equals 13 Earth days.
+   57 expedition/personnel snapshots across Cycles 0282–0843 (~20 Earth years).
+   Records are NOT consecutive roster changes; gaps reflect operations and downtime.
+   Cycle 0844 remains the current recruitment cycle with three UNASSIGNED slots.
+   An optional fourth Cycle 0844 slot is planned for the future Strider Relay,
+   not yet active on this standalone historical archive.
+   The originalCycle field retains each record's original source number
+   (0742–0798) for provenance and is not a current in-world date.
+   57 historical records, 117 unique Striders, 171 deployment slots;
+   98 deceased, 18 permanent transfers, 1 retirement.
+   Historical portrait references and all approved portrait descriptions
+   are preserved, with the Pale Lodge emblem as the missing-image fallback.
 */
 window.TEAM009_DATA = {
   "cycles": [
@@ -51,13 +53,13 @@ window.TEAM009_DATA = {
           "species": "Half-Orc",
           "universe": "D&D 5e",
           "status": "DECEASED",
-          "firstCycle": 840,
+          "firstCycle": 782,
           "lastCycle": 843,
           "serviceCycles": [
             843,
-            842,
-            841,
-            840
+            818,
+            794,
+            782
           ],
           "finalExpedition": "The Lighthouse Beneath the Desert",
           "portrait": "assets/portraits/009-0110.webp"
@@ -95,7 +97,7 @@ window.TEAM009_DATA = {
       ]
     },
     {
-      "number": 842,
+      "number": 818,
       "mission": "The Post Office at the End of the World",
       "location": "Last Township of Greyhaven",
       "annex": "P-4168",
@@ -107,13 +109,13 @@ window.TEAM009_DATA = {
           "species": "Half-Orc",
           "universe": "D&D 5e",
           "status": "SURVIVED",
-          "firstCycle": 840,
+          "firstCycle": 782,
           "lastCycle": 843,
           "serviceCycles": [
             843,
-            842,
-            841,
-            840
+            818,
+            794,
+            782
           ],
           "finalExpedition": "The Lighthouse Beneath the Desert",
           "portrait": "assets/portraits/009-0110.webp"
@@ -124,10 +126,10 @@ window.TEAM009_DATA = {
           "species": "Hill Dwarf",
           "universe": "D&D 5e",
           "status": "DECEASED",
-          "firstCycle": 842,
-          "lastCycle": 842,
+          "firstCycle": 818,
+          "lastCycle": 818,
           "serviceCycles": [
-            842
+            818
           ],
           "finalExpedition": "The Post Office at the End of the World",
           "portrait": "assets/portraits/009-0114.webp"
@@ -138,10 +140,10 @@ window.TEAM009_DATA = {
           "species": "Ysoki",
           "universe": "Starfinder",
           "status": "TRANSFERRED",
-          "firstCycle": 842,
-          "lastCycle": 842,
+          "firstCycle": 818,
+          "lastCycle": 818,
           "serviceCycles": [
-            842
+            818
           ],
           "finalExpedition": "The Post Office at the End of the World",
           "transferDivision": "Pale Lodge Interdimensional Communications & Courier Systems Division",
@@ -150,7 +152,7 @@ window.TEAM009_DATA = {
       ]
     },
     {
-      "number": 841,
+      "number": 794,
       "mission": "The Wedding at the End of Winter",
       "location": "Frostbound Palace of Eirathen",
       "annex": "H-8264",
@@ -162,13 +164,13 @@ window.TEAM009_DATA = {
           "species": "Half-Orc",
           "universe": "D&D 5e",
           "status": "SURVIVED",
-          "firstCycle": 840,
+          "firstCycle": 782,
           "lastCycle": 843,
           "serviceCycles": [
             843,
-            842,
-            841,
-            840
+            818,
+            794,
+            782
           ],
           "finalExpedition": "The Lighthouse Beneath the Desert",
           "portrait": "assets/portraits/009-0110.webp"
@@ -179,10 +181,10 @@ window.TEAM009_DATA = {
           "species": "High Elf",
           "universe": "D&D 5e",
           "status": "DECEASED",
-          "firstCycle": 841,
-          "lastCycle": 841,
+          "firstCycle": 794,
+          "lastCycle": 794,
           "serviceCycles": [
-            841
+            794
           ],
           "finalExpedition": "The Wedding at the End of Winter",
           "portrait": "assets/portraits/009-0112.webp"
@@ -193,10 +195,10 @@ window.TEAM009_DATA = {
           "species": "Muun",
           "universe": "Star Wars",
           "status": "DECEASED",
-          "firstCycle": 841,
-          "lastCycle": 841,
+          "firstCycle": 794,
+          "lastCycle": 794,
           "serviceCycles": [
-            841
+            794
           ],
           "finalExpedition": "The Wedding at the End of Winter",
           "portrait": "assets/portraits/009-0113.webp"
@@ -204,7 +206,7 @@ window.TEAM009_DATA = {
       ]
     },
     {
-      "number": 840,
+      "number": 782,
       "mission": "The Cemetery of Unfinished Wars",
       "location": "Ashen Plains of Vel-Kareth",
       "annex": "G-1937",
@@ -216,13 +218,13 @@ window.TEAM009_DATA = {
           "species": "Pahtra",
           "universe": "Starfinder",
           "status": "DECEASED",
-          "firstCycle": 837,
-          "lastCycle": 840,
+          "firstCycle": 732,
+          "lastCycle": 782,
           "serviceCycles": [
-            840,
-            839,
-            838,
-            837
+            782,
+            767,
+            751,
+            732
           ],
           "finalExpedition": "The Cemetery of Unfinished Wars",
           "portrait": "assets/portraits/009-0106.webp"
@@ -233,13 +235,13 @@ window.TEAM009_DATA = {
           "species": "Half-Orc",
           "universe": "D&D 5e",
           "status": "SURVIVED",
-          "firstCycle": 840,
+          "firstCycle": 782,
           "lastCycle": 843,
           "serviceCycles": [
             843,
-            842,
-            841,
-            840
+            818,
+            794,
+            782
           ],
           "finalExpedition": "The Lighthouse Beneath the Desert",
           "portrait": "assets/portraits/009-0110.webp"
@@ -250,10 +252,10 @@ window.TEAM009_DATA = {
           "species": "Chiss",
           "universe": "Star Wars",
           "status": "DECEASED",
-          "firstCycle": 840,
-          "lastCycle": 840,
+          "firstCycle": 782,
+          "lastCycle": 782,
           "serviceCycles": [
-            840
+            782
           ],
           "finalExpedition": "The Cemetery of Unfinished Wars",
           "portrait": "assets/portraits/009-0111.webp"
@@ -261,7 +263,7 @@ window.TEAM009_DATA = {
       ]
     },
     {
-      "number": 839,
+      "number": 767,
       "mission": "The Moon That Knocked Three Times",
       "location": "Tidal Kingdom of Orravelle",
       "annex": "M-7406",
@@ -273,13 +275,13 @@ window.TEAM009_DATA = {
           "species": "Pahtra",
           "universe": "Starfinder",
           "status": "SURVIVED",
-          "firstCycle": 837,
-          "lastCycle": 840,
+          "firstCycle": 732,
+          "lastCycle": 782,
           "serviceCycles": [
-            840,
-            839,
-            838,
-            837
+            782,
+            767,
+            751,
+            732
           ],
           "finalExpedition": "The Cemetery of Unfinished Wars",
           "portrait": "assets/portraits/009-0106.webp"
@@ -290,10 +292,10 @@ window.TEAM009_DATA = {
           "species": "Human",
           "universe": "D&D 5e",
           "status": "DECEASED",
-          "firstCycle": 839,
-          "lastCycle": 839,
+          "firstCycle": 767,
+          "lastCycle": 767,
           "serviceCycles": [
-            839
+            767
           ],
           "finalExpedition": "The Moon That Knocked Three Times",
           "portrait": "assets/portraits/009-0108.webp"
@@ -304,10 +306,10 @@ window.TEAM009_DATA = {
           "species": "Shobhad",
           "universe": "Starfinder",
           "status": "DECEASED",
-          "firstCycle": 839,
-          "lastCycle": 839,
+          "firstCycle": 767,
+          "lastCycle": 767,
           "serviceCycles": [
-            839
+            767
           ],
           "finalExpedition": "The Moon That Knocked Three Times",
           "portrait": "assets/portraits/009-0109.webp"
@@ -315,7 +317,7 @@ window.TEAM009_DATA = {
       ]
     },
     {
-      "number": 838,
+      "number": 751,
       "mission": "The Parliament of Empty Thrones",
       "location": "Crownless City of Avarenne",
       "annex": "V-6328",
@@ -327,12 +329,12 @@ window.TEAM009_DATA = {
           "species": "Half-Elf",
           "universe": "D&D 5e",
           "status": "TRANSFERRED",
-          "firstCycle": 836,
-          "lastCycle": 838,
+          "firstCycle": 727,
+          "lastCycle": 751,
           "serviceCycles": [
-            838,
-            837,
-            836
+            751,
+            732,
+            727
           ],
           "finalExpedition": "The Parliament of Empty Thrones",
           "transferDivision": "Pale Lodge Diplomatic Anomalies & Interdimensional Governance Division",
@@ -344,13 +346,13 @@ window.TEAM009_DATA = {
           "species": "Pahtra",
           "universe": "Starfinder",
           "status": "SURVIVED",
-          "firstCycle": 837,
-          "lastCycle": 840,
+          "firstCycle": 732,
+          "lastCycle": 782,
           "serviceCycles": [
-            840,
-            839,
-            838,
-            837
+            782,
+            767,
+            751,
+            732
           ],
           "finalExpedition": "The Cemetery of Unfinished Wars",
           "portrait": "assets/portraits/009-0106.webp"
@@ -361,10 +363,10 @@ window.TEAM009_DATA = {
           "species": "Lashunta",
           "universe": "Starfinder",
           "status": "DECEASED",
-          "firstCycle": 838,
-          "lastCycle": 838,
+          "firstCycle": 751,
+          "lastCycle": 751,
           "serviceCycles": [
-            838
+            751
           ],
           "finalExpedition": "The Parliament of Empty Thrones",
           "portrait": "assets/portraits/009-0107.webp"
@@ -372,7 +374,7 @@ window.TEAM009_DATA = {
       ]
     },
     {
-      "number": 837,
+      "number": 732,
       "mission": "The City Beneath the Last Sunrise",
       "location": "Buried Metropolis of Solmara",
       "annex": "C-2816",
@@ -384,12 +386,12 @@ window.TEAM009_DATA = {
           "species": "Half-Elf",
           "universe": "D&D 5e",
           "status": "SURVIVED",
-          "firstCycle": 836,
-          "lastCycle": 838,
+          "firstCycle": 727,
+          "lastCycle": 751,
           "serviceCycles": [
-            838,
-            837,
-            836
+            751,
+            732,
+            727
           ],
           "finalExpedition": "The Parliament of Empty Thrones",
           "transferDivision": "Pale Lodge Diplomatic Anomalies & Interdimensional Governance Division",
@@ -401,10 +403,10 @@ window.TEAM009_DATA = {
           "species": "Hill Dwarf",
           "universe": "D&D 5e",
           "status": "DECEASED",
-          "firstCycle": 837,
-          "lastCycle": 837,
+          "firstCycle": 732,
+          "lastCycle": 732,
           "serviceCycles": [
-            837
+            732
           ],
           "finalExpedition": "The City Beneath the Last Sunrise",
           "portrait": "assets/portraits/009-0105.webp"
@@ -415,13 +417,13 @@ window.TEAM009_DATA = {
           "species": "Pahtra",
           "universe": "Starfinder",
           "status": "SURVIVED",
-          "firstCycle": 837,
-          "lastCycle": 840,
+          "firstCycle": 732,
+          "lastCycle": 782,
           "serviceCycles": [
-            840,
-            839,
-            838,
-            837
+            782,
+            767,
+            751,
+            732
           ],
           "finalExpedition": "The Cemetery of Unfinished Wars",
           "portrait": "assets/portraits/009-0106.webp"
@@ -429,7 +431,7 @@ window.TEAM009_DATA = {
       ]
     },
     {
-      "number": 836,
+      "number": 727,
       "mission": "The House That Kept Its Guests",
       "location": "Everlasting Estate of Bellwraith",
       "annex": "J-7193",
@@ -441,12 +443,12 @@ window.TEAM009_DATA = {
           "species": "Half-Elf",
           "universe": "D&D 5e",
           "status": "SURVIVED",
-          "firstCycle": 836,
-          "lastCycle": 838,
+          "firstCycle": 727,
+          "lastCycle": 751,
           "serviceCycles": [
-            838,
-            837,
-            836
+            751,
+            732,
+            727
           ],
           "finalExpedition": "The Parliament of Empty Thrones",
           "transferDivision": "Pale Lodge Diplomatic Anomalies & Interdimensional Governance Division",
@@ -458,10 +460,10 @@ window.TEAM009_DATA = {
           "species": "Drell",
           "universe": "Mass Effect",
           "status": "DECEASED",
-          "firstCycle": 836,
-          "lastCycle": 836,
+          "firstCycle": 727,
+          "lastCycle": 727,
           "serviceCycles": [
-            836
+            727
           ],
           "finalExpedition": "The House That Kept Its Guests",
           "portrait": "assets/portraits/009-0103.webp"
@@ -472,10 +474,10 @@ window.TEAM009_DATA = {
           "species": "Vesperwraith",
           "universe": "Original",
           "status": "DECEASED",
-          "firstCycle": 836,
-          "lastCycle": 836,
+          "firstCycle": 727,
+          "lastCycle": 727,
           "serviceCycles": [
-            836
+            727
           ],
           "finalExpedition": "The House That Kept Its Guests",
           "portrait": "assets/portraits/009-0104.webp"
@@ -483,7 +485,7 @@ window.TEAM009_DATA = {
       ]
     },
     {
-      "number": 835,
+      "number": 725,
       "mission": "The Museum of Tomorrow's Extinctions",
       "location": "Last Menagerie of Vhal-Sor",
       "annex": "E-4409",
@@ -495,12 +497,12 @@ window.TEAM009_DATA = {
           "species": "Skittermander",
           "universe": "Starfinder",
           "status": "DECEASED",
-          "firstCycle": 833,
-          "lastCycle": 835,
+          "firstCycle": 715,
+          "lastCycle": 725,
           "serviceCycles": [
-            835,
-            834,
-            833
+            725,
+            716,
+            715
           ],
           "finalExpedition": "The Museum of Tomorrow's Extinctions",
           "portrait": "assets/portraits/009-0096.webp"
@@ -511,10 +513,10 @@ window.TEAM009_DATA = {
           "species": "Shirren",
           "universe": "Starfinder",
           "status": "DECEASED",
-          "firstCycle": 835,
-          "lastCycle": 835,
+          "firstCycle": 725,
+          "lastCycle": 725,
           "serviceCycles": [
-            835
+            725
           ],
           "finalExpedition": "The Museum of Tomorrow's Extinctions",
           "portrait": "assets/portraits/009-0100.webp"
@@ -525,10 +527,10 @@ window.TEAM009_DATA = {
           "species": "Bothan",
           "universe": "Star Wars",
           "status": "DECEASED",
-          "firstCycle": 835,
-          "lastCycle": 835,
+          "firstCycle": 725,
+          "lastCycle": 725,
           "serviceCycles": [
-            835
+            725
           ],
           "finalExpedition": "The Museum of Tomorrow's Extinctions",
           "portrait": "assets/portraits/009-0101.webp"
@@ -536,7 +538,7 @@ window.TEAM009_DATA = {
       ]
     },
     {
-      "number": 834,
+      "number": 716,
       "mission": "The Lighthouse That Followed Us",
       "location": "Wandering Coast of Eshmar",
       "annex": "L-3087",
@@ -548,12 +550,12 @@ window.TEAM009_DATA = {
           "species": "Skittermander",
           "universe": "Starfinder",
           "status": "SURVIVED",
-          "firstCycle": 833,
-          "lastCycle": 835,
+          "firstCycle": 715,
+          "lastCycle": 725,
           "serviceCycles": [
-            835,
-            834,
-            833
+            725,
+            716,
+            715
           ],
           "finalExpedition": "The Museum of Tomorrow's Extinctions",
           "portrait": "assets/portraits/009-0096.webp"
@@ -564,10 +566,10 @@ window.TEAM009_DATA = {
           "species": "Sea Elf",
           "universe": "D&D 5e",
           "status": "DECEASED",
-          "firstCycle": 834,
-          "lastCycle": 834,
+          "firstCycle": 716,
+          "lastCycle": 716,
           "serviceCycles": [
-            834
+            716
           ],
           "finalExpedition": "The Lighthouse That Followed Us",
           "portrait": "assets/portraits/009-0098.webp"
@@ -578,10 +580,10 @@ window.TEAM009_DATA = {
           "species": "Human",
           "universe": "D&D 5e",
           "status": "TRANSFERRED",
-          "firstCycle": 834,
-          "lastCycle": 834,
+          "firstCycle": 716,
+          "lastCycle": 716,
           "serviceCycles": [
-            834
+            716
           ],
           "finalExpedition": "The Lighthouse That Followed Us",
           "transferDivision": "Pale Lodge Dimensional Cartography Division",
@@ -591,7 +593,7 @@ window.TEAM009_DATA = {
       ]
     },
     {
-      "number": 833,
+      "number": 715,
       "mission": "The Market of Stolen Tomorrows",
       "location": "Gilded Bazaar of Oris-Vey",
       "annex": "H-6614",
@@ -603,11 +605,11 @@ window.TEAM009_DATA = {
           "species": "Mountain Dwarf",
           "universe": "D&D 5e",
           "status": "DECEASED",
-          "firstCycle": 832,
-          "lastCycle": 833,
+          "firstCycle": 711,
+          "lastCycle": 715,
           "serviceCycles": [
-            833,
-            832
+            715,
+            711
           ],
           "finalExpedition": "The Market of Stolen Tomorrows",
           "portrait": "assets/portraits/009-0094.webp"
@@ -618,12 +620,12 @@ window.TEAM009_DATA = {
           "species": "Skittermander",
           "universe": "Starfinder",
           "status": "SURVIVED",
-          "firstCycle": 833,
-          "lastCycle": 835,
+          "firstCycle": 715,
+          "lastCycle": 725,
           "serviceCycles": [
-            835,
-            834,
-            833
+            725,
+            716,
+            715
           ],
           "finalExpedition": "The Museum of Tomorrow's Extinctions",
           "portrait": "assets/portraits/009-0096.webp"
@@ -634,10 +636,10 @@ window.TEAM009_DATA = {
           "species": "Veylkin",
           "universe": "Original",
           "status": "DECEASED",
-          "firstCycle": 833,
-          "lastCycle": 833,
+          "firstCycle": 715,
+          "lastCycle": 715,
           "serviceCycles": [
-            833
+            715
           ],
           "finalExpedition": "The Market of Stolen Tomorrows",
           "portrait": "assets/portraits/009-0097.webp"
@@ -645,7 +647,7 @@ window.TEAM009_DATA = {
       ]
     },
     {
-      "number": 832,
+      "number": 711,
       "mission": "The Bells Beneath the Ice",
       "location": "Frozen City of Nareth-Voss",
       "annex": "V-9172",
@@ -657,12 +659,12 @@ window.TEAM009_DATA = {
           "species": "Android",
           "universe": "Starfinder",
           "status": "DECEASED",
-          "firstCycle": 830,
-          "lastCycle": 832,
+          "firstCycle": 696,
+          "lastCycle": 711,
           "serviceCycles": [
-            832,
-            831,
-            830
+            711,
+            709,
+            696
           ],
           "finalExpedition": "The Bells Beneath the Ice",
           "portrait": "assets/portraits/009-0089.webp"
@@ -673,11 +675,11 @@ window.TEAM009_DATA = {
           "species": "Mountain Dwarf",
           "universe": "D&D 5e",
           "status": "SURVIVED",
-          "firstCycle": 832,
-          "lastCycle": 833,
+          "firstCycle": 711,
+          "lastCycle": 715,
           "serviceCycles": [
-            833,
-            832
+            715,
+            711
           ],
           "finalExpedition": "The Market of Stolen Tomorrows",
           "portrait": "assets/portraits/009-0094.webp"
@@ -688,10 +690,10 @@ window.TEAM009_DATA = {
           "species": "Rock Gnome",
           "universe": "D&D 5e",
           "status": "DECEASED",
-          "firstCycle": 832,
-          "lastCycle": 832,
+          "firstCycle": 711,
+          "lastCycle": 711,
           "serviceCycles": [
-            832
+            711
           ],
           "finalExpedition": "The Bells Beneath the Ice",
           "portrait": "assets/portraits/009-0095.webp"
@@ -699,7 +701,7 @@ window.TEAM009_DATA = {
       ]
     },
     {
-      "number": 831,
+      "number": 709,
       "mission": "The Forest That Grew Downward",
       "location": "Hanging Wilds of Vaelith",
       "annex": "K-2049",
@@ -711,12 +713,12 @@ window.TEAM009_DATA = {
           "species": "Android",
           "universe": "Starfinder",
           "status": "SURVIVED",
-          "firstCycle": 830,
-          "lastCycle": 832,
+          "firstCycle": 696,
+          "lastCycle": 711,
           "serviceCycles": [
-            832,
-            831,
-            830
+            711,
+            709,
+            696
           ],
           "finalExpedition": "The Bells Beneath the Ice",
           "portrait": "assets/portraits/009-0089.webp"
@@ -727,10 +729,10 @@ window.TEAM009_DATA = {
           "species": "Wood Elf",
           "universe": "D&D 5e",
           "status": "DECEASED",
-          "firstCycle": 831,
-          "lastCycle": 831,
+          "firstCycle": 709,
+          "lastCycle": 709,
           "serviceCycles": [
-            831
+            709
           ],
           "finalExpedition": "The Forest That Grew Downward",
           "portrait": "assets/portraits/009-0092.webp"
@@ -741,10 +743,10 @@ window.TEAM009_DATA = {
           "species": "Pahtra",
           "universe": "Starfinder",
           "status": "TRANSFERRED",
-          "firstCycle": 831,
-          "lastCycle": 831,
+          "firstCycle": 709,
+          "lastCycle": 709,
           "serviceCycles": [
-            831
+            709
           ],
           "finalExpedition": "The Forest That Grew Downward",
           "transferDivision": "Pale Lodge Temporal Ecology & Inverted Biomes Division",
@@ -753,7 +755,7 @@ window.TEAM009_DATA = {
       ]
     },
     {
-      "number": 830,
+      "number": 696,
       "mission": "The City That Wore Our Faces",
       "location": "Mirrored City of Caldris",
       "annex": "Q-5813",
@@ -765,12 +767,12 @@ window.TEAM009_DATA = {
           "species": "Android",
           "universe": "Starfinder",
           "status": "SURVIVED",
-          "firstCycle": 830,
-          "lastCycle": 832,
+          "firstCycle": 696,
+          "lastCycle": 711,
           "serviceCycles": [
-            832,
-            831,
-            830
+            711,
+            709,
+            696
           ],
           "finalExpedition": "The Bells Beneath the Ice",
           "portrait": "assets/portraits/009-0089.webp"
@@ -781,10 +783,10 @@ window.TEAM009_DATA = {
           "species": "Human",
           "universe": "D&D 5e",
           "status": "DECEASED",
-          "firstCycle": 830,
-          "lastCycle": 830,
+          "firstCycle": 696,
+          "lastCycle": 696,
           "serviceCycles": [
-            830
+            696
           ],
           "finalExpedition": "The City That Wore Our Faces",
           "portrait": "assets/portraits/009-0090.webp"
@@ -795,10 +797,10 @@ window.TEAM009_DATA = {
           "species": "Glyphborn",
           "universe": "Original",
           "status": "DECEASED",
-          "firstCycle": 830,
-          "lastCycle": 830,
+          "firstCycle": 696,
+          "lastCycle": 696,
           "serviceCycles": [
-            830
+            696
           ],
           "finalExpedition": "The City That Wore Our Faces",
           "portrait": "assets/portraits/009-0091.webp"
@@ -806,7 +808,7 @@ window.TEAM009_DATA = {
       ]
     },
     {
-      "number": 829,
+      "number": 688,
       "mission": "The Sea That Knows Your Name",
       "location": "Drowned Kingdom of Velmora",
       "annex": "R-8461",
@@ -818,12 +820,12 @@ window.TEAM009_DATA = {
           "species": "Hobgoblin",
           "universe": "D&D 5e",
           "status": "DECEASED",
-          "firstCycle": 827,
-          "lastCycle": 829,
+          "firstCycle": 672,
+          "lastCycle": 688,
           "serviceCycles": [
-            829,
-            828,
-            827
+            688,
+            675,
+            672
           ],
           "finalExpedition": "The Sea That Knows Your Name",
           "portrait": "assets/portraits/009-0083.webp"
@@ -834,10 +836,10 @@ window.TEAM009_DATA = {
           "species": "Asari",
           "universe": "Mass Effect",
           "status": "TRANSFERRED",
-          "firstCycle": 829,
-          "lastCycle": 829,
+          "firstCycle": 688,
+          "lastCycle": 688,
           "serviceCycles": [
-            829
+            688
           ],
           "finalExpedition": "The Sea That Knows Your Name",
           "transferDivision": "Pale Lodge Deepwater Anomalies & Submerged Civilizations Division",
@@ -849,10 +851,10 @@ window.TEAM009_DATA = {
           "species": "Triton",
           "universe": "D&D 5e",
           "status": "DECEASED",
-          "firstCycle": 829,
-          "lastCycle": 829,
+          "firstCycle": 688,
+          "lastCycle": 688,
           "serviceCycles": [
-            829
+            688
           ],
           "finalExpedition": "The Sea That Knows Your Name",
           "portrait": "assets/portraits/009-0088.webp"
@@ -860,7 +862,7 @@ window.TEAM009_DATA = {
       ]
     },
     {
-      "number": 828,
+      "number": 675,
       "mission": "The Town That Buried the Moon",
       "location": "Village of Mournhollow",
       "annex": "H-3076",
@@ -872,12 +874,12 @@ window.TEAM009_DATA = {
           "species": "Hobgoblin",
           "universe": "D&D 5e",
           "status": "SURVIVED",
-          "firstCycle": 827,
-          "lastCycle": 829,
+          "firstCycle": 672,
+          "lastCycle": 688,
           "serviceCycles": [
-            829,
-            828,
-            827
+            688,
+            675,
+            672
           ],
           "finalExpedition": "The Sea That Knows Your Name",
           "portrait": "assets/portraits/009-0083.webp"
@@ -888,10 +890,10 @@ window.TEAM009_DATA = {
           "species": "Noctilith",
           "universe": "Original",
           "status": "DECEASED",
-          "firstCycle": 828,
-          "lastCycle": 828,
+          "firstCycle": 675,
+          "lastCycle": 675,
           "serviceCycles": [
-            828
+            675
           ],
           "finalExpedition": "The Town That Buried the Moon",
           "portrait": "assets/portraits/009-0085.webp"
@@ -902,10 +904,10 @@ window.TEAM009_DATA = {
           "species": "Firbolg",
           "universe": "D&D 5e",
           "status": "DECEASED",
-          "firstCycle": 828,
-          "lastCycle": 828,
+          "firstCycle": 675,
+          "lastCycle": 675,
           "serviceCycles": [
-            828
+            675
           ],
           "finalExpedition": "The Town That Buried the Moon",
           "portrait": "assets/portraits/009-0086.webp"
@@ -913,7 +915,7 @@ window.TEAM009_DATA = {
       ]
     },
     {
-      "number": 827,
+      "number": 672,
       "mission": "The Orchard of Second Chances",
       "location": "Glassroot Vale",
       "annex": "F-6217",
@@ -925,12 +927,12 @@ window.TEAM009_DATA = {
           "species": "Angara",
           "universe": "Mass Effect Andromeda",
           "status": "DECEASED",
-          "firstCycle": 825,
-          "lastCycle": 827,
+          "firstCycle": 636,
+          "lastCycle": 672,
           "serviceCycles": [
-            827,
-            826,
-            825
+            672,
+            638,
+            636
           ],
           "finalExpedition": "The Orchard of Second Chances",
           "portrait": "assets/portraits/009-0079.webp"
@@ -941,12 +943,12 @@ window.TEAM009_DATA = {
           "species": "Hobgoblin",
           "universe": "D&D 5e",
           "status": "SURVIVED",
-          "firstCycle": 827,
-          "lastCycle": 829,
+          "firstCycle": 672,
+          "lastCycle": 688,
           "serviceCycles": [
-            829,
-            828,
-            827
+            688,
+            675,
+            672
           ],
           "finalExpedition": "The Sea That Knows Your Name",
           "portrait": "assets/portraits/009-0083.webp"
@@ -957,10 +959,10 @@ window.TEAM009_DATA = {
           "species": "Ysoki",
           "universe": "Starfinder",
           "status": "DECEASED",
-          "firstCycle": 827,
-          "lastCycle": 827,
+          "firstCycle": 672,
+          "lastCycle": 672,
           "serviceCycles": [
-            827
+            672
           ],
           "finalExpedition": "The Orchard of Second Chances",
           "portrait": "assets/portraits/009-0084.webp"
@@ -968,7 +970,7 @@ window.TEAM009_DATA = {
       ]
     },
     {
-      "number": 826,
+      "number": 638,
       "mission": "The Last Train to Nowhere",
       "location": "Terminal of Saint Vesper",
       "annex": "T-5902",
@@ -980,12 +982,12 @@ window.TEAM009_DATA = {
           "species": "Angara",
           "universe": "Mass Effect Andromeda",
           "status": "SURVIVED",
-          "firstCycle": 825,
-          "lastCycle": 827,
+          "firstCycle": 636,
+          "lastCycle": 672,
           "serviceCycles": [
-            827,
-            826,
-            825
+            672,
+            638,
+            636
           ],
           "finalExpedition": "The Orchard of Second Chances",
           "portrait": "assets/portraits/009-0079.webp"
@@ -996,10 +998,10 @@ window.TEAM009_DATA = {
           "species": "Lashunta",
           "universe": "Starfinder",
           "status": "TRANSFERRED",
-          "firstCycle": 826,
-          "lastCycle": 826,
+          "firstCycle": 638,
+          "lastCycle": 638,
           "serviceCycles": [
-            826
+            638
           ],
           "finalExpedition": "The Last Train to Nowhere",
           "transferDivision": "Pale Lodge Transit Anomalies & Interdimensional Passage Division",
@@ -1011,10 +1013,10 @@ window.TEAM009_DATA = {
           "species": "Gravemoth",
           "universe": "Original",
           "status": "DECEASED",
-          "firstCycle": 826,
-          "lastCycle": 826,
+          "firstCycle": 638,
+          "lastCycle": 638,
           "serviceCycles": [
-            826
+            638
           ],
           "finalExpedition": "The Last Train to Nowhere",
           "portrait": "assets/portraits/009-0082.webp"
@@ -1022,7 +1024,7 @@ window.TEAM009_DATA = {
       ]
     },
     {
-      "number": 825,
+      "number": 636,
       "mission": "The Mine of Forgotten Childhoods",
       "location": "Hollow Mountains of Drosven",
       "annex": "D-4427",
@@ -1034,12 +1036,12 @@ window.TEAM009_DATA = {
           "species": "Goliath",
           "universe": "D&D 5e",
           "status": "DECEASED",
-          "firstCycle": 823,
-          "lastCycle": 825,
+          "firstCycle": 621,
+          "lastCycle": 636,
           "serviceCycles": [
-            825,
-            824,
-            823
+            636,
+            629,
+            621
           ],
           "finalExpedition": "The Mine of Forgotten Childhoods",
           "portrait": "assets/portraits/009-0075.webp"
@@ -1050,12 +1052,12 @@ window.TEAM009_DATA = {
           "species": "Angara",
           "universe": "Mass Effect Andromeda",
           "status": "SURVIVED",
-          "firstCycle": 825,
-          "lastCycle": 827,
+          "firstCycle": 636,
+          "lastCycle": 672,
           "serviceCycles": [
-            827,
-            826,
-            825
+            672,
+            638,
+            636
           ],
           "finalExpedition": "The Orchard of Second Chances",
           "portrait": "assets/portraits/009-0079.webp"
@@ -1066,10 +1068,10 @@ window.TEAM009_DATA = {
           "species": "Vorcha",
           "universe": "Mass Effect",
           "status": "DECEASED",
-          "firstCycle": 825,
-          "lastCycle": 825,
+          "firstCycle": 636,
+          "lastCycle": 636,
           "serviceCycles": [
-            825
+            636
           ],
           "finalExpedition": "The Mine of Forgotten Childhoods",
           "portrait": "assets/portraits/009-0080.webp"
@@ -1077,7 +1079,7 @@ window.TEAM009_DATA = {
       ]
     },
     {
-      "number": 824,
+      "number": 629,
       "mission": "The Night Beneath Our Feet",
       "location": "Inverted Expanse of Nhalor",
       "annex": "A-3904",
@@ -1089,12 +1091,12 @@ window.TEAM009_DATA = {
           "species": "Goliath",
           "universe": "D&D 5e",
           "status": "SURVIVED",
-          "firstCycle": 823,
-          "lastCycle": 825,
+          "firstCycle": 621,
+          "lastCycle": 636,
           "serviceCycles": [
-            825,
-            824,
-            823
+            636,
+            629,
+            621
           ],
           "finalExpedition": "The Mine of Forgotten Childhoods",
           "portrait": "assets/portraits/009-0075.webp"
@@ -1105,10 +1107,10 @@ window.TEAM009_DATA = {
           "species": "High Elf",
           "universe": "D&D 5e",
           "status": "DECEASED",
-          "firstCycle": 824,
-          "lastCycle": 824,
+          "firstCycle": 629,
+          "lastCycle": 629,
           "serviceCycles": [
-            824
+            629
           ],
           "finalExpedition": "The Night Beneath Our Feet",
           "portrait": "assets/portraits/009-0077.webp"
@@ -1119,10 +1121,10 @@ window.TEAM009_DATA = {
           "species": "Auralith",
           "universe": "Original",
           "status": "TRANSFERRED",
-          "firstCycle": 824,
-          "lastCycle": 824,
+          "firstCycle": 629,
+          "lastCycle": 629,
           "serviceCycles": [
-            824
+            629
           ],
           "finalExpedition": "The Night Beneath Our Feet",
           "transferDivision": "Pale Lodge Astral Phenomena & Deep-Sky Research Division",
@@ -1131,7 +1133,7 @@ window.TEAM009_DATA = {
       ]
     },
     {
-      "number": 823,
+      "number": 621,
       "mission": "The Lodge That Wasn't Ours",
       "location": "Blackglass Citadel",
       "annex": "P-8816",
@@ -1143,13 +1145,13 @@ window.TEAM009_DATA = {
           "species": "Hanar",
           "universe": "Mass Effect",
           "status": "DECEASED",
-          "firstCycle": 820,
-          "lastCycle": 823,
+          "firstCycle": 593,
+          "lastCycle": 621,
           "serviceCycles": [
-            823,
-            822,
-            821,
-            820
+            621,
+            619,
+            605,
+            593
           ],
           "finalExpedition": "The Lodge That Wasn't Ours",
           "portrait": "assets/portraits/009-0070.webp"
@@ -1160,12 +1162,12 @@ window.TEAM009_DATA = {
           "species": "Goliath",
           "universe": "D&D 5e",
           "status": "SURVIVED",
-          "firstCycle": 823,
-          "lastCycle": 825,
+          "firstCycle": 621,
+          "lastCycle": 636,
           "serviceCycles": [
-            825,
-            824,
-            823
+            636,
+            629,
+            621
           ],
           "finalExpedition": "The Mine of Forgotten Childhoods",
           "portrait": "assets/portraits/009-0075.webp"
@@ -1176,10 +1178,10 @@ window.TEAM009_DATA = {
           "species": "Bugbear",
           "universe": "D&D 5e",
           "status": "DECEASED",
-          "firstCycle": 823,
-          "lastCycle": 823,
+          "firstCycle": 621,
+          "lastCycle": 621,
           "serviceCycles": [
-            823
+            621
           ],
           "finalExpedition": "The Lodge That Wasn't Ours",
           "portrait": "assets/portraits/009-0076.webp"
@@ -1187,7 +1189,7 @@ window.TEAM009_DATA = {
       ]
     },
     {
-      "number": 822,
+      "number": 619,
       "mission": "The People Who Were Never There",
       "location": "Empty Kingdom of Vael Taris",
       "annex": "V-7308",
@@ -1199,13 +1201,13 @@ window.TEAM009_DATA = {
           "species": "Hanar",
           "universe": "Mass Effect",
           "status": "SURVIVED",
-          "firstCycle": 820,
-          "lastCycle": 823,
+          "firstCycle": 593,
+          "lastCycle": 621,
           "serviceCycles": [
-            823,
-            822,
-            821,
-            820
+            621,
+            619,
+            605,
+            593
           ],
           "finalExpedition": "The Lodge That Wasn't Ours",
           "portrait": "assets/portraits/009-0070.webp"
@@ -1216,10 +1218,10 @@ window.TEAM009_DATA = {
           "species": "Hill Dwarf",
           "universe": "D&D 5e",
           "status": "SURVIVED",
-          "firstCycle": 822,
-          "lastCycle": 822,
+          "firstCycle": 619,
+          "lastCycle": 619,
           "serviceCycles": [
-            822
+            619
           ],
           "retiredAfter": 822,
           "portrait": "assets/portraits/009-0073.webp"
@@ -1230,10 +1232,10 @@ window.TEAM009_DATA = {
           "species": "Falleen",
           "universe": "Star Wars",
           "status": "DECEASED",
-          "firstCycle": 822,
-          "lastCycle": 822,
+          "firstCycle": 619,
+          "lastCycle": 619,
           "serviceCycles": [
-            822
+            619
           ],
           "finalExpedition": "The People Who Were Never There",
           "portrait": "assets/portraits/009-0074.webp"
@@ -1241,7 +1243,7 @@ window.TEAM009_DATA = {
       ]
     },
     {
-      "number": 821,
+      "number": 605,
       "mission": "The Photograph of Tomorrow",
       "location": "City of Silvermere",
       "annex": "M-2169",
@@ -1253,13 +1255,13 @@ window.TEAM009_DATA = {
           "species": "Hanar",
           "universe": "Mass Effect",
           "status": "SURVIVED",
-          "firstCycle": 820,
-          "lastCycle": 823,
+          "firstCycle": 593,
+          "lastCycle": 621,
           "serviceCycles": [
-            823,
-            822,
-            821,
-            820
+            621,
+            619,
+            605,
+            593
           ],
           "finalExpedition": "The Lodge That Wasn't Ours",
           "portrait": "assets/portraits/009-0070.webp"
@@ -1270,10 +1272,10 @@ window.TEAM009_DATA = {
           "species": "Dragonkin",
           "universe": "Starfinder",
           "status": "DECEASED",
-          "firstCycle": 821,
-          "lastCycle": 821,
+          "firstCycle": 605,
+          "lastCycle": 605,
           "serviceCycles": [
-            821
+            605
           ],
           "finalExpedition": "The Photograph of Tomorrow",
           "portrait": "assets/portraits/009-0071.webp"
@@ -1284,10 +1286,10 @@ window.TEAM009_DATA = {
           "species": "Lightfoot Halfling",
           "universe": "D&D 5e",
           "status": "DECEASED",
-          "firstCycle": 821,
-          "lastCycle": 821,
+          "firstCycle": 605,
+          "lastCycle": 605,
           "serviceCycles": [
-            821
+            605
           ],
           "finalExpedition": "The Photograph of Tomorrow",
           "portrait": "assets/portraits/009-0072.webp"
@@ -1295,7 +1297,7 @@ window.TEAM009_DATA = {
       ]
     },
     {
-      "number": 820,
+      "number": 593,
       "mission": "The City of Borrowed Doors",
       "location": "Hanging Borough of Velis",
       "annex": "C-7741",
@@ -1307,13 +1309,13 @@ window.TEAM009_DATA = {
           "species": "Android",
           "universe": "Starfinder",
           "status": "TRANSFERRED",
-          "firstCycle": 817,
-          "lastCycle": 820,
+          "firstCycle": 543,
+          "lastCycle": 593,
           "serviceCycles": [
-            820,
-            819,
-            818,
-            817
+            593,
+            575,
+            562,
+            543
           ],
           "finalExpedition": "The City of Borrowed Doors",
           "transferDivision": "Pale Lodge Threshold Systems & Dimensional Infrastructure Division",
@@ -1325,10 +1327,10 @@ window.TEAM009_DATA = {
           "species": "Volus",
           "universe": "Mass Effect",
           "status": "DECEASED",
-          "firstCycle": 820,
-          "lastCycle": 820,
+          "firstCycle": 593,
+          "lastCycle": 593,
           "serviceCycles": [
-            820
+            593
           ],
           "finalExpedition": "The City of Borrowed Doors",
           "portrait": "assets/portraits/009-0069.webp"
@@ -1339,13 +1341,13 @@ window.TEAM009_DATA = {
           "species": "Hanar",
           "universe": "Mass Effect",
           "status": "SURVIVED",
-          "firstCycle": 820,
-          "lastCycle": 823,
+          "firstCycle": 593,
+          "lastCycle": 621,
           "serviceCycles": [
-            823,
-            822,
-            821,
-            820
+            621,
+            619,
+            605,
+            593
           ],
           "finalExpedition": "The Lodge That Wasn't Ours",
           "portrait": "assets/portraits/009-0070.webp"
@@ -1353,7 +1355,7 @@ window.TEAM009_DATA = {
       ]
     },
     {
-      "number": 819,
+      "number": 575,
       "mission": "The Faces We Left Behind",
       "location": "Village of Secondwake",
       "annex": "R-6815",
@@ -1365,13 +1367,13 @@ window.TEAM009_DATA = {
           "species": "Android",
           "universe": "Starfinder",
           "status": "SURVIVED",
-          "firstCycle": 817,
-          "lastCycle": 820,
+          "firstCycle": 543,
+          "lastCycle": 593,
           "serviceCycles": [
-            820,
-            819,
-            818,
-            817
+            593,
+            575,
+            562,
+            543
           ],
           "finalExpedition": "The City of Borrowed Doors",
           "transferDivision": "Pale Lodge Threshold Systems & Dimensional Infrastructure Division",
@@ -1383,10 +1385,10 @@ window.TEAM009_DATA = {
           "species": "Human",
           "universe": "D&D 5e",
           "status": "DECEASED",
-          "firstCycle": 819,
-          "lastCycle": 819,
+          "firstCycle": 575,
+          "lastCycle": 575,
           "serviceCycles": [
-            819
+            575
           ],
           "finalExpedition": "The Faces We Left Behind",
           "portrait": "assets/portraits/009-0067.webp"
@@ -1397,10 +1399,10 @@ window.TEAM009_DATA = {
           "species": "Drell",
           "universe": "Mass Effect",
           "status": "DECEASED",
-          "firstCycle": 819,
-          "lastCycle": 819,
+          "firstCycle": 575,
+          "lastCycle": 575,
           "serviceCycles": [
-            819
+            575
           ],
           "finalExpedition": "The Faces We Left Behind",
           "portrait": "assets/portraits/009-0068.webp"
@@ -1408,7 +1410,7 @@ window.TEAM009_DATA = {
       ]
     },
     {
-      "number": 818,
+      "number": 562,
       "mission": "The Ship That Dreamed of Land",
       "location": "The Ashen Ark",
       "annex": "X-3046",
@@ -1420,17 +1422,17 @@ window.TEAM009_DATA = {
           "species": "Fairy",
           "universe": "D&D 5e",
           "status": "DECEASED",
-          "firstCycle": 814,
-          "lastCycle": 818,
+          "firstCycle": 500,
+          "lastCycle": 562,
           "serviceCycles": [
-            818,
-            817,
-            815,
-            814
+            562,
+            543,
+            514,
+            500
           ],
           "finalExpedition": "The Ship That Dreamed of Land",
           "leaveCycles": [
-            816
+            527
           ],
           "portrait": "assets/portraits/009-0057.webp"
         },
@@ -1440,13 +1442,13 @@ window.TEAM009_DATA = {
           "species": "Android",
           "universe": "Starfinder",
           "status": "SURVIVED",
-          "firstCycle": 817,
-          "lastCycle": 820,
+          "firstCycle": 543,
+          "lastCycle": 593,
           "serviceCycles": [
-            820,
-            819,
-            818,
-            817
+            593,
+            575,
+            562,
+            543
           ],
           "finalExpedition": "The City of Borrowed Doors",
           "transferDivision": "Pale Lodge Threshold Systems & Dimensional Infrastructure Division",
@@ -1458,10 +1460,10 @@ window.TEAM009_DATA = {
           "species": "Zabrak",
           "universe": "Star Wars",
           "status": "DECEASED",
-          "firstCycle": 818,
-          "lastCycle": 818,
+          "firstCycle": 562,
+          "lastCycle": 562,
           "serviceCycles": [
-            818
+            562
           ],
           "finalExpedition": "The Ship That Dreamed of Land",
           "portrait": "assets/portraits/009-0066.webp"
@@ -1469,7 +1471,7 @@ window.TEAM009_DATA = {
       ]
     },
     {
-      "number": 817,
+      "number": 543,
       "mission": "The Sun Beneath the Soil",
       "location": "Buried Village of Hollowfen",
       "annex": "E-2084",
@@ -1481,17 +1483,17 @@ window.TEAM009_DATA = {
           "species": "Fairy",
           "universe": "D&D 5e",
           "status": "SURVIVED",
-          "firstCycle": 814,
-          "lastCycle": 818,
+          "firstCycle": 500,
+          "lastCycle": 562,
           "serviceCycles": [
-            818,
-            817,
-            815,
-            814
+            562,
+            543,
+            514,
+            500
           ],
           "finalExpedition": "The Ship That Dreamed of Land",
           "leaveCycles": [
-            816
+            527
           ],
           "portrait": "assets/portraits/009-0057.webp"
         },
@@ -1501,10 +1503,10 @@ window.TEAM009_DATA = {
           "species": "Half-Elf",
           "universe": "D&D 5e",
           "status": "DECEASED",
-          "firstCycle": 817,
-          "lastCycle": 817,
+          "firstCycle": 543,
+          "lastCycle": 543,
           "serviceCycles": [
-            817
+            543
           ],
           "finalExpedition": "The Sun Beneath the Soil",
           "portrait": "assets/portraits/009-0064.webp"
@@ -1515,13 +1517,13 @@ window.TEAM009_DATA = {
           "species": "Android",
           "universe": "Starfinder",
           "status": "SURVIVED",
-          "firstCycle": 817,
-          "lastCycle": 820,
+          "firstCycle": 543,
+          "lastCycle": 593,
           "serviceCycles": [
-            820,
-            819,
-            818,
-            817
+            593,
+            575,
+            562,
+            543
           ],
           "finalExpedition": "The City of Borrowed Doors",
           "transferDivision": "Pale Lodge Threshold Systems & Dimensional Infrastructure Division",
@@ -1530,7 +1532,7 @@ window.TEAM009_DATA = {
       ]
     },
     {
-      "number": 816,
+      "number": 527,
       "mission": "The Road That Ate the Map",
       "location": "The Unending Causeway",
       "annex": "N-7718",
@@ -1542,10 +1544,10 @@ window.TEAM009_DATA = {
           "species": "Mountain Dwarf",
           "universe": "D&D 5e",
           "status": "DECEASED",
-          "firstCycle": 816,
-          "lastCycle": 816,
+          "firstCycle": 527,
+          "lastCycle": 527,
           "serviceCycles": [
-            816
+            527
           ],
           "finalExpedition": "The Road That Ate the Map",
           "portrait": "assets/portraits/009-0061.webp"
@@ -1556,10 +1558,10 @@ window.TEAM009_DATA = {
           "species": "Vesk",
           "universe": "Starfinder",
           "status": "DECEASED",
-          "firstCycle": 816,
-          "lastCycle": 816,
+          "firstCycle": 527,
+          "lastCycle": 527,
           "serviceCycles": [
-            816
+            527
           ],
           "finalExpedition": "The Road That Ate the Map",
           "portrait": "assets/portraits/009-0062.webp"
@@ -1570,10 +1572,10 @@ window.TEAM009_DATA = {
           "species": "Minotaur",
           "universe": "D&D 5e",
           "status": "TRANSFERRED",
-          "firstCycle": 816,
-          "lastCycle": 816,
+          "firstCycle": 527,
+          "lastCycle": 527,
           "serviceCycles": [
-            816
+            527
           ],
           "finalExpedition": "The Road That Ate the Map",
           "transferDivision": "Pale Lodge Dimensional Navigation Division",
@@ -1582,7 +1584,7 @@ window.TEAM009_DATA = {
       ]
     },
     {
-      "number": 815,
+      "number": 514,
       "mission": "The Thirteenth Prayer",
       "location": "Monastery of Saint Veyr",
       "annex": "S-4912",
@@ -1594,17 +1596,17 @@ window.TEAM009_DATA = {
           "species": "Fairy",
           "universe": "D&D 5e",
           "status": "SURVIVED",
-          "firstCycle": 814,
-          "lastCycle": 818,
+          "firstCycle": 500,
+          "lastCycle": 562,
           "serviceCycles": [
-            818,
-            817,
-            815,
-            814
+            562,
+            543,
+            514,
+            500
           ],
           "finalExpedition": "The Ship That Dreamed of Land",
           "leaveCycles": [
-            816
+            527
           ],
           "portrait": "assets/portraits/009-0057.webp"
         },
@@ -1614,10 +1616,10 @@ window.TEAM009_DATA = {
           "species": "Bronze Dragonborn",
           "universe": "D&D 5e",
           "status": "DECEASED",
-          "firstCycle": 815,
-          "lastCycle": 815,
+          "firstCycle": 514,
+          "lastCycle": 514,
           "serviceCycles": [
-            815
+            514
           ],
           "finalExpedition": "The Thirteenth Prayer",
           "portrait": "assets/portraits/009-0059.webp"
@@ -1628,10 +1630,10 @@ window.TEAM009_DATA = {
           "species": "Tidemind",
           "universe": "Original",
           "status": "DECEASED",
-          "firstCycle": 815,
-          "lastCycle": 815,
+          "firstCycle": 514,
+          "lastCycle": 514,
           "serviceCycles": [
-            815
+            514
           ],
           "finalExpedition": "The Thirteenth Prayer",
           "portrait": "assets/portraits/009-0060.webp"
@@ -1639,7 +1641,7 @@ window.TEAM009_DATA = {
       ]
     },
     {
-      "number": 814,
+      "number": 500,
       "mission": "The Letters We Never Sent",
       "location": "City of Vesperfall",
       "annex": "P-8043",
@@ -1651,11 +1653,11 @@ window.TEAM009_DATA = {
           "species": "Quarren",
           "universe": "Star Wars",
           "status": "DECEASED",
-          "firstCycle": 813,
-          "lastCycle": 814,
+          "firstCycle": 497,
+          "lastCycle": 500,
           "serviceCycles": [
-            814,
-            813
+            500,
+            497
           ],
           "finalExpedition": "The Letters We Never Sent",
           "portrait": "assets/portraits/009-0056.webp"
@@ -1666,17 +1668,17 @@ window.TEAM009_DATA = {
           "species": "Fairy",
           "universe": "D&D 5e",
           "status": "SURVIVED",
-          "firstCycle": 814,
-          "lastCycle": 818,
+          "firstCycle": 500,
+          "lastCycle": 562,
           "serviceCycles": [
-            818,
-            817,
-            815,
-            814
+            562,
+            543,
+            514,
+            500
           ],
           "finalExpedition": "The Ship That Dreamed of Land",
           "leaveCycles": [
-            816
+            527
           ],
           "portrait": "assets/portraits/009-0057.webp"
         },
@@ -1686,10 +1688,10 @@ window.TEAM009_DATA = {
           "species": "Mnemonic Crystalborn",
           "universe": "Original",
           "status": "DECEASED",
-          "firstCycle": 814,
-          "lastCycle": 814,
+          "firstCycle": 500,
+          "lastCycle": 500,
           "serviceCycles": [
-            814
+            500
           ],
           "finalExpedition": "The Letters We Never Sent",
           "portrait": "assets/portraits/009-0058.webp"
@@ -1697,7 +1699,7 @@ window.TEAM009_DATA = {
       ]
     },
     {
-      "number": 813,
+      "number": 497,
       "mission": "The Feast of the Drowned",
       "location": "Empty City of Marrowtide",
       "annex": "M-5520",
@@ -1709,13 +1711,13 @@ window.TEAM009_DATA = {
           "species": "Half-Elf",
           "universe": "D&D 5e",
           "status": "TRANSFERRED",
-          "firstCycle": 810,
-          "lastCycle": 813,
+          "firstCycle": 479,
+          "lastCycle": 497,
           "serviceCycles": [
-            813,
-            812,
-            811,
-            810
+            497,
+            495,
+            487,
+            479
           ],
           "finalExpedition": "The Feast of the Drowned",
           "transferDivision": "Pale Lodge Cartographic Intelligence Division",
@@ -1727,10 +1729,10 @@ window.TEAM009_DATA = {
           "species": "Leonin",
           "universe": "D&D 5e",
           "status": "DECEASED",
-          "firstCycle": 813,
-          "lastCycle": 813,
+          "firstCycle": 497,
+          "lastCycle": 497,
           "serviceCycles": [
-            813
+            497
           ],
           "finalExpedition": "The Feast of the Drowned",
           "portrait": "assets/portraits/009-0055.webp"
@@ -1741,11 +1743,11 @@ window.TEAM009_DATA = {
           "species": "Quarren",
           "universe": "Star Wars",
           "status": "SURVIVED",
-          "firstCycle": 813,
-          "lastCycle": 814,
+          "firstCycle": 497,
+          "lastCycle": 500,
           "serviceCycles": [
-            814,
-            813
+            500,
+            497
           ],
           "finalExpedition": "The Letters We Never Sent",
           "portrait": "assets/portraits/009-0056.webp"
@@ -1753,7 +1755,7 @@ window.TEAM009_DATA = {
       ]
     },
     {
-      "number": 812,
+      "number": 495,
       "mission": "The Library of Unborn Names",
       "location": "Unwritten Athenaeum",
       "annex": "A-6109",
@@ -1765,13 +1767,13 @@ window.TEAM009_DATA = {
           "species": "Half-Elf",
           "universe": "D&D 5e",
           "status": "SURVIVED",
-          "firstCycle": 810,
-          "lastCycle": 813,
+          "firstCycle": 479,
+          "lastCycle": 497,
           "serviceCycles": [
-            813,
-            812,
-            811,
-            810
+            497,
+            495,
+            487,
+            479
           ],
           "finalExpedition": "The Feast of the Drowned",
           "transferDivision": "Pale Lodge Cartographic Intelligence Division",
@@ -1783,10 +1785,10 @@ window.TEAM009_DATA = {
           "species": "Drow",
           "universe": "D&D 5e",
           "status": "DECEASED",
-          "firstCycle": 812,
-          "lastCycle": 812,
+          "firstCycle": 495,
+          "lastCycle": 495,
           "serviceCycles": [
-            812
+            495
           ],
           "finalExpedition": "The Library of Unborn Names",
           "portrait": "assets/portraits/009-0053.webp"
@@ -1797,10 +1799,10 @@ window.TEAM009_DATA = {
           "species": "Synthetic humanoid",
           "universe": "Original",
           "status": "DECEASED",
-          "firstCycle": 812,
-          "lastCycle": 812,
+          "firstCycle": 495,
+          "lastCycle": 495,
           "serviceCycles": [
-            812
+            495
           ],
           "finalExpedition": "The Library of Unborn Names",
           "portrait": "assets/portraits/009-0054.webp"
@@ -1808,7 +1810,7 @@ window.TEAM009_DATA = {
       ]
     },
     {
-      "number": 811,
+      "number": 487,
       "mission": "The Midnight Line",
       "location": "Terminus Station",
       "annex": "R-3386",
@@ -1820,13 +1822,13 @@ window.TEAM009_DATA = {
           "species": "Half-Elf",
           "universe": "D&D 5e",
           "status": "SURVIVED",
-          "firstCycle": 810,
-          "lastCycle": 813,
+          "firstCycle": 479,
+          "lastCycle": 497,
           "serviceCycles": [
-            813,
-            812,
-            811,
-            810
+            497,
+            495,
+            487,
+            479
           ],
           "finalExpedition": "The Feast of the Drowned",
           "transferDivision": "Pale Lodge Cartographic Intelligence Division",
@@ -1838,11 +1840,11 @@ window.TEAM009_DATA = {
           "species": "Aarakocra",
           "universe": "D&D 5e",
           "status": "DECEASED",
-          "firstCycle": 810,
-          "lastCycle": 811,
+          "firstCycle": 479,
+          "lastCycle": 487,
           "serviceCycles": [
-            811,
-            810
+            487,
+            479
           ],
           "finalExpedition": "The Midnight Line",
           "portrait": "assets/portraits/009-0051.webp"
@@ -1853,10 +1855,10 @@ window.TEAM009_DATA = {
           "species": "Warforged",
           "universe": "D&D 5e",
           "status": "DECEASED",
-          "firstCycle": 811,
-          "lastCycle": 811,
+          "firstCycle": 487,
+          "lastCycle": 487,
           "serviceCycles": [
-            811
+            487
           ],
           "finalExpedition": "The Midnight Line",
           "portrait": "assets/portraits/009-0052.webp"
@@ -1864,7 +1866,7 @@ window.TEAM009_DATA = {
       ]
     },
     {
-      "number": 810,
+      "number": 479,
       "mission": "The Gods Who Dream Beneath Stone",
       "location": "Valley of Sleeping Giants",
       "annex": "G-2271",
@@ -1876,13 +1878,13 @@ window.TEAM009_DATA = {
           "species": "Half-Elf",
           "universe": "D&D 5e",
           "status": "SURVIVED",
-          "firstCycle": 810,
-          "lastCycle": 813,
+          "firstCycle": 479,
+          "lastCycle": 497,
           "serviceCycles": [
-            813,
-            812,
-            811,
-            810
+            497,
+            495,
+            487,
+            479
           ],
           "finalExpedition": "The Feast of the Drowned",
           "transferDivision": "Pale Lodge Cartographic Intelligence Division",
@@ -1894,10 +1896,10 @@ window.TEAM009_DATA = {
           "species": "Batarian",
           "universe": "Mass Effect",
           "status": "DECEASED",
-          "firstCycle": 810,
-          "lastCycle": 810,
+          "firstCycle": 479,
+          "lastCycle": 479,
           "serviceCycles": [
-            810
+            479
           ],
           "finalExpedition": "The Gods Who Dream Beneath Stone",
           "portrait": "assets/portraits/009-0050.webp"
@@ -1908,11 +1910,11 @@ window.TEAM009_DATA = {
           "species": "Aarakocra",
           "universe": "D&D 5e",
           "status": "SURVIVED",
-          "firstCycle": 810,
-          "lastCycle": 811,
+          "firstCycle": 479,
+          "lastCycle": 487,
           "serviceCycles": [
-            811,
-            810
+            487,
+            479
           ],
           "finalExpedition": "The Midnight Line",
           "portrait": "assets/portraits/009-0051.webp"
@@ -1920,7 +1922,7 @@ window.TEAM009_DATA = {
       ]
     },
     {
-      "number": 809,
+      "number": 476,
       "mission": "The Second Shadow of Briarwick",
       "location": "Twin Towns of Briarwick",
       "annex": "B-9047",
@@ -1932,10 +1934,10 @@ window.TEAM009_DATA = {
           "species": "Goblin",
           "universe": "D&D 5e",
           "status": "DECEASED",
-          "firstCycle": 809,
-          "lastCycle": 809,
+          "firstCycle": 476,
+          "lastCycle": 476,
           "serviceCycles": [
-            809
+            476
           ],
           "finalExpedition": "The Second Shadow of Briarwick",
           "portrait": "assets/portraits/009-0046.webp"
@@ -1946,10 +1948,10 @@ window.TEAM009_DATA = {
           "species": "Changeling",
           "universe": "D&D 5e",
           "status": "DECEASED",
-          "firstCycle": 809,
-          "lastCycle": 809,
+          "firstCycle": 476,
+          "lastCycle": 476,
           "serviceCycles": [
-            809
+            476
           ],
           "finalExpedition": "The Second Shadow of Briarwick",
           "portrait": "assets/portraits/009-0047.webp"
@@ -1960,10 +1962,10 @@ window.TEAM009_DATA = {
           "species": "Krogan",
           "universe": "Mass Effect",
           "status": "DECEASED",
-          "firstCycle": 809,
-          "lastCycle": 809,
+          "firstCycle": 476,
+          "lastCycle": 476,
           "serviceCycles": [
-            809
+            476
           ],
           "finalExpedition": "The Second Shadow of Briarwick",
           "portrait": "assets/portraits/009-0048.webp"
@@ -1971,7 +1973,7 @@ window.TEAM009_DATA = {
       ]
     },
     {
-      "number": 808,
+      "number": 475,
       "mission": "The Hour of the Last Bell",
       "location": "Town of Bellwether",
       "annex": "B-5814",
@@ -1983,12 +1985,12 @@ window.TEAM009_DATA = {
           "species": "Wookiee",
           "universe": "Star Wars",
           "status": "TRANSFERRED",
-          "firstCycle": 806,
-          "lastCycle": 808,
+          "firstCycle": 454,
+          "lastCycle": 475,
           "serviceCycles": [
-            808,
-            807,
-            806
+            475,
+            459,
+            454
           ],
           "finalExpedition": "The Hour of the Last Bell",
           "transferDivision": "Pale Lodge Expedition Security Division",
@@ -2000,10 +2002,10 @@ window.TEAM009_DATA = {
           "species": "Wood Elf",
           "universe": "D&D 5e",
           "status": "DECEASED",
-          "firstCycle": 808,
-          "lastCycle": 808,
+          "firstCycle": 475,
+          "lastCycle": 475,
           "serviceCycles": [
-            808
+            475
           ],
           "finalExpedition": "The Hour of the Last Bell",
           "portrait": "assets/portraits/009-0044.webp"
@@ -2014,10 +2016,10 @@ window.TEAM009_DATA = {
           "species": "Air Genasi",
           "universe": "D&D 5e",
           "status": "DECEASED",
-          "firstCycle": 808,
-          "lastCycle": 808,
+          "firstCycle": 475,
+          "lastCycle": 475,
           "serviceCycles": [
-            808
+            475
           ],
           "finalExpedition": "The Hour of the Last Bell",
           "portrait": "assets/portraits/009-0045.webp"
@@ -2025,7 +2027,7 @@ window.TEAM009_DATA = {
       ]
     },
     {
-      "number": 807,
+      "number": 459,
       "mission": "The Roots of Tomorrow",
       "location": "Weeping Canopy",
       "annex": "W-3527",
@@ -2037,12 +2039,12 @@ window.TEAM009_DATA = {
           "species": "Wookiee",
           "universe": "Star Wars",
           "status": "SURVIVED",
-          "firstCycle": 806,
-          "lastCycle": 808,
+          "firstCycle": 454,
+          "lastCycle": 475,
           "serviceCycles": [
-            808,
-            807,
-            806
+            475,
+            459,
+            454
           ],
           "finalExpedition": "The Hour of the Last Bell",
           "transferDivision": "Pale Lodge Expedition Security Division",
@@ -2054,10 +2056,10 @@ window.TEAM009_DATA = {
           "species": "Halfling",
           "universe": "D&D 5e",
           "status": "DECEASED",
-          "firstCycle": 807,
-          "lastCycle": 807,
+          "firstCycle": 459,
+          "lastCycle": 459,
           "serviceCycles": [
-            807
+            459
           ],
           "finalExpedition": "The Roots of Tomorrow",
           "portrait": "assets/portraits/009-0042.webp"
@@ -2068,10 +2070,10 @@ window.TEAM009_DATA = {
           "species": "Quarian",
           "universe": "Mass Effect",
           "status": "DECEASED",
-          "firstCycle": 807,
-          "lastCycle": 807,
+          "firstCycle": 459,
+          "lastCycle": 459,
           "serviceCycles": [
-            807
+            459
           ],
           "finalExpedition": "The Roots of Tomorrow",
           "portrait": "assets/portraits/009-0043.webp"
@@ -2079,7 +2081,7 @@ window.TEAM009_DATA = {
       ]
     },
     {
-      "number": 806,
+      "number": 454,
       "mission": "The Procession of Hollow Kings",
       "location": "Necropolis of Veyr",
       "annex": "K-7183",
@@ -2091,12 +2093,12 @@ window.TEAM009_DATA = {
           "species": "Mirialan",
           "universe": "Star Wars",
           "status": "DECEASED",
-          "firstCycle": 804,
-          "lastCycle": 806,
+          "firstCycle": 420,
+          "lastCycle": 454,
           "serviceCycles": [
-            806,
-            805,
-            804
+            454,
+            449,
+            420
           ],
           "finalExpedition": "The Procession of Hollow Kings",
           "portrait": "assets/portraits/009-0036.webp"
@@ -2107,10 +2109,10 @@ window.TEAM009_DATA = {
           "species": "Dwarf",
           "universe": "D&D 5e",
           "status": "DECEASED",
-          "firstCycle": 806,
-          "lastCycle": 806,
+          "firstCycle": 454,
+          "lastCycle": 454,
           "serviceCycles": [
-            806
+            454
           ],
           "finalExpedition": "The Procession of Hollow Kings",
           "portrait": "assets/portraits/009-0040.webp"
@@ -2121,12 +2123,12 @@ window.TEAM009_DATA = {
           "species": "Wookiee",
           "universe": "Star Wars",
           "status": "SURVIVED",
-          "firstCycle": 806,
-          "lastCycle": 808,
+          "firstCycle": 454,
+          "lastCycle": 475,
           "serviceCycles": [
-            808,
-            807,
-            806
+            475,
+            459,
+            454
           ],
           "finalExpedition": "The Hour of the Last Bell",
           "transferDivision": "Pale Lodge Expedition Security Division",
@@ -2135,7 +2137,7 @@ window.TEAM009_DATA = {
       ]
     },
     {
-      "number": 805,
+      "number": 449,
       "mission": "The Ward of Unfinished Lives",
       "location": "Saint Orison's Infirmary",
       "annex": "P-1179",
@@ -2147,12 +2149,12 @@ window.TEAM009_DATA = {
           "species": "Mirialan",
           "universe": "Star Wars",
           "status": "SURVIVED",
-          "firstCycle": 804,
-          "lastCycle": 806,
+          "firstCycle": 420,
+          "lastCycle": 454,
           "serviceCycles": [
-            806,
-            805,
-            804
+            454,
+            449,
+            420
           ],
           "finalExpedition": "The Procession of Hollow Kings",
           "portrait": "assets/portraits/009-0036.webp"
@@ -2163,10 +2165,10 @@ window.TEAM009_DATA = {
           "species": "Tiefling",
           "universe": "D&D 5e",
           "status": "DECEASED",
-          "firstCycle": 805,
-          "lastCycle": 805,
+          "firstCycle": 449,
+          "lastCycle": 449,
           "serviceCycles": [
-            805
+            449
           ],
           "finalExpedition": "The Ward of Unfinished Lives",
           "portrait": "assets/portraits/009-0038.webp"
@@ -2177,10 +2179,10 @@ window.TEAM009_DATA = {
           "species": "Turian",
           "universe": "Mass Effect",
           "status": "DECEASED",
-          "firstCycle": 805,
-          "lastCycle": 805,
+          "firstCycle": 449,
+          "lastCycle": 449,
           "serviceCycles": [
-            805
+            449
           ],
           "finalExpedition": "The Ward of Unfinished Lives",
           "portrait": "assets/portraits/009-0039.webp"
@@ -2188,7 +2190,7 @@ window.TEAM009_DATA = {
       ]
     },
     {
-      "number": 804,
+      "number": 420,
       "mission": "The Lighthouse at the End of Everything",
       "location": "Blackwater Expanse",
       "annex": "N-4406",
@@ -2200,11 +2202,11 @@ window.TEAM009_DATA = {
           "species": "Human",
           "universe": "D&D 5e",
           "status": "DECEASED",
-          "firstCycle": 803,
-          "lastCycle": 804,
+          "firstCycle": 417,
+          "lastCycle": 420,
           "serviceCycles": [
-            804,
-            803
+            420,
+            417
           ],
           "finalExpedition": "The Lighthouse at the End of Everything",
           "portrait": "assets/portraits/009-0033.webp"
@@ -2215,12 +2217,12 @@ window.TEAM009_DATA = {
           "species": "Mirialan",
           "universe": "Star Wars",
           "status": "SURVIVED",
-          "firstCycle": 804,
-          "lastCycle": 806,
+          "firstCycle": 420,
+          "lastCycle": 454,
           "serviceCycles": [
-            806,
-            805,
-            804
+            454,
+            449,
+            420
           ],
           "finalExpedition": "The Procession of Hollow Kings",
           "portrait": "assets/portraits/009-0036.webp"
@@ -2231,10 +2233,10 @@ window.TEAM009_DATA = {
           "species": "Dwarf",
           "universe": "D&D 5e",
           "status": "DECEASED",
-          "firstCycle": 804,
-          "lastCycle": 804,
+          "firstCycle": 420,
+          "lastCycle": 420,
           "serviceCycles": [
-            804
+            420
           ],
           "finalExpedition": "The Lighthouse at the End of Everything",
           "portrait": "assets/portraits/009-0037.webp"
@@ -2242,7 +2244,7 @@ window.TEAM009_DATA = {
       ]
     },
     {
-      "number": 803,
+      "number": 417,
       "mission": "The Museum of Things That Never Were",
       "location": "Gallery of Impossible Histories",
       "annex": "I-9042",
@@ -2254,11 +2256,11 @@ window.TEAM009_DATA = {
           "species": "Human",
           "universe": "D&D 5e",
           "status": "SURVIVED",
-          "firstCycle": 803,
-          "lastCycle": 804,
+          "firstCycle": 417,
+          "lastCycle": 420,
           "serviceCycles": [
-            804,
-            803
+            420,
+            417
           ],
           "finalExpedition": "The Lighthouse at the End of Everything",
           "portrait": "assets/portraits/009-0033.webp"
@@ -2269,10 +2271,10 @@ window.TEAM009_DATA = {
           "species": "Twi'lek",
           "universe": "Star Wars",
           "status": "DECEASED",
-          "firstCycle": 803,
-          "lastCycle": 803,
+          "firstCycle": 417,
+          "lastCycle": 417,
           "serviceCycles": [
-            803
+            417
           ],
           "finalExpedition": "The Museum of Things That Never Were",
           "portrait": "assets/portraits/009-0034.webp"
@@ -2283,10 +2285,10 @@ window.TEAM009_DATA = {
           "species": "Thri-kreen",
           "universe": "D&D 5e",
           "status": "DECEASED",
-          "firstCycle": 803,
-          "lastCycle": 803,
+          "firstCycle": 417,
+          "lastCycle": 417,
           "serviceCycles": [
-            803
+            417
           ],
           "finalExpedition": "The Museum of Things That Never Were",
           "portrait": "assets/portraits/009-0035.webp"
@@ -2294,7 +2296,7 @@ window.TEAM009_DATA = {
       ]
     },
     {
-      "number": 802,
+      "number": 405,
       "mission": "The Cathedral of Empty Voices",
       "location": "Basilica of the Unspoken",
       "annex": "V-6620",
@@ -2306,12 +2308,12 @@ window.TEAM009_DATA = {
           "species": "Asari",
           "universe": "Mass Effect",
           "status": "DECEASED",
-          "firstCycle": 800,
-          "lastCycle": 802,
+          "firstCycle": 393,
+          "lastCycle": 405,
           "serviceCycles": [
-            802,
-            801,
-            800
+            405,
+            399,
+            393
           ],
           "finalExpedition": "The Cathedral of Empty Voices",
           "portrait": "assets/portraits/009-0027.webp"
@@ -2322,10 +2324,10 @@ window.TEAM009_DATA = {
           "species": "Human",
           "universe": "D&D 5e",
           "status": "DECEASED",
-          "firstCycle": 802,
-          "lastCycle": 802,
+          "firstCycle": 405,
+          "lastCycle": 405,
           "serviceCycles": [
-            802
+            405
           ],
           "finalExpedition": "The Cathedral of Empty Voices",
           "portrait": "assets/portraits/009-0031.webp"
@@ -2336,10 +2338,10 @@ window.TEAM009_DATA = {
           "species": "Geth",
           "universe": "Mass Effect",
           "status": "DECEASED",
-          "firstCycle": 802,
-          "lastCycle": 802,
+          "firstCycle": 405,
+          "lastCycle": 405,
           "serviceCycles": [
-            802
+            405
           ],
           "finalExpedition": "The Cathedral of Empty Voices",
           "portrait": "assets/portraits/009-0032.webp"
@@ -2347,7 +2349,7 @@ window.TEAM009_DATA = {
       ]
     },
     {
-      "number": 801,
+      "number": 399,
       "mission": "The Mercy of Forgotten Things",
       "location": "Sanctuary of Lost Hours",
       "annex": "E-4821",
@@ -2359,12 +2361,12 @@ window.TEAM009_DATA = {
           "species": "Asari",
           "universe": "Mass Effect",
           "status": "SURVIVED",
-          "firstCycle": 800,
-          "lastCycle": 802,
+          "firstCycle": 393,
+          "lastCycle": 405,
           "serviceCycles": [
-            802,
-            801,
-            800
+            405,
+            399,
+            393
           ],
           "finalExpedition": "The Cathedral of Empty Voices",
           "portrait": "assets/portraits/009-0027.webp"
@@ -2375,10 +2377,10 @@ window.TEAM009_DATA = {
           "species": "Human",
           "universe": "D&D 5e",
           "status": "DECEASED",
-          "firstCycle": 801,
-          "lastCycle": 801,
+          "firstCycle": 399,
+          "lastCycle": 399,
           "serviceCycles": [
-            801
+            399
           ],
           "finalExpedition": "The Mercy of Forgotten Things",
           "portrait": "assets/portraits/009-0029.webp"
@@ -2389,10 +2391,10 @@ window.TEAM009_DATA = {
           "species": "Kasatha",
           "universe": "Starfinder",
           "status": "DECEASED",
-          "firstCycle": 801,
-          "lastCycle": 801,
+          "firstCycle": 399,
+          "lastCycle": 399,
           "serviceCycles": [
-            801
+            399
           ],
           "finalExpedition": "The Mercy of Forgotten Things",
           "portrait": "assets/portraits/009-0030.webp"
@@ -2400,7 +2402,7 @@ window.TEAM009_DATA = {
       ]
     },
     {
-      "number": 800,
+      "number": 393,
       "mission": "The Last Light of Autumn",
       "location": "Autumn's Bastion",
       "annex": "Compendium Vol. 1",
@@ -2412,12 +2414,12 @@ window.TEAM009_DATA = {
           "species": "Half-Orc",
           "universe": "D&D 5e",
           "status": "DECEASED",
-          "firstCycle": 798,
-          "lastCycle": 800,
+          "firstCycle": 384,
+          "lastCycle": 393,
           "serviceCycles": [
-            800,
-            799,
-            798
+            393,
+            386,
+            384
           ],
           "finalExpedition": "The Last Light of Autumn",
           "portrait": "assets/portraits/009-0025.webp"
@@ -2428,12 +2430,12 @@ window.TEAM009_DATA = {
           "species": "Asari",
           "universe": "Mass Effect",
           "status": "SURVIVED",
-          "firstCycle": 800,
-          "lastCycle": 802,
+          "firstCycle": 393,
+          "lastCycle": 405,
           "serviceCycles": [
-            802,
-            801,
-            800
+            405,
+            399,
+            393
           ],
           "finalExpedition": "The Cathedral of Empty Voices",
           "portrait": "assets/portraits/009-0027.webp"
@@ -2444,10 +2446,10 @@ window.TEAM009_DATA = {
           "species": "Dragonborn",
           "universe": "D&D 5e",
           "status": "DECEASED",
-          "firstCycle": 800,
-          "lastCycle": 800,
+          "firstCycle": 393,
+          "lastCycle": 393,
           "serviceCycles": [
-            800
+            393
           ],
           "finalExpedition": "The Last Light of Autumn",
           "portrait": "assets/portraits/009-0028.webp"
@@ -2455,7 +2457,7 @@ window.TEAM009_DATA = {
       ]
     },
     {
-      "number": 799,
+      "number": 386,
       "mission": "The Children of Yesterday",
       "location": "Village of Hollowmere",
       "annex": "Y-3048",
@@ -2467,12 +2469,12 @@ window.TEAM009_DATA = {
           "species": "Human",
           "universe": "D&D 5e",
           "status": "TRANSFERRED",
-          "firstCycle": 797,
-          "lastCycle": 799,
+          "firstCycle": 382,
+          "lastCycle": 386,
           "serviceCycles": [
-            799,
-            798,
-            797
+            386,
+            384,
+            382
           ],
           "finalExpedition": "The Children of Yesterday",
           "transferDivision": "Pale Lodge (division not recorded)",
@@ -2484,12 +2486,12 @@ window.TEAM009_DATA = {
           "species": "Half-Orc",
           "universe": "D&D 5e",
           "status": "SURVIVED",
-          "firstCycle": 798,
-          "lastCycle": 800,
+          "firstCycle": 384,
+          "lastCycle": 393,
           "serviceCycles": [
-            800,
-            799,
-            798
+            393,
+            386,
+            384
           ],
           "finalExpedition": "The Last Light of Autumn",
           "portrait": "assets/portraits/009-0025.webp"
@@ -2500,10 +2502,10 @@ window.TEAM009_DATA = {
           "species": "Salarian",
           "universe": "Mass Effect",
           "status": "DECEASED",
-          "firstCycle": 799,
-          "lastCycle": 799,
+          "firstCycle": 386,
+          "lastCycle": 386,
           "serviceCycles": [
-            799
+            386
           ],
           "finalExpedition": "The Children of Yesterday",
           "portrait": "assets/portraits/009-0026.webp"
@@ -2511,7 +2513,7 @@ window.TEAM009_DATA = {
       ]
     },
     {
-      "number": 798,
+      "number": 384,
       "mission": "The House of Unwritten Names",
       "location": "Manor of Last Remembrance",
       "annex": "H-6312",
@@ -2523,12 +2525,12 @@ window.TEAM009_DATA = {
           "species": "Human",
           "universe": "D&D 5e",
           "status": "SURVIVED",
-          "firstCycle": 797,
-          "lastCycle": 799,
+          "firstCycle": 382,
+          "lastCycle": 386,
           "serviceCycles": [
-            799,
-            798,
-            797
+            386,
+            384,
+            382
           ],
           "finalExpedition": "The Children of Yesterday",
           "transferDivision": "Pale Lodge (division not recorded)",
@@ -2540,11 +2542,11 @@ window.TEAM009_DATA = {
           "species": "Wood Elf",
           "universe": "D&D 5e",
           "status": "DECEASED",
-          "firstCycle": 797,
-          "lastCycle": 798,
+          "firstCycle": 382,
+          "lastCycle": 384,
           "serviceCycles": [
-            798,
-            797
+            384,
+            382
           ],
           "finalExpedition": "The House of Unwritten Names",
           "portrait": "assets/portraits/009-0024.webp"
@@ -2555,12 +2557,12 @@ window.TEAM009_DATA = {
           "species": "Half-Orc",
           "universe": "D&D 5e",
           "status": "SURVIVED",
-          "firstCycle": 798,
-          "lastCycle": 800,
+          "firstCycle": 384,
+          "lastCycle": 393,
           "serviceCycles": [
-            800,
-            799,
-            798
+            393,
+            386,
+            384
           ],
           "finalExpedition": "The Last Light of Autumn",
           "portrait": "assets/portraits/009-0025.webp"
@@ -2568,7 +2570,7 @@ window.TEAM009_DATA = {
       ]
     },
     {
-      "number": 797,
+      "number": 382,
       "mission": "The King Beneath the Ash",
       "location": "Cinderbound Throne",
       "annex": "F-2087",
@@ -2580,12 +2582,12 @@ window.TEAM009_DATA = {
           "species": "Human",
           "universe": "D&D 5e",
           "status": "SURVIVED",
-          "firstCycle": 797,
-          "lastCycle": 799,
+          "firstCycle": 382,
+          "lastCycle": 386,
           "serviceCycles": [
-            799,
-            798,
-            797
+            386,
+            384,
+            382
           ],
           "finalExpedition": "The Children of Yesterday",
           "transferDivision": "Pale Lodge (division not recorded)",
@@ -2597,10 +2599,10 @@ window.TEAM009_DATA = {
           "species": "Dwarf",
           "universe": "D&D 5e",
           "status": "DECEASED",
-          "firstCycle": 797,
-          "lastCycle": 797,
+          "firstCycle": 382,
+          "lastCycle": 382,
           "serviceCycles": [
-            797
+            382
           ],
           "finalExpedition": "The King Beneath the Ash",
           "portrait": "assets/portraits/009-0023.webp"
@@ -2611,11 +2613,11 @@ window.TEAM009_DATA = {
           "species": "Wood Elf",
           "universe": "D&D 5e",
           "status": "SURVIVED",
-          "firstCycle": 797,
-          "lastCycle": 798,
+          "firstCycle": 382,
+          "lastCycle": 384,
           "serviceCycles": [
-            798,
-            797
+            384,
+            382
           ],
           "finalExpedition": "The House of Unwritten Names",
           "portrait": "assets/portraits/009-0024.webp"
@@ -2623,7 +2625,7 @@ window.TEAM009_DATA = {
       ]
     },
     {
-      "number": 796,
+      "number": 375,
       "mission": "The City That Forgot Its Dead",
       "location": "Sepulcher of a Thousand Doors",
       "annex": "D-7714",
@@ -2635,12 +2637,12 @@ window.TEAM009_DATA = {
           "species": "Quarian",
           "universe": "Mass Effect",
           "status": "TRANSFERRED",
-          "firstCycle": 794,
-          "lastCycle": 796,
+          "firstCycle": 364,
+          "lastCycle": 375,
           "serviceCycles": [
-            796,
-            795,
-            794
+            375,
+            370,
+            364
           ],
           "finalExpedition": "The City That Forgot Its Dead",
           "transferDivision": "Pale Lodge (division not recorded)",
@@ -2652,10 +2654,10 @@ window.TEAM009_DATA = {
           "species": "Human",
           "universe": "D&D 5e",
           "status": "DECEASED",
-          "firstCycle": 796,
-          "lastCycle": 796,
+          "firstCycle": 375,
+          "lastCycle": 375,
           "serviceCycles": [
-            796
+            375
           ],
           "finalExpedition": "The City That Forgot Its Dead",
           "portrait": "assets/portraits/009-0020.webp"
@@ -2666,10 +2668,10 @@ window.TEAM009_DATA = {
           "species": "Tiefling",
           "universe": "D&D 5e",
           "status": "DECEASED",
-          "firstCycle": 796,
-          "lastCycle": 796,
+          "firstCycle": 375,
+          "lastCycle": 375,
           "serviceCycles": [
-            796
+            375
           ],
           "finalExpedition": "The City That Forgot Its Dead",
           "portrait": "assets/portraits/009-0021.webp"
@@ -2677,7 +2679,7 @@ window.TEAM009_DATA = {
       ]
     },
     {
-      "number": 795,
+      "number": 370,
       "mission": "The Silence Between Stars",
       "location": "Ossuary of Sleeping Suns",
       "annex": "S-1176",
@@ -2689,12 +2691,12 @@ window.TEAM009_DATA = {
           "species": "Quarian",
           "universe": "Mass Effect",
           "status": "SURVIVED",
-          "firstCycle": 794,
-          "lastCycle": 796,
+          "firstCycle": 364,
+          "lastCycle": 375,
           "serviceCycles": [
-            796,
-            795,
-            794
+            375,
+            370,
+            364
           ],
           "finalExpedition": "The City That Forgot Its Dead",
           "transferDivision": "Pale Lodge (division not recorded)",
@@ -2706,10 +2708,10 @@ window.TEAM009_DATA = {
           "species": "Githzerai",
           "universe": "D&D 5e",
           "status": "TRANSFERRED",
-          "firstCycle": 795,
-          "lastCycle": 795,
+          "firstCycle": 370,
+          "lastCycle": 370,
           "serviceCycles": [
-            795
+            370
           ],
           "finalExpedition": "The Silence Between Stars",
           "transferDivision": "Pale Lodge (division not recorded)",
@@ -2721,10 +2723,10 @@ window.TEAM009_DATA = {
           "species": "Pelagic neural colony",
           "universe": "Original",
           "status": "DECEASED",
-          "firstCycle": 795,
-          "lastCycle": 795,
+          "firstCycle": 370,
+          "lastCycle": 370,
           "serviceCycles": [
-            795
+            370
           ],
           "finalExpedition": "The Silence Between Stars",
           "portrait": "assets/portraits/009-0019.webp"
@@ -2732,7 +2734,7 @@ window.TEAM009_DATA = {
       ]
     },
     {
-      "number": 794,
+      "number": 364,
       "mission": "The Lanterns of the Unreturned",
       "location": "Hollow Lantern Fields",
       "annex": "L-5093",
@@ -2744,12 +2746,12 @@ window.TEAM009_DATA = {
           "species": "Quarian",
           "universe": "Mass Effect",
           "status": "SURVIVED",
-          "firstCycle": 794,
-          "lastCycle": 796,
+          "firstCycle": 364,
+          "lastCycle": 375,
           "serviceCycles": [
-            796,
-            795,
-            794
+            375,
+            370,
+            364
           ],
           "finalExpedition": "The City That Forgot Its Dead",
           "transferDivision": "Pale Lodge (division not recorded)",
@@ -2761,10 +2763,10 @@ window.TEAM009_DATA = {
           "species": "Tabaxi",
           "universe": "D&D 5e",
           "status": "DECEASED",
-          "firstCycle": 794,
-          "lastCycle": 794,
+          "firstCycle": 364,
+          "lastCycle": 364,
           "serviceCycles": [
-            794
+            364
           ],
           "finalExpedition": "The Lanterns of the Unreturned",
           "portrait": "assets/portraits/009-0016.webp"
@@ -2775,10 +2777,10 @@ window.TEAM009_DATA = {
           "species": "Chiss",
           "universe": "Star Wars",
           "status": "DECEASED",
-          "firstCycle": 794,
-          "lastCycle": 794,
+          "firstCycle": 364,
+          "lastCycle": 364,
           "serviceCycles": [
-            794
+            364
           ],
           "finalExpedition": "The Lanterns of the Unreturned",
           "portrait": "assets/portraits/009-0017.webp"
@@ -2786,7 +2788,7 @@ window.TEAM009_DATA = {
       ]
     },
     {
-      "number": 793,
+      "number": 362,
       "mission": "The Sea Without a Shore",
       "location": "Drowned Firmament",
       "annex": "M-8302",
@@ -2798,11 +2800,11 @@ window.TEAM009_DATA = {
           "species": "Stone construct",
           "universe": "Original",
           "status": "DECEASED",
-          "firstCycle": 792,
-          "lastCycle": 793,
+          "firstCycle": 359,
+          "lastCycle": 362,
           "serviceCycles": [
-            793,
-            792
+            362,
+            359
           ],
           "finalExpedition": "The Sea Without a Shore",
           "portrait": "assets/portraits/009-0013.webp"
@@ -2813,15 +2815,15 @@ window.TEAM009_DATA = {
           "species": "Crystalline humanoid",
           "universe": "Original",
           "status": "DECEASED",
-          "firstCycle": 791,
-          "lastCycle": 793,
+          "firstCycle": 322,
+          "lastCycle": 362,
           "serviceCycles": [
-            793,
-            791
+            362,
+            322
           ],
           "finalExpedition": "The Sea Without a Shore",
           "leaveCycles": [
-            792
+            359
           ],
           "portrait": "assets/portraits/009-0011.webp"
         },
@@ -2831,10 +2833,10 @@ window.TEAM009_DATA = {
           "species": "Krogan",
           "universe": "Mass Effect",
           "status": "DECEASED",
-          "firstCycle": 793,
-          "lastCycle": 793,
+          "firstCycle": 362,
+          "lastCycle": 362,
           "serviceCycles": [
-            793
+            362
           ],
           "finalExpedition": "The Sea Without a Shore",
           "portrait": "assets/portraits/009-0014.webp"
@@ -2842,7 +2844,7 @@ window.TEAM009_DATA = {
       ]
     },
     {
-      "number": 792,
+      "number": 359,
       "mission": "The Garden That Remembered",
       "location": "Mourning Conservatory",
       "annex": "G-2916",
@@ -2854,12 +2856,12 @@ window.TEAM009_DATA = {
           "species": "Firbolg",
           "universe": "D&D 5e",
           "status": "TRANSFERRED",
-          "firstCycle": 790,
-          "lastCycle": 792,
+          "firstCycle": 308,
+          "lastCycle": 359,
           "serviceCycles": [
-            792,
-            791,
-            790
+            359,
+            322,
+            308
           ],
           "finalExpedition": "The Garden That Remembered",
           "transferDivision": "Pale Lodge (division not recorded)",
@@ -2871,10 +2873,10 @@ window.TEAM009_DATA = {
           "species": "Shirren",
           "universe": "Starfinder",
           "status": "DECEASED",
-          "firstCycle": 792,
-          "lastCycle": 792,
+          "firstCycle": 359,
+          "lastCycle": 359,
           "serviceCycles": [
-            792
+            359
           ],
           "finalExpedition": "The Garden That Remembered",
           "portrait": "assets/portraits/009-0012.webp"
@@ -2885,11 +2887,11 @@ window.TEAM009_DATA = {
           "species": "Stone construct",
           "universe": "Original",
           "status": "SURVIVED",
-          "firstCycle": 792,
-          "lastCycle": 793,
+          "firstCycle": 359,
+          "lastCycle": 362,
           "serviceCycles": [
-            793,
-            792
+            362,
+            359
           ],
           "finalExpedition": "The Sea Without a Shore",
           "portrait": "assets/portraits/009-0013.webp"
@@ -2897,7 +2899,7 @@ window.TEAM009_DATA = {
       ]
     },
     {
-      "number": 791,
+      "number": 322,
       "mission": "The Bell That Rang Tomorrow",
       "location": "Cathedral of Unfinished Hours",
       "annex": "T-4418",
@@ -2909,12 +2911,12 @@ window.TEAM009_DATA = {
           "species": "Firbolg",
           "universe": "D&D 5e",
           "status": "SURVIVED",
-          "firstCycle": 790,
-          "lastCycle": 792,
+          "firstCycle": 308,
+          "lastCycle": 359,
           "serviceCycles": [
-            792,
-            791,
-            790
+            359,
+            322,
+            308
           ],
           "finalExpedition": "The Garden That Remembered",
           "transferDivision": "Pale Lodge (division not recorded)",
@@ -2926,10 +2928,10 @@ window.TEAM009_DATA = {
           "species": "Salarian",
           "universe": "Mass Effect",
           "status": "DECEASED",
-          "firstCycle": 791,
-          "lastCycle": 791,
+          "firstCycle": 322,
+          "lastCycle": 322,
           "serviceCycles": [
-            791
+            322
           ],
           "finalExpedition": "The Bell That Rang Tomorrow",
           "portrait": "assets/portraits/009-0010.webp"
@@ -2940,22 +2942,22 @@ window.TEAM009_DATA = {
           "species": "Crystalline humanoid",
           "universe": "Original",
           "status": "SURVIVED",
-          "firstCycle": 791,
-          "lastCycle": 793,
+          "firstCycle": 322,
+          "lastCycle": 362,
           "serviceCycles": [
-            793,
-            791
+            362,
+            322
           ],
           "finalExpedition": "The Sea Without a Shore",
           "leaveCycles": [
-            792
+            359
           ],
           "portrait": "assets/portraits/009-0011.webp"
         }
       ]
     },
     {
-      "number": 790,
+      "number": 308,
       "mission": "The Orchard of Borrowed Suns",
       "location": "Vesper Orchard",
       "annex": "R-6081",
@@ -2967,11 +2969,11 @@ window.TEAM009_DATA = {
           "species": "SRO",
           "universe": "Starfinder",
           "status": "DECEASED",
-          "firstCycle": 789,
-          "lastCycle": 790,
+          "firstCycle": 294,
+          "lastCycle": 308,
           "serviceCycles": [
-            790,
-            789
+            308,
+            294
           ],
           "finalExpedition": "The Orchard of Borrowed Suns",
           "portrait": "assets/portraits/009-0007.webp"
@@ -2982,12 +2984,12 @@ window.TEAM009_DATA = {
           "species": "Firbolg",
           "universe": "D&D 5e",
           "status": "SURVIVED",
-          "firstCycle": 790,
-          "lastCycle": 792,
+          "firstCycle": 308,
+          "lastCycle": 359,
           "serviceCycles": [
-            792,
-            791,
-            790
+            359,
+            322,
+            308
           ],
           "finalExpedition": "The Garden That Remembered",
           "transferDivision": "Pale Lodge (division not recorded)",
@@ -2999,10 +3001,10 @@ window.TEAM009_DATA = {
           "species": "Rodian",
           "universe": "Star Wars",
           "status": "DECEASED",
-          "firstCycle": 790,
-          "lastCycle": 790,
+          "firstCycle": 308,
+          "lastCycle": 308,
           "serviceCycles": [
-            790
+            308
           ],
           "finalExpedition": "The Orchard of Borrowed Suns",
           "portrait": "assets/portraits/009-0009.webp"
@@ -3010,7 +3012,7 @@ window.TEAM009_DATA = {
       ]
     },
     {
-      "number": 789,
+      "number": 294,
       "mission": "The Choir Beneath the Clouds",
       "location": "Cloud Cities of the Rijklands",
       "annex": "C-7329D",
@@ -3022,12 +3024,12 @@ window.TEAM009_DATA = {
           "species": "Kasatha",
           "universe": "Starfinder",
           "status": "TRANSFERRED",
-          "firstCycle": 787,
-          "lastCycle": 789,
+          "firstCycle": 282,
+          "lastCycle": 294,
           "serviceCycles": [
-            789,
-            788,
-            787
+            294,
+            290,
+            282
           ],
           "finalExpedition": "The Choir Beneath the Clouds",
           "transferDivision": "Pale Lodge (division not recorded)",
@@ -3039,10 +3041,10 @@ window.TEAM009_DATA = {
           "species": "Thri-kreen",
           "universe": "D&D 5e",
           "status": "DECEASED",
-          "firstCycle": 789,
-          "lastCycle": 789,
+          "firstCycle": 294,
+          "lastCycle": 294,
           "serviceCycles": [
-            789
+            294
           ],
           "finalExpedition": "The Choir Beneath the Clouds",
           "portrait": "assets/portraits/009-0006.webp"
@@ -3053,11 +3055,11 @@ window.TEAM009_DATA = {
           "species": "SRO",
           "universe": "Starfinder",
           "status": "SURVIVED",
-          "firstCycle": 789,
-          "lastCycle": 790,
+          "firstCycle": 294,
+          "lastCycle": 308,
           "serviceCycles": [
-            790,
-            789
+            308,
+            294
           ],
           "finalExpedition": "The Orchard of Borrowed Suns",
           "portrait": "assets/portraits/009-0007.webp"
@@ -3065,7 +3067,7 @@ window.TEAM009_DATA = {
       ]
     },
     {
-      "number": 788,
+      "number": 290,
       "mission": "The Glasswake Incident",
       "location": "Shattered Observatory",
       "annex": "V-0194",
@@ -3077,12 +3079,12 @@ window.TEAM009_DATA = {
           "species": "Kasatha",
           "universe": "Starfinder",
           "status": "SURVIVED",
-          "firstCycle": 787,
-          "lastCycle": 789,
+          "firstCycle": 282,
+          "lastCycle": 294,
           "serviceCycles": [
-            789,
-            788,
-            787
+            294,
+            290,
+            282
           ],
           "finalExpedition": "The Choir Beneath the Clouds",
           "transferDivision": "Pale Lodge (division not recorded)",
@@ -3094,10 +3096,10 @@ window.TEAM009_DATA = {
           "species": "Turian",
           "universe": "Mass Effect",
           "status": "DECEASED",
-          "firstCycle": 788,
-          "lastCycle": 788,
+          "firstCycle": 290,
+          "lastCycle": 290,
           "serviceCycles": [
-            788
+            290
           ],
           "finalExpedition": "The Glasswake Incident",
           "portrait": "assets/portraits/009-0004.webp"
@@ -3108,10 +3110,10 @@ window.TEAM009_DATA = {
           "species": "Plasmoid",
           "universe": "D&D 5e",
           "status": "TRANSFERRED",
-          "firstCycle": 788,
-          "lastCycle": 788,
+          "firstCycle": 290,
+          "lastCycle": 290,
           "serviceCycles": [
-            788
+            290
           ],
           "finalExpedition": "The Glasswake Incident",
           "transferDivision": "Pale Lodge (division not recorded)",
@@ -3120,7 +3122,7 @@ window.TEAM009_DATA = {
       ]
     },
     {
-      "number": 787,
+      "number": 282,
       "mission": "The Hollow Meridian",
       "location": "Cloud Cities of the Rijklands",
       "annex": "C-7329D",
@@ -3132,10 +3134,10 @@ window.TEAM009_DATA = {
           "species": "Kenku",
           "universe": "D&D 5e",
           "status": "DECEASED",
-          "firstCycle": 787,
-          "lastCycle": 787,
+          "firstCycle": 282,
+          "lastCycle": 282,
           "serviceCycles": [
-            787
+            282
           ],
           "finalExpedition": "The Hollow Meridian",
           "portrait": "assets/portraits/009-0001.webp"
@@ -3146,12 +3148,12 @@ window.TEAM009_DATA = {
           "species": "Kasatha",
           "universe": "Starfinder",
           "status": "SURVIVED",
-          "firstCycle": 787,
-          "lastCycle": 789,
+          "firstCycle": 282,
+          "lastCycle": 294,
           "serviceCycles": [
-            789,
-            788,
-            787
+            294,
+            290,
+            282
           ],
           "finalExpedition": "The Choir Beneath the Clouds",
           "transferDivision": "Pale Lodge (division not recorded)",
@@ -3163,10 +3165,10 @@ window.TEAM009_DATA = {
           "species": "Flora colossus",
           "universe": "Marvel",
           "status": "DECEASED",
-          "firstCycle": 787,
-          "lastCycle": 787,
+          "firstCycle": 282,
+          "lastCycle": 282,
           "serviceCycles": [
-            787
+            282
           ],
           "finalExpedition": "The Hollow Meridian",
           "portrait": "assets/portraits/009-0003.webp"
