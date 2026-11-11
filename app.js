@@ -34,24 +34,29 @@ function shuffleMessages(){
   const indexes=transmissions.map((_,i)=>i);
   if(!indexes.length){messageOrder=[];messagePosition=0;return}
   const previousTopic=messageOrder.length?transmissions[messageOrder[messageOrder.length-1]]?.topic:null;
-  let best=indexes,bestScore=Infinity;
-  for(let attempt=0;attempt<250;attempt++){
-    const candidate=indexes.slice();
-    for(let i=candidate.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[candidate[i],candidate[j]]=[candidate[j],candidate[i]]}
-    let score=0;
-    for(let i=1;i<candidate.length;i++){
-      const a=transmissions[candidate[i-1]],b=transmissions[candidate[i]];
-      if(a.topic&&a.topic===b.topic)score+=12;
-      if(a.messages.length===1&&b.messages.length===1)score+=3;
+  let nextOrder=null;
+  for(let attempt=0;attempt<120&&!nextOrder;attempt++){
+    const remaining=indexes.slice(),candidate=[];
+    while(remaining.length){
+      const last=candidate.length?transmissions[candidate[candidate.length-1]]:null;
+      const choices=remaining.filter(i=>{
+        const item=transmissions[i];
+        if(last&&last.topic===item.topic)return false;
+        if(last&&last.messages.length===1&&item.messages.length===1)return false;
+        if(item.topic==='earth'&&candidate.slice(-4).some(j=>transmissions[j].topic==='earth'))return false;
+        return true;
+      });
+      if(!choices.length)break;
+      const id=choices[Math.floor(Math.random()*choices.length)];
+      candidate.push(id);
+      remaining.splice(remaining.indexOf(id),1);
     }
-    const earth=candidate.map((id,i)=>transmissions[id].topic==='earth'?i:-1).filter(i=>i>=0);
-    for(let a=0;a<earth.length;a++)for(let b=a+1;b<earth.length;b++)score+=100*Math.max(0,5-(earth[b]-earth[a]));
-    if(previousTopic&&previousTopic===transmissions[candidate[0]].topic)score+=12;
-    if(candidate.length>1&&transmissions[candidate[0]].topic===transmissions[candidate[candidate.length-1]].topic)score+=4;
-    if(score<bestScore){best=candidate;bestScore=score}
-    if(score===0)break;
+    if(remaining.length)continue;
+    if(previousTopic&&previousTopic===transmissions[candidate[0]].topic)continue;
+    if(candidate.length>1&&transmissions[candidate[0]].topic===transmissions[candidate[candidate.length-1]].topic)continue;
+    nextOrder=candidate;
   }
-  messageOrder=best;messagePosition=0;
+  messageOrder=nextOrder||indexes;messagePosition=0;
 }
 function showMessage(){if(!transmissions.length){$('transmission').textContent='NO TRANSMISSIONS AVAILABLE';return}const conversation=transmissions[messageOrder[messagePosition]];$('transmission').innerHTML=conversation.messages.map(m=>`<div class="message"><div class="message-head"><span class="message-name">@${escape(m.user)}</span><span class="message-cycle">CYCLE ${num(m.cycle)}</span></div><div class="message-body">${escape(m.text)}</div>${m.linkCycle?`<button class="message-cycle-link" data-action="network-jump" data-target="${m.linkCycle}">VIEW CYCLE ${num(m.linkCycle)} ↗</button>`:''}</div>`).join('')}
 function advanceMessage(delta){if(!messageOrder.length)return;messagePosition+=delta;if(messagePosition>=messageOrder.length){shuffleMessages()}else if(messagePosition<0)messagePosition=messageOrder.length-1;showMessage()}
