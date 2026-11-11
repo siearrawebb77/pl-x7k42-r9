@@ -94,17 +94,6 @@ window.TEAM009_TRANSMISSIONS = [
     ]
   },
   {
-    "topic": "personal",
-    "messages": [
-      {
-        "user": "velvetglove",
-        "cycle": 842,
-        "text": "Elaris Wintermere always looked so composed.",
-        "linkCycle": 841
-      }
-    ]
-  },
-  {
     "topic": "recruitment",
     "messages": [
       {
@@ -116,6 +105,17 @@ window.TEAM009_TRANSMISSIONS = [
         "user": "old_fox",
         "cycle": 844,
         "text": "Do you two get along?"
+      }
+    ]
+  },
+  {
+    "topic": "personal",
+    "messages": [
+      {
+        "user": "velvetglove",
+        "cycle": 842,
+        "text": "Elaris Wintermere always looked so composed.",
+        "linkCycle": 841
       }
     ]
   },
@@ -173,6 +173,16 @@ window.TEAM009_TRANSMISSIONS = [
     ]
   },
   {
+    "topic": "ominous",
+    "messages": [
+      {
+        "user": "half_asleep",
+        "cycle": 844,
+        "text": "Has anyone ever dreamed about Team Nine members they never met?"
+      }
+    ]
+  },
+  {
     "topic": "transfer",
     "messages": [
       {
@@ -185,16 +195,6 @@ window.TEAM009_TRANSMISSIONS = [
         "user": "not_a_chance",
         "cycle": 844,
         "text": "That's the kind of survival instinct I respect."
-      }
-    ]
-  },
-  {
-    "topic": "ominous",
-    "messages": [
-      {
-        "user": "half_asleep",
-        "cycle": 844,
-        "text": "Has anyone ever dreamed about Team Nine members they never met?"
       }
     ]
   },
