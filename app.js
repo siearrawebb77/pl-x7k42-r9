@@ -30,7 +30,29 @@ function viewPortrait(n,id){viewerCycle=byCycle(n);if(!viewerCycle)return;viewer
 function updateViewer(){const m=sortedMembers(viewerCycle),p=m[viewerIndex];$('viewerName').textContent=p.name;$('viewerId').textContent=p.id||'ASSIGNMENT PENDING';$('viewerArt').innerHTML=`<img src="${escape(p.portrait||silhouette)}" alt="Full portrait of ${escape(p.name)}" onerror="this.onerror=null;this.src='assets/archive-placeholder.png'">`;$('viewerCounter').textContent=`CYCLE ${num(viewerCycle.number)} // ${viewerIndex+1} OF ${m.length}`}
 function moveViewer(d){if(!viewerCycle)return;viewerIndex=(viewerIndex+d+3)%3;updateViewer()}
 function closeViewer(){if($('portraitViewer').hidden)return;$('portraitViewer').hidden=true;document.body.style.overflow='';lastFocus?.focus()}
-function shuffleMessages(){const indexes=transmissions.map((_,i)=>i);const fresh=indexes.slice(0,Math.min(2,indexes.length));const rest=indexes.slice(fresh.length);for(let i=rest.length-1;i>0;i--){let j=Math.floor(Math.random()*(i+1));[rest[i],rest[j]]=[rest[j],rest[i]]}messageOrder=[...fresh,...rest];messagePosition=0}
+function shuffleMessages(){
+  const indexes=transmissions.map((_,i)=>i);
+  if(!indexes.length){messageOrder=[];messagePosition=0;return}
+  const previousTopic=messageOrder.length?transmissions[messageOrder[messageOrder.length-1]]?.topic:null;
+  let best=indexes,bestScore=Infinity;
+  for(let attempt=0;attempt<250;attempt++){
+    const candidate=indexes.slice();
+    for(let i=candidate.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[candidate[i],candidate[j]]=[candidate[j],candidate[i]]}
+    let score=0;
+    for(let i=1;i<candidate.length;i++){
+      const a=transmissions[candidate[i-1]],b=transmissions[candidate[i]];
+      if(a.topic&&a.topic===b.topic)score+=12;
+      if(a.messages.length===1&&b.messages.length===1)score+=3;
+    }
+    const earth=candidate.map((id,i)=>transmissions[id].topic==='earth'?i:-1).filter(i=>i>=0);
+    for(let a=0;a<earth.length;a++)for(let b=a+1;b<earth.length;b++)score+=100*Math.max(0,5-(earth[b]-earth[a]));
+    if(previousTopic&&previousTopic===transmissions[candidate[0]].topic)score+=12;
+    if(candidate.length>1&&transmissions[candidate[0]].topic===transmissions[candidate[candidate.length-1]].topic)score+=4;
+    if(score<bestScore){best=candidate;bestScore=score}
+    if(score===0)break;
+  }
+  messageOrder=best;messagePosition=0;
+}
 function showMessage(){if(!transmissions.length){$('transmission').textContent='NO TRANSMISSIONS AVAILABLE';return}const conversation=transmissions[messageOrder[messagePosition]];$('transmission').innerHTML=conversation.messages.map(m=>`<div class="message"><div class="message-head"><span class="message-name">@${escape(m.user)}</span><span class="message-cycle">CYCLE ${num(m.cycle)}</span></div><div class="message-body">${escape(m.text)}</div>${m.linkCycle?`<button class="message-cycle-link" data-action="network-jump" data-target="${m.linkCycle}">VIEW CYCLE ${num(m.linkCycle)} ↗</button>`:''}</div>`).join('')}
 function advanceMessage(delta){if(!messageOrder.length)return;messagePosition+=delta;if(messagePosition>=messageOrder.length){shuffleMessages()}else if(messagePosition<0)messagePosition=messageOrder.length-1;showMessage()}
 function resetTimer(){clearInterval(messageTimer);if(!paused&&connected)messageTimer=setInterval(()=>advanceMessage(1),9000)}
