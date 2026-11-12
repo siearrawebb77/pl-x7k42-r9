@@ -25,7 +25,7 @@
         id:p.id, name:p.name, species:p.species, className:p.class_name,
         status:["ACTIVE","DECEASED","TRANSFERRED","RETIRED"].includes(p.status)?p.status:"ACTIVE",
         firstCycle:844,lastCycle:844,serviceCycles:[844],
-        portrait:typeof p.portrait === "string" && /^data:image\\/jpeg;base64,[A-Za-z0-9+/=]+$/.test(p.portrait)
+        portrait:typeof p.portrait === "string" && /^data:image\/jpeg;base64,[A-Za-z0-9+/=]+$/.test(p.portrait)
           ?p.portrait:undefined
       }));
       for(let i=0;i<placeholders;i++) current.members.push({
