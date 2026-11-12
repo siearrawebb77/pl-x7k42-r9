@@ -7,7 +7,7 @@ const normalize=s=>String(s||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'')
 const tokens=s=>String(s||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim().split(/\s+/).filter(Boolean);
 function distance(a,b){if(Math.abs(a.length-b.length)>2)return 3;let prev=Array.from({length:b.length+1},(_,i)=>i);for(let i=1;i<=a.length;i++){const row=[i];for(let j=1;j<=b.length;j++)row[j]=Math.min(row[j-1]+1,prev[j]+1,prev[j-1]+(a[i-1]===b[j-1]?0:1));prev=row}return prev[b.length]}
 function matchesName(name,query,loose=false){const n=normalize(name),q=normalize(query);if(!q)return false;if(n.includes(q))return true;if(!loose)return false;return q.length>=4&&(distance(n,q)<=Math.min(2,Math.floor(q.length/5)+1)||tokens(name).some(t=>distance(normalize(t),q)<=1))}
-const published=[...data.cycles].filter(c=>Array.isArray(c.members)&&c.members.length===3&&c.members.every(p=>p&&p.name&&(p.name==='UNASSIGNED'||p.id))).sort((a,b)=>b.number-a.number);
+const published=[...data.cycles].filter(c=>Array.isArray(c.members)&&(c.number===844 ? c.members.length>=3 : c.members.length===3)&&c.members.every(p=>p&&p.name&&(p.name==='UNASSIGNED'||p.id))).sort((a,b)=>b.number-a.number);
 const historicalCycleCount=published.filter(c=>c.number!==844).length;const uniqueStriderCount=new Set(published.flatMap(c=>c.members.map(p=>p.id).filter(Boolean))).size;
 function sortedMembers(c){return [...c.members].sort((a,b)=>a.name.localeCompare(b.name,undefined,{sensitivity:'base'}))}
 function byCycle(n){return published.find(c=>c.number===Number(n))}
@@ -28,7 +28,7 @@ function returnStep(){const step=trail.pop();if(!step)return;render();scrollCycl
 function openPerson(n,i){if(opened.get(n)===i)opened.delete(n);else opened.set(n,i);const c=byCycle(n),el=$(`cycle-${n}`);if(!c||!el)return;const file=$(`file-${n}`);file.innerHTML=opened.has(n)?fileHtml(c,sortedMembers(c)[i]):'';el.querySelectorAll('.portrait-button').forEach((b,j)=>b.classList.toggle('selected',j===opened.get(n)))}
 function viewPortrait(n,id){viewerCycle=byCycle(n);if(!viewerCycle)return;viewerIndex=Math.max(0,sortedMembers(viewerCycle).findIndex(p=>p.id===id));lastFocus=document.activeElement;updateViewer();$('portraitViewer').hidden=false;document.body.style.overflow='hidden';$('closeViewer').focus()}
 function updateViewer(){const m=sortedMembers(viewerCycle),p=m[viewerIndex];$('viewerName').textContent=p.name;$('viewerId').textContent=p.id||'ASSIGNMENT PENDING';$('viewerArt').innerHTML=`<img src="${escape(p.portrait||silhouette)}" alt="Full portrait of ${escape(p.name)}" onerror="this.onerror=null;this.src='assets/archive-placeholder.png'">`;$('viewerCounter').textContent=`CYCLE ${num(viewerCycle.number)} // ${viewerIndex+1} OF ${m.length}`}
-function moveViewer(d){if(!viewerCycle)return;viewerIndex=(viewerIndex+d+3)%3;updateViewer()}
+function moveViewer(d){if(!viewerCycle)return;viewerIndex=(viewerIndex+d+sortedMembers(viewerCycle).length)%sortedMembers(viewerCycle).length;updateViewer()}
 function closeViewer(){if($('portraitViewer').hidden)return;$('portraitViewer').hidden=true;document.body.style.overflow='';lastFocus?.focus()}
 function shuffleMessages(){
   const indexes=transmissions.map((_,i)=>i);
